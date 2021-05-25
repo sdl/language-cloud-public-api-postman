@@ -1,12 +1,15 @@
 # Language Cloud APIs for Postman
 
-A [Postman](https://www.postman.com/) collection for quick and easy usage of our RESTful APIs.
+We provide a [Postman](https://www.postman.com/) collection for quick and easy usage of our RESTful APIs.
 
 ## Installation
 
 You can download the Postman collection from [here](https://github.com/sdl/language-cloud-public-api-postman/blob/develop/postmanCollection.json?raw=true). 
 
-Either copy the collection url from above, save it as a json file on your computer or copy the entirety of the file content and import it into Postman.
+You have 3 options for importing the collection into Postman:
+* Copy the collection URL from above and import it into Postman using `Import > Link`.
+* Copy the entire file content and import it into Postman using `Import > Raw Text`.
+* Save it as a `JSON` file on your computer and import it into Postman using `Import > File`.
 
 ![image](https://user-images.githubusercontent.com/10993097/118100979-c343a000-b3df-11eb-9a1c-e404f662b269.png)
 
