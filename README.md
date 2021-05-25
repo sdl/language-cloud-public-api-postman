@@ -1,6 +1,6 @@
 # Language Cloud APIs for Postman
 
-A [Postman](https://www.postman.com/) collection for quick and easy usage of our RESTful APIs. `[TODO: add url to Rest API section of this documentation?]`
+A [Postman](https://www.postman.com/) collection for quick and easy usage of our RESTful APIs.
 
 ## Installation
 
