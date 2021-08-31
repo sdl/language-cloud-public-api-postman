@@ -11,7 +11,8 @@ You have 3 options:
 * Copy the entire file content and import it into Postman using `Import > Raw Text`.
 * Save it as a `JSON` file on your computer and import it into Postman using `Import > File`.
 
-![image](https://user-images.githubusercontent.com/10993097/118100979-c343a000-b3df-11eb-9a1c-e404f662b269.png)
+![image](https://user-images.githubusercontent.com/10993097/131468994-3bb3da76-9edc-4cc0-bd4f-9559996c8f89.png)
+
 
 ## Configuration
 
@@ -25,7 +26,7 @@ One thing you need to do before proceeding is to fill in the `{{lc_tenant}}` var
 
 Don't forget to save the collection!
 
-![image](https://user-images.githubusercontent.com/10993097/118111273-250a0700-b3ec-11eb-910b-23cfd490695a.png)
+![image](https://user-images.githubusercontent.com/10993097/131469431-b17ea40f-c20a-49d6-b9ba-9b8b7e9756da.png)
 
 
 ### Authentication
@@ -35,7 +36,7 @@ You can find the authentication call under the `Authorization (Start Here)` fold
 
 If the authentication is successful, the token will be extracted automatically from the response and saved to the `{{lc-access-token}}` variable.
 
-![image](https://user-images.githubusercontent.com/10993097/118103532-b1173100-b3e2-11eb-97c0-92df2f3794ec.png)
+![image](https://user-images.githubusercontent.com/10993097/131470005-6a191b23-5996-4f11-87e0-53eefb049735.png)
 
 ### Usage
 
