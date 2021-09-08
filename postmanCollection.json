@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "70313957-140c-4b0a-87a6-294d6b2d29ac",
+      "id": "e3bcaf91-0a4d-4596-971d-a368010346b8",
       "name": "Account",
       "description": {
         "content": "",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "a12ea606-797f-4832-be54-40ad44a2ecc3",
+          "id": "3aa3d806-a87e-48d3-84aa-5b7687b7d2b6",
           "name": "List my Accounts",
           "request": {
             "name": "List my Accounts",
@@ -44,7 +44,7 @@
       "event": []
     },
     {
-      "id": "b43e5e6c-12c8-467b-a69c-caeee23a0345",
+      "id": "b79d4e8f-6ade-4152-87ad-3e93082ac74c",
       "name": "Custom Field",
       "description": {
         "content": "",
@@ -52,7 +52,7 @@
       },
       "item": [
         {
-          "id": "597d07cd-5214-4588-aefc-7dd1efb76add",
+          "id": "9555b9c6-0e3f-4030-aae5-cf61cd33e679",
           "name": "List Custom Field Definitions",
           "request": {
             "name": "List Custom Field Definitions",
@@ -121,7 +121,7 @@
           "event": []
         },
         {
-          "id": "350c6613-2dd6-47a7-be5a-8514a8665c3b",
+          "id": "a20a0497-2ce0-4392-aa0b-bc74382a375a",
           "name": "Get Custom Field Definition",
           "request": {
             "name": "Get Custom Field Definition",
@@ -172,7 +172,7 @@
       "event": []
     },
     {
-      "id": "33a54180-6b2d-4506-837f-39ecadca562b",
+      "id": "53004cf1-4a01-4871-8e3c-0f74d16a52d9",
       "name": "Folder",
       "description": {
         "content": "",
@@ -180,7 +180,7 @@
       },
       "item": [
         {
-          "id": "6a8d308f-1d5f-4877-8318-14f09e031b16",
+          "id": "8ad508e1-b199-4785-b8b5-663b853c1dc8",
           "name": "Get Folder",
           "request": {
             "name": "Get Folder",
@@ -228,7 +228,7 @@
           "event": []
         },
         {
-          "id": "f71ed706-69ff-4488-80f2-e9c605338f38",
+          "id": "100d18bf-a366-457d-bf77-18975528f001",
           "name": "Get Root Folder",
           "request": {
             "name": "Get Root Folder",
@@ -268,7 +268,7 @@
           "event": []
         },
         {
-          "id": "9f032b65-cbf3-4a88-9d60-81b5a231e284",
+          "id": "e81ba8e8-77dd-4d0a-bf46-5c8bf1819245",
           "name": "List Folders",
           "request": {
             "name": "List Folders",
@@ -316,7 +316,7 @@
       "event": []
     },
     {
-      "id": "994a1c00-fedb-40ca-8896-29ff6124ffcf",
+      "id": "f4d7c8d4-fd7a-4e20-bd73-7c2dbebaeb34",
       "name": "User",
       "description": {
         "content": "",
@@ -324,7 +324,7 @@
       },
       "item": [
         {
-          "id": "662efcbe-f571-4453-9dc1-be1f019513d9",
+          "id": "705fdc36-1ebb-4b76-888e-0c718bb8f583",
           "name": "Get my User",
           "request": {
             "name": "Get my User",
@@ -364,7 +364,7 @@
           "event": []
         },
         {
-          "id": "caf49253-7d07-4edf-960c-1137bb999f7c",
+          "id": "bf52c53d-8cdc-4ce0-84cd-c5489f2eb207",
           "name": "List Users",
           "request": {
             "name": "List Users",
@@ -433,7 +433,7 @@
           "event": []
         },
         {
-          "id": "4b38bb3f-deb7-437f-836e-2961421ad1ec",
+          "id": "86972984-4fb6-48e7-8894-5362c8007d14",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -484,7 +484,7 @@
       "event": []
     },
     {
-      "id": "1c2a6716-8eea-462b-aa94-b391bae8b5ac",
+      "id": "bf9e765e-e7bf-460c-b432-2cba2f9291d6",
       "name": "Group",
       "description": {
         "content": "",
@@ -492,7 +492,7 @@
       },
       "item": [
         {
-          "id": "e55d3305-8370-4442-8345-d80b3a29466b",
+          "id": "cba6ba51-07e9-4319-8489-4ed69c4a6a08",
           "name": "Get Group",
           "request": {
             "name": "Get Group",
@@ -540,7 +540,7 @@
           "event": []
         },
         {
-          "id": "42db55f3-0b32-4e7e-9416-b3da48445e61",
+          "id": "b511c3e2-8309-4b7e-8fbd-ef5ae49f914e",
           "name": "List Groups",
           "request": {
             "name": "List Groups",
@@ -612,7 +612,7 @@
       "event": []
     },
     {
-      "id": "714650d0-36aa-4241-a473-232e11c7965b",
+      "id": "5678f297-096e-4350-97c7-0f1f60388e88",
       "name": "Customer",
       "description": {
         "content": "",
@@ -620,7 +620,7 @@
       },
       "item": [
         {
-          "id": "6617d0f7-124d-4115-aa84-fcd5436cb8cd",
+          "id": "3678a4b8-6339-45d7-b33f-6a60d00f6365",
           "name": "Get Customer",
           "request": {
             "name": "Get Customer",
@@ -668,7 +668,7 @@
           "event": []
         },
         {
-          "id": "a3f55b4c-6572-4a9c-b582-80c3f7b9ec96",
+          "id": "8c556a49-2a69-40e7-925f-5a89a30b56a3",
           "name": "List Customers",
           "request": {
             "name": "List Customers",
@@ -740,7 +740,7 @@
       "event": []
     },
     {
-      "id": "0c189e9b-edf3-43b1-9a92-2d7146ff5f42",
+      "id": "07ac8ce8-3a3d-4bfb-9a7a-c337c6ac955f",
       "name": "Project",
       "description": {
         "content": "",
@@ -748,7 +748,7 @@
       },
       "item": [
         {
-          "id": "29b34a89-608c-488f-8bca-a49273df4677",
+          "id": "3c5e8bea-646d-4c4e-ba0e-fc644ce9e223",
           "name": "Get Project",
           "request": {
             "name": "Get Project",
@@ -796,7 +796,7 @@
           "event": []
         },
         {
-          "id": "586ffafe-85d3-4c9f-a7d5-74d1b69aaa05",
+          "id": "53fd2989-8e96-4b6b-ba69-67436b7bcf64",
           "name": "Update Project",
           "request": {
             "name": "Update Project",
@@ -845,7 +845,7 @@
           "event": []
         },
         {
-          "id": "a673d3b1-d447-44b3-8f05-5ba9011468f9",
+          "id": "0b6ac9f7-d0af-4e1d-b744-85d20782af85",
           "name": "Delete Project",
           "request": {
             "name": "Delete Project",
@@ -886,7 +886,7 @@
           "event": []
         },
         {
-          "id": "f930ae6b-3011-4b11-a478-2d386e5bb406",
+          "id": "07d9f738-c200-4723-9b79-8765edf4ecdb",
           "name": "List Projects",
           "request": {
             "name": "List Projects",
@@ -961,7 +961,7 @@
           "event": []
         },
         {
-          "id": "f04cac2a-8109-4bb8-9e6d-d2231606b0a9",
+          "id": "fae8b9b2-4bba-4812-9fd7-2f15e8556cb3",
           "name": "Create Project",
           "request": {
             "name": "Create Project",
@@ -1002,13 +1002,13 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueBy\": \"<dateTime>\",\n    \"projectTemplate\": \"<string>\",\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        },\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        }\n    ],\n    \"location\": \"<string>\",\n    \"translationEngine\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"fileProcessingConfiguration\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"workflow\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"pricingModel\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"customFields\": [\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        },\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        }\n    ],\n    \"tqaProfile\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"forceOnline\": \"<boolean>\"\n}"
+              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueBy\": \"<dateTime>\",\n    \"projectTemplate\": {\n        \"id\": \"<string>\"\n    },\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        },\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        }\n    ],\n    \"location\": \"<string>\",\n    \"translationEngine\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"fileProcessingConfiguration\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"workflow\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"pricingModel\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"customFields\": [\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        },\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        }\n    ],\n    \"tqaProfile\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"forceOnline\": \"<boolean>\"\n}"
             }
           },
           "event": []
         },
         {
-          "id": "7c4f5fa3-5e2b-4375-9d46-56192f29b041",
+          "id": "4331a61d-17f1-459c-8eaa-57e86c4de78f",
           "name": "Start Project",
           "request": {
             "name": "Start Project",
@@ -1050,7 +1050,7 @@
           "event": []
         },
         {
-          "id": "34f35604-882a-4de7-b661-ce27935ddbc9",
+          "id": "803586ae-2dbc-4b58-8267-a73c973f12a1",
           "name": "Complete Project",
           "request": {
             "name": "Complete Project",
@@ -1092,7 +1092,7 @@
           "event": []
         },
         {
-          "id": "c24dbd1b-11d7-4c03-a006-f40005a66618",
+          "id": "6c635655-d6ec-4f21-ad23-deb5fff12349",
           "name": "List Project's Tasks",
           "request": {
             "name": "List Project's Tasks",
@@ -1171,7 +1171,7 @@
           "event": []
         },
         {
-          "id": "df9cd81a-326c-4a4e-b27d-b988d605edc3",
+          "id": "ae329e08-0396-496f-a241-7ba8da845ccb",
           "name": "Cancel Project File",
           "request": {
             "name": "Cancel Project File",
@@ -1225,7 +1225,7 @@
       "event": []
     },
     {
-      "id": "49d24ab5-ea7e-45dd-8978-d7297baf2504",
+      "id": "caff259d-761e-408f-9909-d14616f5f043",
       "name": "Project Template",
       "description": {
         "content": "",
@@ -1233,7 +1233,7 @@
       },
       "item": [
         {
-          "id": "653a3204-ff6e-4192-ac45-3ca5d4a24a67",
+          "id": "45fb9d15-5254-48e1-9b9b-09047b6a8f14",
           "name": "Get Project Template",
           "request": {
             "name": "Get Project Template",
@@ -1281,7 +1281,7 @@
           "event": []
         },
         {
-          "id": "83adcb46-9ed7-45d0-b1cf-dbf472ec26cb",
+          "id": "ef0fb522-dacb-402d-891c-53a1fff6ae8d",
           "name": "List Project Templates",
           "request": {
             "name": "List Project Templates",
@@ -1359,7 +1359,7 @@
       "event": []
     },
     {
-      "id": "5479b64c-4544-4876-b73c-9d25f7186984",
+      "id": "79161660-861c-42d3-8b54-79dd962f5bcd",
       "name": "Source File",
       "description": {
         "content": "",
@@ -1367,7 +1367,7 @@
       },
       "item": [
         {
-          "id": "e94ff5d9-2c02-4dbe-b2cc-1793e98e93c3",
+          "id": "44fe07d8-a95f-4af4-afe7-571ffc03a356",
           "name": "List Source Files",
           "request": {
             "name": "List Source Files",
@@ -1446,7 +1446,7 @@
           "event": []
         },
         {
-          "id": "ce7d2890-ce56-480c-9411-148af12c212f",
+          "id": "6c217eee-6b34-4789-bac7-cb8741c7eb85",
           "name": "Add Source File",
           "request": {
             "name": "Add Source File",
@@ -1509,7 +1509,7 @@
           "event": []
         },
         {
-          "id": "f3bef7e2-ed89-4e66-b32c-c1429a033ebd",
+          "id": "68513175-de42-4ef1-b13f-6d572222ac39",
           "name": "Get Source File",
           "request": {
             "name": "Get Source File",
@@ -1566,7 +1566,7 @@
           "event": []
         },
         {
-          "id": "19f304f3-5204-4bd3-b209-ab8495fc012b",
+          "id": "6449af5b-50b0-4d8c-955a-8854b1ce1073",
           "name": "List Source File Versions",
           "request": {
             "name": "List Source File Versions",
@@ -1624,7 +1624,7 @@
           "event": []
         },
         {
-          "id": "63f3447e-eb6c-4d40-ae28-757f191743ad",
+          "id": "234328f0-7af1-4b9f-a3a2-0aadf1a55deb",
           "name": "Download Source File Version",
           "request": {
             "name": "Download Source File Version",
@@ -1687,7 +1687,7 @@
       "event": []
     },
     {
-      "id": "a1f84c00-eae2-493b-a41e-174a102ce56b",
+      "id": "a0b946af-3796-4c72-bb8c-771ecb99550b",
       "name": "Target File",
       "description": {
         "content": "",
@@ -1695,7 +1695,7 @@
       },
       "item": [
         {
-          "id": "02ed07a5-68ed-4454-b6a6-df4764de7aec",
+          "id": "353ae3ec-1633-4125-a39b-0b7326bd589e",
           "name": "Get Target File",
           "request": {
             "name": "Get Target File",
@@ -1752,7 +1752,7 @@
           "event": []
         },
         {
-          "id": "58b88a3f-4683-4fa3-af5f-e90f7a89634a",
+          "id": "cc6a34f6-c0ee-427a-9525-9cf9afddda40",
           "name": "List Target Files",
           "request": {
             "name": "List Target Files",
@@ -1825,7 +1825,7 @@
           "event": []
         },
         {
-          "id": "012e42b6-e657-48b6-a86f-be099048ffad",
+          "id": "6b3b157a-d60d-4562-a830-cedc7cf770dd",
           "name": "Get Target File Version",
           "request": {
             "name": "Get Target File Version",
@@ -1891,7 +1891,7 @@
           "event": []
         },
         {
-          "id": "20db3838-d5fd-4ee5-b603-917b571a5402",
+          "id": "72f5845e-e66a-452e-9c53-2f56e2e7d31f",
           "name": "List Target File Versions",
           "request": {
             "name": "List Target File Versions",
@@ -1949,7 +1949,7 @@
           "event": []
         },
         {
-          "id": "d9b67461-40da-46e1-ac34-9611f56d9f49",
+          "id": "e725bde3-f045-4e23-9467-c70ab65baf94",
           "name": "Export Target File Version",
           "request": {
             "name": "Export Target File Version",
@@ -2016,7 +2016,7 @@
           "event": []
         },
         {
-          "id": "b3bb12a3-e70a-4f81-9436-da8036a0f172",
+          "id": "b3a8ba1c-45b0-48d7-8f5e-f19808c4c315",
           "name": "Poll Target File Version Export",
           "request": {
             "name": "Poll Target File Version Export",
@@ -2084,7 +2084,7 @@
           "event": []
         },
         {
-          "id": "3886ba95-c43b-4275-a33e-01eb4992fb59",
+          "id": "707b4ae7-b3a2-474d-a902-e35bf9d0872f",
           "name": "Download Exported Target File Version",
           "request": {
             "name": "Download Exported Target File Version",
@@ -2153,7 +2153,7 @@
           "event": []
         },
         {
-          "id": "50acd31c-568f-4c96-abc7-3327ba816848",
+          "id": "8d264eda-d5cd-4f5c-97cc-84da9521f6fb",
           "name": "Download File Version",
           "request": {
             "name": "Download File Version",
@@ -2213,7 +2213,7 @@
           "event": []
         },
         {
-          "id": "31532cdd-4d91-47a7-90d2-bb0cccf285b2",
+          "id": "dcd7f358-1ab5-4644-b79c-05e8a299703b",
           "name": "Import Target File Version",
           "request": {
             "name": "Import Target File Version",
@@ -2280,7 +2280,7 @@
           "event": []
         },
         {
-          "id": "356c6134-5a4e-4de4-b7f0-6a2aa371dd7d",
+          "id": "d80d1e50-2ae4-4ab8-a3cf-d6bf3694655d",
           "name": "Poll Target File Version Import",
           "request": {
             "name": "Poll Target File Version Import",
@@ -2343,7 +2343,7 @@
       "event": []
     },
     {
-      "id": "d199372e-806e-4b38-bc30-850865129b4d",
+      "id": "9a92dc31-2d41-4b81-ad07-81a25916b1c6",
       "name": "Task",
       "description": {
         "content": "",
@@ -2351,7 +2351,7 @@
       },
       "item": [
         {
-          "id": "aa1600f9-7eed-4f6e-99f3-d879d83611a3",
+          "id": "47a5c1df-bcca-40eb-a681-99342252473f",
           "name": "Get Task",
           "request": {
             "name": "Get Task",
@@ -2399,7 +2399,7 @@
           "event": []
         },
         {
-          "id": "04d58858-5f0e-48eb-b127-6e5b78dd0a57",
+          "id": "f293e7c1-4cc8-4d9c-9490-ae0ee3a6ff28",
           "name": "List Tasks assigned to me",
           "request": {
             "name": "List Tasks assigned to me",
@@ -2475,7 +2475,7 @@
           "event": []
         },
         {
-          "id": "9a17ab72-c05a-48b8-b747-f8749bdacc92",
+          "id": "8325c87f-5682-4ee9-9df2-56f02e701ef8",
           "name": "Accept Task",
           "request": {
             "name": "Accept Task",
@@ -2517,7 +2517,7 @@
           "event": []
         },
         {
-          "id": "6edb0ca2-b08b-4959-a914-6c535ae30e83",
+          "id": "3afc8e0a-1f0d-4f9e-b323-93e4cbf949e8",
           "name": "Reject Task",
           "request": {
             "name": "Reject Task",
@@ -2559,7 +2559,7 @@
           "event": []
         },
         {
-          "id": "cff99a88-2076-42f0-a2bc-b9f50075c435",
+          "id": "7b3d1c14-67c7-4951-90fd-6198552e9e38",
           "name": "Complete Task",
           "request": {
             "name": "Complete Task",
@@ -2609,7 +2609,7 @@
           "event": []
         },
         {
-          "id": "40d9a904-8f6f-4f9a-bdbe-e1b51d6d053b",
+          "id": "3f4da2cf-3537-488f-8744-905a844e3d24",
           "name": "Release Task",
           "request": {
             "name": "Release Task",
@@ -2651,12 +2651,12 @@
           "event": []
         },
         {
-          "id": "e0776fdf-227e-4e51-91d6-9a9e74577cf6",
+          "id": "546e727c-0c2b-4939-92ca-64cf6abc8315",
           "name": "Reclaim Task",
           "request": {
             "name": "Reclaim Task",
             "description": {
-              "content": "Reclaims task. The task is currently owned by somebody else, but it is assigned to the authenticated user. The task will be released from the current owner and assigned to the authenticated user.",
+              "content": "Reclaims task. The task will be released from the current owner and other user from assignee's list can accept it.",
               "type": "text/plain"
             },
             "url": {
@@ -2693,7 +2693,7 @@
           "event": []
         },
         {
-          "id": "dc500c6c-a115-481a-b28e-c0710f86ce51",
+          "id": "01cfe5ea-0f11-438a-8c7f-cbfbc6015afa",
           "name": "Assign Task",
           "request": {
             "name": "Assign Task",
@@ -2746,7 +2746,7 @@
       "event": []
     },
     {
-      "id": "2b9f9e73-6a22-4fd2-97f8-cbf0851b7620",
+      "id": "3946c9a7-c372-4698-9b72-bd44030ae661",
       "name": "Task Type",
       "description": {
         "content": "",
@@ -2754,7 +2754,7 @@
       },
       "item": [
         {
-          "id": "ae115e9b-58dd-4fc8-a3ae-ae263fb0c2e4",
+          "id": "0aa9cc24-b9ff-47e7-b5ed-ac362369d4bc",
           "name": "Get Task Type",
           "request": {
             "name": "Get Task Type",
@@ -2802,7 +2802,7 @@
           "event": []
         },
         {
-          "id": "ae3cf4d8-4b7e-4b25-95f9-139bc1535405",
+          "id": "2f14a79c-14e1-43b2-9251-acc584e37f48",
           "name": "List Task Types",
           "request": {
             "name": "List Task Types",
@@ -2886,7 +2886,7 @@
       "event": []
     },
     {
-      "id": "2f54028b-052c-4b87-b2f4-1725533f5ecd",
+      "id": "02af7cb6-d5fd-40f7-b7a4-0663d2703477",
       "name": "TQA Profile",
       "description": {
         "content": "",
@@ -2894,7 +2894,7 @@
       },
       "item": [
         {
-          "id": "5322a9f1-9a07-4197-90f8-c85c1dad6ef3",
+          "id": "818ce649-2b02-4ff7-bc65-1cd60d08dd67",
           "name": "List TQA Profiles",
           "request": {
             "name": "List TQA Profiles",
@@ -2963,7 +2963,7 @@
           "event": []
         },
         {
-          "id": "e9a6bb0f-d196-42fb-9f75-31b03f51e4fd",
+          "id": "3dddfc9e-40bb-4fc8-8365-38061b8c48ee",
           "name": "Get TQA Profile",
           "request": {
             "name": "Get TQA Profile",
@@ -3014,7 +3014,7 @@
       "event": []
     },
     {
-      "id": "28bda519-87fe-4129-87a7-f8132a7f9bcc",
+      "id": "d89cd5a2-e0d7-4443-8705-a1d4e09d5e44",
       "name": "Workflow",
       "description": {
         "content": "",
@@ -3022,7 +3022,7 @@
       },
       "item": [
         {
-          "id": "cd372d27-cd5d-4c9c-b53b-96f4f752afbf",
+          "id": "6175c4a0-48f9-4409-8a8e-55ce9a79f2cd",
           "name": "Get Workflow",
           "request": {
             "name": "Get Workflow",
@@ -3070,7 +3070,7 @@
           "event": []
         },
         {
-          "id": "48fe6587-4fab-49b1-9cf2-f7e87c04f708",
+          "id": "f858fc89-2880-4e43-bb29-c48c532dd23e",
           "name": "Update Workflow",
           "request": {
             "name": "Update Workflow",
@@ -3119,7 +3119,7 @@
           "event": []
         },
         {
-          "id": "3fd1bbe0-a437-43f5-a817-980d719b2be2",
+          "id": "6da3e697-8d74-4c90-9ade-320029e3a8f4",
           "name": "List Workflows",
           "request": {
             "name": "List Workflows",
@@ -3191,7 +3191,7 @@
       "event": []
     },
     {
-      "id": "5d24c481-29a4-4aff-a769-4986e8ede167",
+      "id": "8614ceea-cb5f-4d1b-b3fb-247bb94f6431",
       "name": "File Processing Configuration",
       "description": {
         "content": "",
@@ -3199,7 +3199,7 @@
       },
       "item": [
         {
-          "id": "7e6bde6e-7a43-488b-91af-7ee736f0d6a5",
+          "id": "2e8181f2-049c-464d-817e-89f44eb7dd4d",
           "name": "Get File Processing Configuration",
           "request": {
             "name": "Get File Processing Configuration",
@@ -3247,7 +3247,7 @@
           "event": []
         },
         {
-          "id": "130eff10-46d9-4467-874e-f0241967bff5",
+          "id": "c702ee6d-ff98-4d68-94b3-f2fa1ae275f3",
           "name": "List File Processing Configurations",
           "request": {
             "name": "List File Processing Configurations",
@@ -3307,7 +3307,7 @@
       "event": []
     },
     {
-      "id": "053f2ff2-0de5-44a3-ad8d-cbc2965a0d56",
+      "id": "8e23ceb1-e0d7-463f-ae17-473e9a4c3285",
       "name": "Translation Engine",
       "description": {
         "content": "",
@@ -3315,7 +3315,7 @@
       },
       "item": [
         {
-          "id": "567f3bfb-4f39-457c-96c0-70331a1c2bdd",
+          "id": "daa61ec4-ce40-4037-b17b-63c3e401adc8",
           "name": "Get Translation Engine",
           "request": {
             "name": "Get Translation Engine",
@@ -3363,7 +3363,7 @@
           "event": []
         },
         {
-          "id": "f26bf664-90cb-4abc-ac94-0d0754c68ae1",
+          "id": "5277a576-8936-4443-9a34-e036564388ed",
           "name": "List Translation Engines",
           "request": {
             "name": "List Translation Engines",
@@ -3435,7 +3435,7 @@
       "event": []
     },
     {
-      "id": "c76b84b2-8d39-4bc9-8165-c64a5cfa3000",
+      "id": "d959542a-4839-4637-ae21-4a308fe52109",
       "name": "Pricing Model",
       "description": {
         "content": "",
@@ -3443,7 +3443,7 @@
       },
       "item": [
         {
-          "id": "4cc24177-e179-4a01-aaa8-8ccbbe8886b0",
+          "id": "5102a166-3f3d-4571-b75b-dfbff4213909",
           "name": "Get Pricing Model",
           "request": {
             "name": "Get Pricing Model",
@@ -3491,7 +3491,7 @@
           "event": []
         },
         {
-          "id": "4de118b8-b180-4a40-a468-3e6edf0ecd50",
+          "id": "2df02109-4196-4067-9917-62c80799542a",
           "name": "List Pricing Models",
           "request": {
             "name": "List Pricing Models",
@@ -3563,7 +3563,7 @@
       "event": []
     },
     {
-      "id": "45b8f2d6-4537-410a-ade4-b64f4ef1e8a1",
+      "id": "509f1a45-8124-4b81-82c2-d365ec53771f",
       "name": "Language",
       "description": {
         "content": "",
@@ -3571,7 +3571,7 @@
       },
       "item": [
         {
-          "id": "54d98b3d-a847-4b7d-824b-afbc5af0598f",
+          "id": "4bf25a67-b6f3-4094-9e12-cf41f1c86b91",
           "name": "List Languages",
           "request": {
             "name": "List Languages",
@@ -3607,6 +3607,78 @@
                 }
               ],
               "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The id of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "85ad5009-7002-4570-b4a0-12bb7d8a932e",
+      "name": "Quotes",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "7348aa53-4660-4888-8ffa-2ea2f0b32b09",
+          "name": "Export Quote",
+          "request": {
+            "name": "Export Quote",
+            "description": {
+              "content": "Exports the quote for the Project in either PDF or Excel format.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId",
+                "quote-report"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": false,
+                  "key": "format",
+                  "value": "pdf",
+                  "description": "The file format for the downloaded quote."
+                },
+                {
+                  "disabled": false,
+                  "key": "languageId",
+                  "value": "en",
+                  "description": "The language used for quote localization."
+                },
+                {
+                  "disabled": false,
+                  "key": "timeZoneOffset",
+                  "value": "<integer>",
+                  "description": "The Time Zone Offset for date-time fields."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) "
+                }
+              ]
             },
             "header": [
               {
@@ -3708,7 +3780,7 @@
     }
   ],
   "info": {
-    "_postman_id": "9fcd35b8-c04d-4ba1-935d-010098c636ac",
+    "_postman_id": "abd4a60a-1089-4dab-956f-78f7e3c83326",
     "name": "Public API Live API.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
