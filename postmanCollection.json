@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "e3bcaf91-0a4d-4596-971d-a368010346b8",
+      "id": "f51f5ebb-37a8-41c6-810e-c39518cb5d6e",
       "name": "Account",
       "description": {
         "content": "",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "3aa3d806-a87e-48d3-84aa-5b7687b7d2b6",
+          "id": "88e14ada-fffc-4693-9ae0-18a8116ee9b2",
           "name": "List my Accounts",
           "request": {
             "name": "List my Accounts",
@@ -44,7 +44,7 @@
       "event": []
     },
     {
-      "id": "b79d4e8f-6ade-4152-87ad-3e93082ac74c",
+      "id": "8987bd0d-770b-4f63-bb8c-188f0792314e",
       "name": "Custom Field",
       "description": {
         "content": "",
@@ -52,7 +52,7 @@
       },
       "item": [
         {
-          "id": "9555b9c6-0e3f-4030-aae5-cf61cd33e679",
+          "id": "accad6e5-31bf-4371-8934-0007ef2bd1da",
           "name": "List Custom Field Definitions",
           "request": {
             "name": "List Custom Field Definitions",
@@ -121,7 +121,7 @@
           "event": []
         },
         {
-          "id": "a20a0497-2ce0-4392-aa0b-bc74382a375a",
+          "id": "1e81be35-6b00-4294-b2a1-48c2d4bb1b21",
           "name": "Get Custom Field Definition",
           "request": {
             "name": "Get Custom Field Definition",
@@ -172,7 +172,7 @@
       "event": []
     },
     {
-      "id": "53004cf1-4a01-4871-8e3c-0f74d16a52d9",
+      "id": "fea48c84-e783-4ec2-8d8a-0bd4ed0e7867",
       "name": "Folder",
       "description": {
         "content": "",
@@ -180,7 +180,7 @@
       },
       "item": [
         {
-          "id": "8ad508e1-b199-4785-b8b5-663b853c1dc8",
+          "id": "3a538b1f-eadc-4f18-bc6a-97688151f56b",
           "name": "Get Folder",
           "request": {
             "name": "Get Folder",
@@ -228,7 +228,7 @@
           "event": []
         },
         {
-          "id": "100d18bf-a366-457d-bf77-18975528f001",
+          "id": "c0537a1a-3e64-48a7-824f-ce24d1fe7e8f",
           "name": "Get Root Folder",
           "request": {
             "name": "Get Root Folder",
@@ -268,7 +268,7 @@
           "event": []
         },
         {
-          "id": "e81ba8e8-77dd-4d0a-bf46-5c8bf1819245",
+          "id": "f1c8d612-274a-475c-8e27-be2f46a8b11a",
           "name": "List Folders",
           "request": {
             "name": "List Folders",
@@ -316,7 +316,7 @@
       "event": []
     },
     {
-      "id": "f4d7c8d4-fd7a-4e20-bd73-7c2dbebaeb34",
+      "id": "5e7b46cf-e172-49ef-b18c-afd1d047160f",
       "name": "User",
       "description": {
         "content": "",
@@ -324,7 +324,7 @@
       },
       "item": [
         {
-          "id": "705fdc36-1ebb-4b76-888e-0c718bb8f583",
+          "id": "33ed06d1-ee5c-458e-bc43-7cfb8eaeff96",
           "name": "Get my User",
           "request": {
             "name": "Get my User",
@@ -364,7 +364,7 @@
           "event": []
         },
         {
-          "id": "bf52c53d-8cdc-4ce0-84cd-c5489f2eb207",
+          "id": "df0487b3-8693-4d76-90a9-53b65049af2e",
           "name": "List Users",
           "request": {
             "name": "List Users",
@@ -433,7 +433,7 @@
           "event": []
         },
         {
-          "id": "86972984-4fb6-48e7-8894-5362c8007d14",
+          "id": "7cea9583-e5f8-4431-ab35-f70173e1eb0a",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -484,7 +484,7 @@
       "event": []
     },
     {
-      "id": "bf9e765e-e7bf-460c-b432-2cba2f9291d6",
+      "id": "c1948a22-47b5-451f-a518-f0c6f60ded1a",
       "name": "Group",
       "description": {
         "content": "",
@@ -492,7 +492,7 @@
       },
       "item": [
         {
-          "id": "cba6ba51-07e9-4319-8489-4ed69c4a6a08",
+          "id": "2a560953-b163-4973-b084-a9b9277bae9e",
           "name": "Get Group",
           "request": {
             "name": "Get Group",
@@ -540,7 +540,7 @@
           "event": []
         },
         {
-          "id": "b511c3e2-8309-4b7e-8fbd-ef5ae49f914e",
+          "id": "d55a27d1-b80b-4615-95b5-f1f6493076b8",
           "name": "List Groups",
           "request": {
             "name": "List Groups",
@@ -612,7 +612,7 @@
       "event": []
     },
     {
-      "id": "5678f297-096e-4350-97c7-0f1f60388e88",
+      "id": "b8a337df-60ec-4447-8e35-2891db8c19cd",
       "name": "Customer",
       "description": {
         "content": "",
@@ -620,7 +620,7 @@
       },
       "item": [
         {
-          "id": "3678a4b8-6339-45d7-b33f-6a60d00f6365",
+          "id": "5f8196fc-08c0-42a7-9efc-117c95e96483",
           "name": "Get Customer",
           "request": {
             "name": "Get Customer",
@@ -668,7 +668,7 @@
           "event": []
         },
         {
-          "id": "8c556a49-2a69-40e7-925f-5a89a30b56a3",
+          "id": "472fd468-d015-4533-9baa-ba572fd324bb",
           "name": "List Customers",
           "request": {
             "name": "List Customers",
@@ -740,7 +740,7 @@
       "event": []
     },
     {
-      "id": "07ac8ce8-3a3d-4bfb-9a7a-c337c6ac955f",
+      "id": "2b65c3a1-ee24-450d-aef5-2bedc3d81fbd",
       "name": "Project",
       "description": {
         "content": "",
@@ -748,7 +748,7 @@
       },
       "item": [
         {
-          "id": "3c5e8bea-646d-4c4e-ba0e-fc644ce9e223",
+          "id": "9142dae8-f240-4848-bc19-5dd08a1d8fbe",
           "name": "Get Project",
           "request": {
             "name": "Get Project",
@@ -796,7 +796,7 @@
           "event": []
         },
         {
-          "id": "53fd2989-8e96-4b6b-ba69-67436b7bcf64",
+          "id": "680f5dec-1314-4024-a839-67566ff7d592",
           "name": "Update Project",
           "request": {
             "name": "Update Project",
@@ -845,7 +845,7 @@
           "event": []
         },
         {
-          "id": "0b6ac9f7-d0af-4e1d-b744-85d20782af85",
+          "id": "7a9a80a0-06f5-4d86-ac31-52a2419761b2",
           "name": "Delete Project",
           "request": {
             "name": "Delete Project",
@@ -886,7 +886,7 @@
           "event": []
         },
         {
-          "id": "07d9f738-c200-4723-9b79-8765edf4ecdb",
+          "id": "747aad63-a919-4069-8c4d-48cb2c16b96d",
           "name": "List Projects",
           "request": {
             "name": "List Projects",
@@ -961,7 +961,7 @@
           "event": []
         },
         {
-          "id": "fae8b9b2-4bba-4812-9fd7-2f15e8556cb3",
+          "id": "5130830f-706a-4357-89ec-72bdb31e3b0d",
           "name": "Create Project",
           "request": {
             "name": "Create Project",
@@ -1008,7 +1008,7 @@
           "event": []
         },
         {
-          "id": "4331a61d-17f1-459c-8eaa-57e86c4de78f",
+          "id": "8ae8bbe5-df39-4af2-afc7-30eb9def1073",
           "name": "Start Project",
           "request": {
             "name": "Start Project",
@@ -1050,7 +1050,7 @@
           "event": []
         },
         {
-          "id": "803586ae-2dbc-4b58-8267-a73c973f12a1",
+          "id": "a64fe47b-7f05-4e96-972b-1bf2201ea82b",
           "name": "Complete Project",
           "request": {
             "name": "Complete Project",
@@ -1092,7 +1092,7 @@
           "event": []
         },
         {
-          "id": "6c635655-d6ec-4f21-ad23-deb5fff12349",
+          "id": "ce16f758-85ae-4784-8580-5f062e79f19d",
           "name": "List Project's Tasks",
           "request": {
             "name": "List Project's Tasks",
@@ -1171,7 +1171,7 @@
           "event": []
         },
         {
-          "id": "ae329e08-0396-496f-a241-7ba8da845ccb",
+          "id": "60bf9e3f-3a87-4e46-8bac-403323fcc34a",
           "name": "Cancel Project File",
           "request": {
             "name": "Cancel Project File",
@@ -1225,7 +1225,7 @@
       "event": []
     },
     {
-      "id": "caff259d-761e-408f-9909-d14616f5f043",
+      "id": "598445ad-1071-43e4-b31c-2dfd099abfb9",
       "name": "Project Template",
       "description": {
         "content": "",
@@ -1233,7 +1233,7 @@
       },
       "item": [
         {
-          "id": "45fb9d15-5254-48e1-9b9b-09047b6a8f14",
+          "id": "3496b582-5986-40f4-92d1-45b1904b66b7",
           "name": "Get Project Template",
           "request": {
             "name": "Get Project Template",
@@ -1281,7 +1281,7 @@
           "event": []
         },
         {
-          "id": "ef0fb522-dacb-402d-891c-53a1fff6ae8d",
+          "id": "cb7c67a6-f651-4df8-9f0c-982e7417e32a",
           "name": "List Project Templates",
           "request": {
             "name": "List Project Templates",
@@ -1359,7 +1359,7 @@
       "event": []
     },
     {
-      "id": "79161660-861c-42d3-8b54-79dd962f5bcd",
+      "id": "27e38052-fc39-4e06-a52c-93706ef197a3",
       "name": "Source File",
       "description": {
         "content": "",
@@ -1367,7 +1367,7 @@
       },
       "item": [
         {
-          "id": "44fe07d8-a95f-4af4-afe7-571ffc03a356",
+          "id": "4f2a1e68-6ce7-495a-9973-372057db56af",
           "name": "List Source Files",
           "request": {
             "name": "List Source Files",
@@ -1446,7 +1446,7 @@
           "event": []
         },
         {
-          "id": "6c217eee-6b34-4789-bac7-cb8741c7eb85",
+          "id": "e13a640c-e01d-4f01-b4ac-a639794d590c",
           "name": "Add Source File",
           "request": {
             "name": "Add Source File",
@@ -1509,7 +1509,7 @@
           "event": []
         },
         {
-          "id": "68513175-de42-4ef1-b13f-6d572222ac39",
+          "id": "b2d2ad64-c5fb-48fb-8550-9fbf01e643bc",
           "name": "Get Source File",
           "request": {
             "name": "Get Source File",
@@ -1566,7 +1566,7 @@
           "event": []
         },
         {
-          "id": "6449af5b-50b0-4d8c-955a-8854b1ce1073",
+          "id": "f5a25ac6-bd4f-4815-be35-2d688fbb2cd7",
           "name": "List Source File Versions",
           "request": {
             "name": "List Source File Versions",
@@ -1624,7 +1624,7 @@
           "event": []
         },
         {
-          "id": "234328f0-7af1-4b9f-a3a2-0aadf1a55deb",
+          "id": "8e40e42e-3ce7-4786-a9f6-3cde2f591556",
           "name": "Download Source File Version",
           "request": {
             "name": "Download Source File Version",
@@ -1687,7 +1687,7 @@
       "event": []
     },
     {
-      "id": "a0b946af-3796-4c72-bb8c-771ecb99550b",
+      "id": "d478d39c-c51d-4ded-a41b-3ebdc0a90e71",
       "name": "Target File",
       "description": {
         "content": "",
@@ -1695,7 +1695,7 @@
       },
       "item": [
         {
-          "id": "353ae3ec-1633-4125-a39b-0b7326bd589e",
+          "id": "0cf3e2a3-08a7-45d7-9b04-72aa6744ed4c",
           "name": "Get Target File",
           "request": {
             "name": "Get Target File",
@@ -1752,7 +1752,7 @@
           "event": []
         },
         {
-          "id": "cc6a34f6-c0ee-427a-9525-9cf9afddda40",
+          "id": "d5c0fe24-1c91-49c9-867a-44194e39cf05",
           "name": "List Target Files",
           "request": {
             "name": "List Target Files",
@@ -1825,7 +1825,7 @@
           "event": []
         },
         {
-          "id": "6b3b157a-d60d-4562-a830-cedc7cf770dd",
+          "id": "2f5a334a-7f98-49e9-8218-ed6289c5cab6",
           "name": "Get Target File Version",
           "request": {
             "name": "Get Target File Version",
@@ -1891,7 +1891,7 @@
           "event": []
         },
         {
-          "id": "72f5845e-e66a-452e-9c53-2f56e2e7d31f",
+          "id": "582f029d-1467-4925-9630-e3af96b6c31b",
           "name": "List Target File Versions",
           "request": {
             "name": "List Target File Versions",
@@ -1949,7 +1949,7 @@
           "event": []
         },
         {
-          "id": "e725bde3-f045-4e23-9467-c70ab65baf94",
+          "id": "970d5caa-e58a-4168-8ee6-f463c76ad943",
           "name": "Export Target File Version",
           "request": {
             "name": "Export Target File Version",
@@ -2016,7 +2016,7 @@
           "event": []
         },
         {
-          "id": "b3a8ba1c-45b0-48d7-8f5e-f19808c4c315",
+          "id": "7ff084a0-c576-445a-b985-4497ef696805",
           "name": "Poll Target File Version Export",
           "request": {
             "name": "Poll Target File Version Export",
@@ -2084,7 +2084,7 @@
           "event": []
         },
         {
-          "id": "707b4ae7-b3a2-474d-a902-e35bf9d0872f",
+          "id": "7c3055a5-1967-4d20-a1d9-8d55762bbafc",
           "name": "Download Exported Target File Version",
           "request": {
             "name": "Download Exported Target File Version",
@@ -2153,7 +2153,7 @@
           "event": []
         },
         {
-          "id": "8d264eda-d5cd-4f5c-97cc-84da9521f6fb",
+          "id": "1d1a631f-2464-4a94-a727-de8732dc33e3",
           "name": "Download File Version",
           "request": {
             "name": "Download File Version",
@@ -2213,7 +2213,7 @@
           "event": []
         },
         {
-          "id": "dcd7f358-1ab5-4644-b79c-05e8a299703b",
+          "id": "8161a1ee-fbc8-4ae4-ae6f-9d0f75abe2b9",
           "name": "Import Target File Version",
           "request": {
             "name": "Import Target File Version",
@@ -2280,7 +2280,7 @@
           "event": []
         },
         {
-          "id": "d80d1e50-2ae4-4ab8-a3cf-d6bf3694655d",
+          "id": "9e30bc96-560a-4d6e-8262-cea6e88e98d5",
           "name": "Poll Target File Version Import",
           "request": {
             "name": "Poll Target File Version Import",
@@ -2343,7 +2343,7 @@
       "event": []
     },
     {
-      "id": "9a92dc31-2d41-4b81-ad07-81a25916b1c6",
+      "id": "bb7e27a8-ce43-4e50-85a5-a231580bba3c",
       "name": "Task",
       "description": {
         "content": "",
@@ -2351,7 +2351,7 @@
       },
       "item": [
         {
-          "id": "47a5c1df-bcca-40eb-a681-99342252473f",
+          "id": "01437378-49f0-467d-9d61-c17a6de1aefe",
           "name": "Get Task",
           "request": {
             "name": "Get Task",
@@ -2399,7 +2399,7 @@
           "event": []
         },
         {
-          "id": "f293e7c1-4cc8-4d9c-9490-ae0ee3a6ff28",
+          "id": "6438b2a6-daac-47fe-869c-b8b2cbbc4303",
           "name": "List Tasks assigned to me",
           "request": {
             "name": "List Tasks assigned to me",
@@ -2475,7 +2475,7 @@
           "event": []
         },
         {
-          "id": "8325c87f-5682-4ee9-9df2-56f02e701ef8",
+          "id": "bb3fdb33-8faf-453d-b710-5d2f4b468421",
           "name": "Accept Task",
           "request": {
             "name": "Accept Task",
@@ -2517,7 +2517,7 @@
           "event": []
         },
         {
-          "id": "3afc8e0a-1f0d-4f9e-b323-93e4cbf949e8",
+          "id": "bbbe8008-f0a4-4209-90f2-fccf29c99ad7",
           "name": "Reject Task",
           "request": {
             "name": "Reject Task",
@@ -2559,7 +2559,7 @@
           "event": []
         },
         {
-          "id": "7b3d1c14-67c7-4951-90fd-6198552e9e38",
+          "id": "2f041263-2f44-4835-bc8f-877ec6bda3d1",
           "name": "Complete Task",
           "request": {
             "name": "Complete Task",
@@ -2609,7 +2609,7 @@
           "event": []
         },
         {
-          "id": "3f4da2cf-3537-488f-8744-905a844e3d24",
+          "id": "6145a964-daa5-41f7-9665-5fca535a696c",
           "name": "Release Task",
           "request": {
             "name": "Release Task",
@@ -2651,12 +2651,12 @@
           "event": []
         },
         {
-          "id": "546e727c-0c2b-4939-92ca-64cf6abc8315",
+          "id": "45059c7f-0106-4aca-a2e2-6d44fa3d62e3",
           "name": "Reclaim Task",
           "request": {
             "name": "Reclaim Task",
             "description": {
-              "content": "Reclaims task. The task will be released from the current owner and other user from assignee's list can accept it.",
+              "content": "The owner of task is removed and another user from the assignee’s list can accept it. \nThe task is not reassigned automatically.",
               "type": "text/plain"
             },
             "url": {
@@ -2693,7 +2693,7 @@
           "event": []
         },
         {
-          "id": "01cfe5ea-0f11-438a-8c7f-cbfbc6015afa",
+          "id": "4c1b74c8-94de-48e4-86cf-bd06d1e6e8f1",
           "name": "Assign Task",
           "request": {
             "name": "Assign Task",
@@ -2746,7 +2746,7 @@
       "event": []
     },
     {
-      "id": "3946c9a7-c372-4698-9b72-bd44030ae661",
+      "id": "15674067-7c4b-4450-a3ef-934fbc5b5f0c",
       "name": "Task Type",
       "description": {
         "content": "",
@@ -2754,7 +2754,7 @@
       },
       "item": [
         {
-          "id": "0aa9cc24-b9ff-47e7-b5ed-ac362369d4bc",
+          "id": "41d57eab-2eab-446a-8bb4-6f0282bb9c38",
           "name": "Get Task Type",
           "request": {
             "name": "Get Task Type",
@@ -2802,7 +2802,7 @@
           "event": []
         },
         {
-          "id": "2f14a79c-14e1-43b2-9251-acc584e37f48",
+          "id": "74bc6e7d-2a91-48e0-8cf8-6014c54ff93f",
           "name": "List Task Types",
           "request": {
             "name": "List Task Types",
@@ -2886,7 +2886,7 @@
       "event": []
     },
     {
-      "id": "02af7cb6-d5fd-40f7-b7a4-0663d2703477",
+      "id": "aa9dd3d5-98d6-42dd-8caf-e79a1c148830",
       "name": "TQA Profile",
       "description": {
         "content": "",
@@ -2894,7 +2894,7 @@
       },
       "item": [
         {
-          "id": "818ce649-2b02-4ff7-bc65-1cd60d08dd67",
+          "id": "e11a69ea-8d0c-4434-a5d4-51d76e3701a8",
           "name": "List TQA Profiles",
           "request": {
             "name": "List TQA Profiles",
@@ -2963,7 +2963,7 @@
           "event": []
         },
         {
-          "id": "3dddfc9e-40bb-4fc8-8365-38061b8c48ee",
+          "id": "fb3ea92a-75bd-4bf2-951e-2c4b43f955cb",
           "name": "Get TQA Profile",
           "request": {
             "name": "Get TQA Profile",
@@ -3014,7 +3014,7 @@
       "event": []
     },
     {
-      "id": "d89cd5a2-e0d7-4443-8705-a1d4e09d5e44",
+      "id": "e22d4eff-0810-426c-8c31-725d11de3368",
       "name": "Workflow",
       "description": {
         "content": "",
@@ -3022,7 +3022,7 @@
       },
       "item": [
         {
-          "id": "6175c4a0-48f9-4409-8a8e-55ce9a79f2cd",
+          "id": "778ce961-f958-45a2-9b34-3c529f8b4ea1",
           "name": "Get Workflow",
           "request": {
             "name": "Get Workflow",
@@ -3070,7 +3070,7 @@
           "event": []
         },
         {
-          "id": "f858fc89-2880-4e43-bb29-c48c532dd23e",
+          "id": "f0124370-7a34-4d24-848f-bf63a9cefec1",
           "name": "Update Workflow",
           "request": {
             "name": "Update Workflow",
@@ -3119,7 +3119,7 @@
           "event": []
         },
         {
-          "id": "6da3e697-8d74-4c90-9ade-320029e3a8f4",
+          "id": "17cc1233-84bd-44be-a57c-f372427a878c",
           "name": "List Workflows",
           "request": {
             "name": "List Workflows",
@@ -3191,7 +3191,7 @@
       "event": []
     },
     {
-      "id": "8614ceea-cb5f-4d1b-b3fb-247bb94f6431",
+      "id": "db5324b2-ddac-453b-b738-012f21fdc64f",
       "name": "File Processing Configuration",
       "description": {
         "content": "",
@@ -3199,7 +3199,7 @@
       },
       "item": [
         {
-          "id": "2e8181f2-049c-464d-817e-89f44eb7dd4d",
+          "id": "b6d6cdcb-01da-4116-8701-22a2c40f8b67",
           "name": "Get File Processing Configuration",
           "request": {
             "name": "Get File Processing Configuration",
@@ -3247,12 +3247,12 @@
           "event": []
         },
         {
-          "id": "c702ee6d-ff98-4d68-94b3-f2fa1ae275f3",
+          "id": "a22827f3-cf5f-4213-bfbf-c0a64b90cb92",
           "name": "List File Processing Configurations",
           "request": {
             "name": "List File Processing Configurations",
             "description": {
-              "content": "Retrieves a list of all the file processing consifugrations in an account.",
+              "content": "Retrieves a list of all the file processing configurations in an account.",
               "type": "text/plain"
             },
             "url": {
@@ -3263,6 +3263,18 @@
                 "{{baseUrl}}"
               ],
               "query": [
+                {
+                  "disabled": false,
+                  "key": "top",
+                  "value": "100",
+                  "description": "Number of items to include inside the page."
+                },
+                {
+                  "disabled": false,
+                  "key": "skip",
+                  "value": "0",
+                  "description": "Number of items that are skipped to reach the desired page."
+                },
                 {
                   "disabled": false,
                   "key": "location",
@@ -3307,7 +3319,7 @@
       "event": []
     },
     {
-      "id": "8e23ceb1-e0d7-463f-ae17-473e9a4c3285",
+      "id": "aeef2420-792c-479c-8a6f-4652a99bf82c",
       "name": "Translation Engine",
       "description": {
         "content": "",
@@ -3315,7 +3327,7 @@
       },
       "item": [
         {
-          "id": "daa61ec4-ce40-4037-b17b-63c3e401adc8",
+          "id": "097a1b89-f0c8-4eee-aaba-e12614b5703f",
           "name": "Get Translation Engine",
           "request": {
             "name": "Get Translation Engine",
@@ -3363,7 +3375,7 @@
           "event": []
         },
         {
-          "id": "5277a576-8936-4443-9a34-e036564388ed",
+          "id": "4c3f0d81-2e29-48cb-ac11-0b77c8985db5",
           "name": "List Translation Engines",
           "request": {
             "name": "List Translation Engines",
@@ -3435,7 +3447,7 @@
       "event": []
     },
     {
-      "id": "d959542a-4839-4637-ae21-4a308fe52109",
+      "id": "9084a75b-0c4b-47e0-8216-fe0a22a3f38b",
       "name": "Pricing Model",
       "description": {
         "content": "",
@@ -3443,7 +3455,7 @@
       },
       "item": [
         {
-          "id": "5102a166-3f3d-4571-b75b-dfbff4213909",
+          "id": "57929f23-6dff-4c39-89a9-0c9c63c9d997",
           "name": "Get Pricing Model",
           "request": {
             "name": "Get Pricing Model",
@@ -3491,7 +3503,7 @@
           "event": []
         },
         {
-          "id": "2df02109-4196-4067-9917-62c80799542a",
+          "id": "980bb40b-e6d2-49c9-9322-b9b2015c3a60",
           "name": "List Pricing Models",
           "request": {
             "name": "List Pricing Models",
@@ -3563,7 +3575,7 @@
       "event": []
     },
     {
-      "id": "509f1a45-8124-4b81-82c2-d365ec53771f",
+      "id": "4de78c85-f1c0-45de-b756-9696d53427c8",
       "name": "Language",
       "description": {
         "content": "",
@@ -3571,7 +3583,7 @@
       },
       "item": [
         {
-          "id": "4bf25a67-b6f3-4094-9e12-cf41f1c86b91",
+          "id": "c7d7671d-da50-4a08-af18-8027f2ed047e",
           "name": "List Languages",
           "request": {
             "name": "List Languages",
@@ -3625,7 +3637,7 @@
       "event": []
     },
     {
-      "id": "85ad5009-7002-4570-b4a0-12bb7d8a932e",
+      "id": "89d20c13-c1b7-408b-a243-d901219867b1",
       "name": "Quotes",
       "description": {
         "content": "",
@@ -3633,7 +3645,7 @@
       },
       "item": [
         {
-          "id": "7348aa53-4660-4888-8ffa-2ea2f0b32b09",
+          "id": "dd877d58-21ba-4be7-9f1e-74b3a55f1df5",
           "name": "Export Quote",
           "request": {
             "name": "Export Quote",
@@ -3780,7 +3792,7 @@
     }
   ],
   "info": {
-    "_postman_id": "abd4a60a-1089-4dab-956f-78f7e3c83326",
+    "_postman_id": "d73d6d3a-ee2a-44b1-9a67-1ef0b3e4d01d",
     "name": "Public API Live API.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
