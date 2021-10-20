@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "f51f5ebb-37a8-41c6-810e-c39518cb5d6e",
+      "id": "59175a60-b81e-4a80-b4a4-8491c8b6624e",
       "name": "Account",
       "description": {
         "content": "",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "88e14ada-fffc-4693-9ae0-18a8116ee9b2",
+          "id": "f6f5f0be-18e0-4305-ae6c-8b95cf1f7559",
           "name": "List my Accounts",
           "request": {
             "name": "List my Accounts",
@@ -44,7 +44,7 @@
       "event": []
     },
     {
-      "id": "8987bd0d-770b-4f63-bb8c-188f0792314e",
+      "id": "df23fd9e-1088-40b2-87c8-322bc31ecb9b",
       "name": "Custom Field",
       "description": {
         "content": "",
@@ -52,7 +52,7 @@
       },
       "item": [
         {
-          "id": "accad6e5-31bf-4371-8934-0007ef2bd1da",
+          "id": "691804b2-b67c-4427-8ed8-6fd9501c1a7a",
           "name": "List Custom Field Definitions",
           "request": {
             "name": "List Custom Field Definitions",
@@ -102,7 +102,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -121,7 +121,7 @@
           "event": []
         },
         {
-          "id": "1e81be35-6b00-4294-b2a1-48c2d4bb1b21",
+          "id": "ffbc1375-f026-4364-a1da-84726e1ca290",
           "name": "Get Custom Field Definition",
           "request": {
             "name": "Get Custom Field Definition",
@@ -142,7 +142,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -151,7 +151,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "customFieldDefinitionId",
-                  "description": "(Required) "
+                  "description": "(Required) The custom field definition identifier."
                 }
               ]
             },
@@ -172,7 +172,7 @@
       "event": []
     },
     {
-      "id": "fea48c84-e783-4ec2-8d8a-0bd4ed0e7867",
+      "id": "df455333-b13d-4db0-8283-4f30eb8dd2ec",
       "name": "Folder",
       "description": {
         "content": "",
@@ -180,7 +180,7 @@
       },
       "item": [
         {
-          "id": "3a538b1f-eadc-4f18-bc6a-97688151f56b",
+          "id": "440fb5ca-f7ad-4587-8989-37786236e388",
           "name": "Get Folder",
           "request": {
             "name": "Get Folder",
@@ -201,7 +201,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -210,7 +210,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "folderId",
-                  "description": "(Required) "
+                  "description": "(Required) The folder identifier."
                 }
               ]
             },
@@ -228,7 +228,7 @@
           "event": []
         },
         {
-          "id": "c0537a1a-3e64-48a7-824f-ce24d1fe7e8f",
+          "id": "eb5c1f06-3748-4ab6-a5b3-d997887a86a2",
           "name": "Get Root Folder",
           "request": {
             "name": "Get Root Folder",
@@ -249,7 +249,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -268,7 +268,7 @@
           "event": []
         },
         {
-          "id": "f1c8d612-274a-475c-8e27-be2f46a8b11a",
+          "id": "8c7deaeb-e5c1-41ae-b7c5-5050deeab883",
           "name": "List Folders",
           "request": {
             "name": "List Folders",
@@ -294,7 +294,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -316,7 +316,7 @@
       "event": []
     },
     {
-      "id": "5e7b46cf-e172-49ef-b18c-afd1d047160f",
+      "id": "a67a6d6c-25c7-4fed-8387-846d61118b49",
       "name": "User",
       "description": {
         "content": "",
@@ -324,7 +324,7 @@
       },
       "item": [
         {
-          "id": "33ed06d1-ee5c-458e-bc43-7cfb8eaeff96",
+          "id": "05276bbb-462d-457e-a735-98b4060391e9",
           "name": "Get my User",
           "request": {
             "name": "Get my User",
@@ -345,7 +345,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -364,7 +364,7 @@
           "event": []
         },
         {
-          "id": "df0487b3-8693-4d76-90a9-53b65049af2e",
+          "id": "b2bae646-e21e-4c3a-9eea-ac4ecf03711c",
           "name": "List Users",
           "request": {
             "name": "List Users",
@@ -414,7 +414,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -433,7 +433,7 @@
           "event": []
         },
         {
-          "id": "7cea9583-e5f8-4431-ab35-f70173e1eb0a",
+          "id": "76a603a1-d8e2-4a8d-887f-3abc5fc108bb",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -454,7 +454,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -463,7 +463,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "userId",
-                  "description": "(Required) "
+                  "description": "(Required) The user identifier."
                 }
               ]
             },
@@ -484,7 +484,7 @@
       "event": []
     },
     {
-      "id": "c1948a22-47b5-451f-a518-f0c6f60ded1a",
+      "id": "818f5ee4-69b2-42fc-9933-748431e6c5af",
       "name": "Group",
       "description": {
         "content": "",
@@ -492,7 +492,7 @@
       },
       "item": [
         {
-          "id": "2a560953-b163-4973-b084-a9b9277bae9e",
+          "id": "7a552721-1abe-48fd-9030-836090955ea7",
           "name": "Get Group",
           "request": {
             "name": "Get Group",
@@ -513,7 +513,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -522,7 +522,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "groupId",
-                  "description": "(Required) "
+                  "description": "(Required) The group identifier."
                 }
               ]
             },
@@ -540,7 +540,7 @@
           "event": []
         },
         {
-          "id": "d55a27d1-b80b-4615-95b5-f1f6493076b8",
+          "id": "6a5a6511-63dc-4c14-aad7-417e34a1e75f",
           "name": "List Groups",
           "request": {
             "name": "List Groups",
@@ -590,7 +590,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -612,7 +612,7 @@
       "event": []
     },
     {
-      "id": "b8a337df-60ec-4447-8e35-2891db8c19cd",
+      "id": "42b8cae6-b08d-442a-a1b0-40ff26fa2533",
       "name": "Customer",
       "description": {
         "content": "",
@@ -620,7 +620,7 @@
       },
       "item": [
         {
-          "id": "5f8196fc-08c0-42a7-9efc-117c95e96483",
+          "id": "58a0e0de-79b3-4a51-8fb9-0db9deb1b27a",
           "name": "Get Customer",
           "request": {
             "name": "Get Customer",
@@ -641,7 +641,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -650,7 +650,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "customerId",
-                  "description": "(Required) "
+                  "description": "(Required) The customer identifier."
                 }
               ]
             },
@@ -668,7 +668,7 @@
           "event": []
         },
         {
-          "id": "472fd468-d015-4533-9baa-ba572fd324bb",
+          "id": "95f039ec-1d73-4b61-8d2f-86942fdc83d9",
           "name": "List Customers",
           "request": {
             "name": "List Customers",
@@ -718,7 +718,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -740,7 +740,7 @@
       "event": []
     },
     {
-      "id": "2b65c3a1-ee24-450d-aef5-2bedc3d81fbd",
+      "id": "88643f5a-6740-4e3b-bad8-f6525c08e001",
       "name": "Project",
       "description": {
         "content": "",
@@ -748,7 +748,7 @@
       },
       "item": [
         {
-          "id": "9142dae8-f240-4848-bc19-5dd08a1d8fbe",
+          "id": "7d257b53-8fd3-4c24-a834-5234ef29c944",
           "name": "Get Project",
           "request": {
             "name": "Get Project",
@@ -769,7 +769,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -778,7 +778,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -796,7 +796,7 @@
           "event": []
         },
         {
-          "id": "680f5dec-1314-4024-a839-67566ff7d592",
+          "id": "e93cf0ee-fe1a-4f38-9a56-7d09f6417c7d",
           "name": "Update Project",
           "request": {
             "name": "Update Project",
@@ -819,7 +819,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -839,13 +839,18 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueBy\": \"<dateTime>\",\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        },\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        }\n    ],\n    \"translationEngine\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"fileProcessingConfiguration\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"pricingModel\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"workflow\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"tqaProfile\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"quote\": {\n        \"languageCosts\": [\n            {\n                \"name\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"count\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"cost\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costOrder\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostThreshold\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"volumeUnitType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"targetLanguage\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostOperator\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostVariable\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            {\n                \"name\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"count\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"cost\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costOrder\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostThreshold\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"volumeUnitType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"targetLanguage\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostOperator\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostVariable\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        ],\n        \"additionalCosts\": [\n            {\n                \"name\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"count\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"cost\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costOrder\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostThreshold\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"volumeUnitType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostOperator\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostVariable\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            {\n                \"name\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"count\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"cost\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costOrder\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostThreshold\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"volumeUnitType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostOperator\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostVariable\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        ]\n    },\n    \"customFields\": [\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        },\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        }\n    ]\n}"
+              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueBy\": \"<dateTime>\",\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        },\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        }\n    ],\n    \"translationEngine\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"fileProcessingConfiguration\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"pricingModel\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"workflow\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"tqaProfile\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"quote\": {\n        \"languageCosts\": [\n            {\n                \"name\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"count\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"cost\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costOrder\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostThreshold\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"volumeUnitType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"targetLanguage\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostOperator\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostVariable\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            {\n                \"name\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"count\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"cost\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costOrder\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostThreshold\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"volumeUnitType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"targetLanguage\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostOperator\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostVariable\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        ],\n        \"additionalCosts\": [\n            {\n                \"name\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"count\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"cost\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costOrder\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostThreshold\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"volumeUnitType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostOperator\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostVariable\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            {\n                \"name\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"count\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"cost\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costOrder\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostThreshold\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"costType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"volumeUnitType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostType\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostOperator\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"conditionalCostVariable\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        ]\n    },\n    \"customFields\": [\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        },\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        }\n    ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
             }
           },
           "event": []
         },
         {
-          "id": "7a9a80a0-06f5-4d86-ac31-52a2419761b2",
+          "id": "5ab205b0-64c6-4897-afb1-79ce80e1cac9",
           "name": "Delete Project",
           "request": {
             "name": "Delete Project",
@@ -868,7 +873,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -886,7 +891,7 @@
           "event": []
         },
         {
-          "id": "747aad63-a919-4069-8c4d-48cb2c16b96d",
+          "id": "3b280606-2d95-4f71-972d-22d9ced8fda1",
           "name": "List Projects",
           "request": {
             "name": "List Projects",
@@ -936,7 +941,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 },
                 {
                   "disabled": false,
@@ -961,7 +966,7 @@
           "event": []
         },
         {
-          "id": "5130830f-706a-4357-89ec-72bdb31e3b0d",
+          "id": "074117ee-f205-4e51-bece-e42c91c56f9f",
           "name": "Create Project",
           "request": {
             "name": "Create Project",
@@ -981,7 +986,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -1002,13 +1007,18 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueBy\": \"<dateTime>\",\n    \"projectTemplate\": {\n        \"id\": \"<string>\"\n    },\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        },\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        }\n    ],\n    \"location\": \"<string>\",\n    \"translationEngine\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"fileProcessingConfiguration\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"workflow\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"pricingModel\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"customFields\": [\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        },\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        }\n    ],\n    \"tqaProfile\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"forceOnline\": \"<boolean>\"\n}"
+              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueBy\": \"<dateTime>\",\n    \"projectTemplate\": {\n        \"id\": \"<string>\"\n    },\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        },\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            },\n            \"targetLanguage\": {\n                \"languageCode\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        }\n    ],\n    \"location\": \"<string>\",\n    \"translationEngine\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"fileProcessingConfiguration\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"workflow\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"pricingModel\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"customFields\": [\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        },\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        }\n    ],\n    \"tqaProfile\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"forceOnline\": \"<boolean>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
             }
           },
           "event": []
         },
         {
-          "id": "8ae8bbe5-df39-4af2-afc7-30eb9def1073",
+          "id": "168f913f-fdee-468c-ba89-992971adabb7",
           "name": "Start Project",
           "request": {
             "name": "Start Project",
@@ -1032,7 +1042,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -1050,7 +1060,7 @@
           "event": []
         },
         {
-          "id": "a64fe47b-7f05-4e96-972b-1bf2201ea82b",
+          "id": "797d2b47-22a0-4d1c-83ee-9d9b36eba2b6",
           "name": "Complete Project",
           "request": {
             "name": "Complete Project",
@@ -1074,7 +1084,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -1092,7 +1102,7 @@
           "event": []
         },
         {
-          "id": "ce16f758-85ae-4784-8580-5f062e79f19d",
+          "id": "9b76d357-0709-4bf0-8432-8ea089da5ec7",
           "name": "List Project's Tasks",
           "request": {
             "name": "List Project's Tasks",
@@ -1144,7 +1154,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1153,7 +1163,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -1171,7 +1181,7 @@
           "event": []
         },
         {
-          "id": "60bf9e3f-3a87-4e46-8bac-403323fcc34a",
+          "id": "c3e75c51-c211-4367-be74-849993d29909",
           "name": "Cancel Project File",
           "request": {
             "name": "Cancel Project File",
@@ -1197,14 +1207,14 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) The project id."
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "fileId",
-                  "description": "(Required) The file id."
+                  "description": "(Required) The file identifier."
                 }
               ]
             },
@@ -1225,7 +1235,7 @@
       "event": []
     },
     {
-      "id": "598445ad-1071-43e4-b31c-2dfd099abfb9",
+      "id": "2a0645d4-70e2-42b4-9f54-dc03c27f2c8a",
       "name": "Project Template",
       "description": {
         "content": "",
@@ -1233,7 +1243,7 @@
       },
       "item": [
         {
-          "id": "3496b582-5986-40f4-92d1-45b1904b66b7",
+          "id": "3e440990-ddaa-41a5-a779-84fb577f3d14",
           "name": "Get Project Template",
           "request": {
             "name": "Get Project Template",
@@ -1254,7 +1264,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1263,7 +1273,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectTemplateId",
-                  "description": "(Required) "
+                  "description": "(Required) The project template identifier."
                 }
               ]
             },
@@ -1281,7 +1291,7 @@
           "event": []
         },
         {
-          "id": "cb7c67a6-f651-4df8-9f0c-982e7417e32a",
+          "id": "70157bc2-d23b-4db0-aee3-dafdb52d2b0a",
           "name": "List Project Templates",
           "request": {
             "name": "List Project Templates",
@@ -1337,7 +1347,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -1359,7 +1369,7 @@
       "event": []
     },
     {
-      "id": "27e38052-fc39-4e06-a52c-93706ef197a3",
+      "id": "af568221-91c8-4803-b0a7-1422253dc6de",
       "name": "Source File",
       "description": {
         "content": "",
@@ -1367,7 +1377,7 @@
       },
       "item": [
         {
-          "id": "4f2a1e68-6ce7-495a-9973-372057db56af",
+          "id": "3802c6ae-a86f-49ac-83b8-8c5743c67429",
           "name": "List Source Files",
           "request": {
             "name": "List Source Files",
@@ -1419,7 +1429,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1428,7 +1438,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -1446,12 +1456,12 @@
           "event": []
         },
         {
-          "id": "e13a640c-e01d-4f01-b4ac-a639794d590c",
+          "id": "1abf3c54-29a1-4604-a470-d5f1b44c9910",
           "name": "Add Source File",
           "request": {
             "name": "Add Source File",
             "description": {
-              "content": "Adds a source file to the project.",
+              "content": "Adds a source file to the project. A file can be uploaded before starting a project or after project was started. When a file is added after the project was started, a new start project request should be performed.",
               "type": "text/plain"
             },
             "url": {
@@ -1470,7 +1480,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -1493,8 +1503,7 @@
               "formdata": [
                 {
                   "key": "file",
-                  "value": "<binary>",
-                  "type": "text",
+                  "type": "file",
                   "description": "(Required) "
                 },
                 {
@@ -1509,7 +1518,7 @@
           "event": []
         },
         {
-          "id": "b2d2ad64-c5fb-48fb-8550-9fbf01e643bc",
+          "id": "5387b04a-7766-4af9-a0f2-e1fc44f9f832",
           "name": "Get Source File",
           "request": {
             "name": "Get Source File",
@@ -1532,7 +1541,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1541,14 +1550,14 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "sourceFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The source file identifier."
                 }
               ]
             },
@@ -1566,7 +1575,7 @@
           "event": []
         },
         {
-          "id": "f5a25ac6-bd4f-4815-be35-2d688fbb2cd7",
+          "id": "5885976c-5750-4a79-a461-bae8f3aa1623",
           "name": "List Source File Versions",
           "request": {
             "name": "List Source File Versions",
@@ -1590,7 +1599,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1599,14 +1608,14 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "sourceFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The source file identifier."
                 }
               ]
             },
@@ -1624,7 +1633,7 @@
           "event": []
         },
         {
-          "id": "8e40e42e-3ce7-4786-a9f6-3cde2f591556",
+          "id": "c3282ae1-c98e-44a2-8a90-79bf69c3602c",
           "name": "Download Source File Version",
           "request": {
             "name": "Download Source File Version",
@@ -1652,21 +1661,21 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "sourceFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The source file identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "fileVersionId",
-                  "description": "(Required) "
+                  "description": "(Required) The file version identifier."
                 }
               ]
             },
@@ -1687,7 +1696,7 @@
       "event": []
     },
     {
-      "id": "d478d39c-c51d-4ded-a41b-3ebdc0a90e71",
+      "id": "1c6b2acf-dd4f-43d9-95dd-47493a957346",
       "name": "Target File",
       "description": {
         "content": "",
@@ -1695,7 +1704,7 @@
       },
       "item": [
         {
-          "id": "0cf3e2a3-08a7-45d7-9b04-72aa6744ed4c",
+          "id": "67f5055e-96b7-4d0d-ac81-fbf649809180",
           "name": "Get Target File",
           "request": {
             "name": "Get Target File",
@@ -1718,7 +1727,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1727,14 +1736,14 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 }
               ]
             },
@@ -1752,7 +1761,7 @@
           "event": []
         },
         {
-          "id": "d5c0fe24-1c91-49c9-867a-44194e39cf05",
+          "id": "235eafd6-f0b1-49c7-8933-b262d34ca0cf",
           "name": "List Target Files",
           "request": {
             "name": "List Target Files",
@@ -1798,7 +1807,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1807,7 +1816,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -1825,7 +1834,7 @@
           "event": []
         },
         {
-          "id": "2f5a334a-7f98-49e9-8218-ed6289c5cab6",
+          "id": "7f1f89ff-0ab8-4054-8b31-c1ca53939c45",
           "name": "Get Target File Version",
           "request": {
             "name": "Get Target File Version",
@@ -1850,7 +1859,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1859,21 +1868,21 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "fileVersionId",
-                  "description": "(Required) "
+                  "description": "(Required) The file version identifier."
                 }
               ]
             },
@@ -1891,7 +1900,7 @@
           "event": []
         },
         {
-          "id": "582f029d-1467-4925-9630-e3af96b6c31b",
+          "id": "db1b722b-28d3-4cf7-9a1d-998faaafbf88",
           "name": "List Target File Versions",
           "request": {
             "name": "List Target File Versions",
@@ -1915,7 +1924,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -1924,14 +1933,14 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 }
               ]
             },
@@ -1949,7 +1958,7 @@
           "event": []
         },
         {
-          "id": "970d5caa-e58a-4168-8ee6-f463c76ad943",
+          "id": "99020286-f02f-4a3c-ba28-983acc4bf73a",
           "name": "Export Target File Version",
           "request": {
             "name": "Export Target File Version",
@@ -1975,7 +1984,7 @@
                   "disabled": false,
                   "key": "format",
                   "value": "native",
-                  "description": "The file format"
+                  "description": "The file format."
                 }
               ],
               "variable": [
@@ -1984,21 +1993,21 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "fileVersionId",
-                  "description": "(Required) "
+                  "description": "(Required) The file version identifier."
                 }
               ]
             },
@@ -2016,7 +2025,7 @@
           "event": []
         },
         {
-          "id": "7ff084a0-c576-445a-b985-4497ef696805",
+          "id": "a8ff1475-3348-446f-b138-8712b0bb1ef0",
           "name": "Poll Target File Version Export",
           "request": {
             "name": "Poll Target File Version Export",
@@ -2045,28 +2054,28 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "fileVersionId",
-                  "description": "(Required) "
+                  "description": "(Required) The file version identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "exportId",
-                  "description": "(Required) "
+                  "description": "(Required) The export identifier."
                 }
               ]
             },
@@ -2084,7 +2093,7 @@
           "event": []
         },
         {
-          "id": "7c3055a5-1967-4d20-a1d9-8d55762bbafc",
+          "id": "3ed79fbd-b304-4b35-99f4-2e576ff9f041",
           "name": "Download Exported Target File Version",
           "request": {
             "name": "Download Exported Target File Version",
@@ -2114,28 +2123,28 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "fileVersionId",
-                  "description": "(Required) "
+                  "description": "(Required) The file version identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "exportId",
-                  "description": "(Required) "
+                  "description": "(Required) The export identifier."
                 }
               ]
             },
@@ -2153,10 +2162,10 @@
           "event": []
         },
         {
-          "id": "1d1a631f-2464-4a94-a727-de8732dc33e3",
-          "name": "Download File Version",
+          "id": "abbf4541-5d7c-4d95-8759-2a4339391b01",
+          "name": "Download Target File Version",
           "request": {
-            "name": "Download File Version",
+            "name": "Download Target File Version",
             "description": {
               "content": "Downloads the file version (native and BCM). ",
               "type": "text/plain"
@@ -2181,21 +2190,21 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "fileVersionId",
-                  "description": "(Required) "
+                  "description": "(Required) The file version identifier."
                 }
               ]
             },
@@ -2213,7 +2222,7 @@
           "event": []
         },
         {
-          "id": "8161a1ee-fbc8-4ae4-ae6f-9d0f75abe2b9",
+          "id": "6d17d04d-6e8b-4674-b1fb-d5f6f0eb7725",
           "name": "Import Target File Version",
           "request": {
             "name": "Import Target File Version",
@@ -2240,14 +2249,14 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 }
               ]
             },
@@ -2270,8 +2279,7 @@
               "formdata": [
                 {
                   "key": "file",
-                  "value": "<binary>",
-                  "type": "text",
+                  "type": "file",
                   "description": ""
                 }
               ]
@@ -2280,7 +2288,7 @@
           "event": []
         },
         {
-          "id": "9e30bc96-560a-4d6e-8262-cea6e88e98d5",
+          "id": "a053b2c1-e8aa-4ccd-b348-c4ba4b32044c",
           "name": "Poll Target File Version Import",
           "request": {
             "name": "Poll Target File Version Import",
@@ -2308,21 +2316,21 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "targetFileId",
-                  "description": "(Required) "
+                  "description": "(Required) The target file identifier."
                 },
                 {
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
                   "key": "importId",
-                  "description": "(Required) "
+                  "description": "(Required) The import identifier."
                 }
               ]
             },
@@ -2343,7 +2351,7 @@
       "event": []
     },
     {
-      "id": "bb7e27a8-ce43-4e50-85a5-a231580bba3c",
+      "id": "2e69b0d2-69b6-4d28-a95a-51aae1cb935b",
       "name": "Task",
       "description": {
         "content": "",
@@ -2351,7 +2359,7 @@
       },
       "item": [
         {
-          "id": "01437378-49f0-467d-9d61-c17a6de1aefe",
+          "id": "e5ec6230-3f83-4b3e-86c7-6a24bc2f04f1",
           "name": "Get Task",
           "request": {
             "name": "Get Task",
@@ -2372,7 +2380,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -2381,7 +2389,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "taskId",
-                  "description": "(Required) "
+                  "description": "(Required) The task identifier."
                 }
               ]
             },
@@ -2399,7 +2407,7 @@
           "event": []
         },
         {
-          "id": "6438b2a6-daac-47fe-869c-b8b2cbbc4303",
+          "id": "752de1f4-662a-4301-b870-ca919c727c45",
           "name": "List Tasks assigned to me",
           "request": {
             "name": "List Tasks assigned to me",
@@ -2456,7 +2464,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -2475,7 +2483,7 @@
           "event": []
         },
         {
-          "id": "bb3fdb33-8faf-453d-b710-5d2f4b468421",
+          "id": "f4f398c0-33e5-43c0-b08c-3a32955bbbc9",
           "name": "Accept Task",
           "request": {
             "name": "Accept Task",
@@ -2499,7 +2507,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "taskId",
-                  "description": "(Required) "
+                  "description": "(Required) The task identifier."
                 }
               ]
             },
@@ -2517,7 +2525,7 @@
           "event": []
         },
         {
-          "id": "bbbe8008-f0a4-4209-90f2-fccf29c99ad7",
+          "id": "846716cf-4703-4433-b33c-1fcab5ad62af",
           "name": "Reject Task",
           "request": {
             "name": "Reject Task",
@@ -2541,7 +2549,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "taskId",
-                  "description": "(Required) "
+                  "description": "(Required) The task identifier."
                 }
               ]
             },
@@ -2559,7 +2567,7 @@
           "event": []
         },
         {
-          "id": "2f041263-2f44-4835-bc8f-877ec6bda3d1",
+          "id": "406ac043-75b2-4f65-90c3-30747fedee3a",
           "name": "Complete Task",
           "request": {
             "name": "Complete Task",
@@ -2583,7 +2591,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "taskId",
-                  "description": "(Required) "
+                  "description": "(Required) The task identifier."
                 }
               ]
             },
@@ -2603,13 +2611,18 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"outcome\": \"<string>\",\n    \"comment\": \"<string>\"\n}"
+              "raw": "{\n    \"outcome\": \"<string>\",\n    \"comment\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
             }
           },
           "event": []
         },
         {
-          "id": "6145a964-daa5-41f7-9665-5fca535a696c",
+          "id": "ed15b510-4fe0-45bb-9e6e-5370ff93726c",
           "name": "Release Task",
           "request": {
             "name": "Release Task",
@@ -2633,7 +2646,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "taskId",
-                  "description": "(Required) "
+                  "description": "(Required) The task identifier."
                 }
               ]
             },
@@ -2651,7 +2664,7 @@
           "event": []
         },
         {
-          "id": "45059c7f-0106-4aca-a2e2-6d44fa3d62e3",
+          "id": "3b9b0418-f082-4248-a5ab-a0d36b7c42be",
           "name": "Reclaim Task",
           "request": {
             "name": "Reclaim Task",
@@ -2675,7 +2688,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "taskId",
-                  "description": "(Required) "
+                  "description": "(Required) The task identifier."
                 }
               ]
             },
@@ -2693,7 +2706,7 @@
           "event": []
         },
         {
-          "id": "4c1b74c8-94de-48e4-86cf-bd06d1e6e8f1",
+          "id": "02bdbf2c-7282-4ad5-b7e4-b12fb5194e1b",
           "name": "Assign Task",
           "request": {
             "name": "Assign Task",
@@ -2717,7 +2730,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "taskId",
-                  "description": "(Required) "
+                  "description": "(Required) The task identifier."
                 }
               ]
             },
@@ -2737,7 +2750,12 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"assignees\": [\n        {\n            \"id\": \"<string>\",\n            \"type\": \"<string>\"\n        },\n        {\n            \"id\": \"<string>\",\n            \"type\": \"<string>\"\n        }\n    ]\n}"
+              "raw": "{\n    \"assignees\": [\n        {\n            \"id\": \"<string>\",\n            \"type\": \"<string>\"\n        },\n        {\n            \"id\": \"<string>\",\n            \"type\": \"<string>\"\n        }\n    ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
             }
           },
           "event": []
@@ -2746,7 +2764,7 @@
       "event": []
     },
     {
-      "id": "15674067-7c4b-4450-a3ef-934fbc5b5f0c",
+      "id": "3ddf3e9d-12e5-414c-866d-e1dd3fc8dafb",
       "name": "Task Type",
       "description": {
         "content": "",
@@ -2754,7 +2772,7 @@
       },
       "item": [
         {
-          "id": "41d57eab-2eab-446a-8bb4-6f0282bb9c38",
+          "id": "c774cc4b-48a9-4e2d-b516-e322c24ac85e",
           "name": "Get Task Type",
           "request": {
             "name": "Get Task Type",
@@ -2775,7 +2793,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -2784,7 +2802,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "taskTypeId",
-                  "description": "(Required) "
+                  "description": "(Required) The task type identifier."
                 }
               ]
             },
@@ -2802,7 +2820,7 @@
           "event": []
         },
         {
-          "id": "74bc6e7d-2a91-48e0-8cf8-6014c54ff93f",
+          "id": "2ea79b34-76e0-476f-afcc-f35bec312fac",
           "name": "List Task Types",
           "request": {
             "name": "List Task Types",
@@ -2864,7 +2882,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -2886,7 +2904,7 @@
       "event": []
     },
     {
-      "id": "aa9dd3d5-98d6-42dd-8caf-e79a1c148830",
+      "id": "5f9e73b6-5fb3-42bd-8615-7ed193b14ae5",
       "name": "TQA Profile",
       "description": {
         "content": "",
@@ -2894,7 +2912,7 @@
       },
       "item": [
         {
-          "id": "e11a69ea-8d0c-4434-a5d4-51d76e3701a8",
+          "id": "3e651a9a-2300-427c-82f5-b711aac93726",
           "name": "List TQA Profiles",
           "request": {
             "name": "List TQA Profiles",
@@ -2944,7 +2962,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -2963,7 +2981,7 @@
           "event": []
         },
         {
-          "id": "fb3ea92a-75bd-4bf2-951e-2c4b43f955cb",
+          "id": "5afc0ca0-5d43-46d3-817a-e3bec32e5a0a",
           "name": "Get TQA Profile",
           "request": {
             "name": "Get TQA Profile",
@@ -2984,7 +3002,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -2993,7 +3011,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "profileId",
-                  "description": "(Required) The TQA profile id."
+                  "description": "(Required) The profile identifier."
                 }
               ]
             },
@@ -3014,7 +3032,7 @@
       "event": []
     },
     {
-      "id": "e22d4eff-0810-426c-8c31-725d11de3368",
+      "id": "d9e63975-c4ff-4519-ad7c-3e72e46dda3e",
       "name": "Workflow",
       "description": {
         "content": "",
@@ -3022,7 +3040,7 @@
       },
       "item": [
         {
-          "id": "778ce961-f958-45a2-9b34-3c529f8b4ea1",
+          "id": "db410dbc-cae3-4869-907d-ff89852a2c29",
           "name": "Get Workflow",
           "request": {
             "name": "Get Workflow",
@@ -3043,7 +3061,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -3052,7 +3070,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "workflowId",
-                  "description": "(Required) "
+                  "description": "(Required) The workflow identifier."
                 }
               ]
             },
@@ -3070,7 +3088,7 @@
           "event": []
         },
         {
-          "id": "f0124370-7a34-4d24-848f-bf63a9cefec1",
+          "id": "40fa1880-351c-4178-a4e0-1332de55e210",
           "name": "Update Workflow",
           "request": {
             "name": "Update Workflow",
@@ -3093,14 +3111,14 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "workflowId",
-                  "description": "(Required) "
+                  "description": "(Required) The workflow identifier."
                 }
               ]
             },
             "header": [
               {
                 "disabled": false,
-                "description": "The id of the account where the request is executed.",
+                "description": "(Required) The id of the account where the request is executed.",
                 "key": "X-LC-Tenant",
                 "value": "{{lc_tenant}}"
               },
@@ -3113,13 +3131,18 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"taskConfigurations\": [\n        {\n            \"taskTemplate\": {\n                \"id\": \"<string>\"\n            },\n            \"isSkipped\": \"<boolean>\",\n            \"assignees\": [\n                {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            ],\n            \"scope\": {\n                \"type\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"targetLanguage\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        },\n        {\n            \"taskTemplate\": {\n                \"id\": \"<string>\"\n            },\n            \"isSkipped\": \"<boolean>\",\n            \"assignees\": [\n                {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            ],\n            \"scope\": {\n                \"type\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"targetLanguage\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        }\n    ]\n}"
+              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"taskConfigurations\": [\n        {\n            \"taskTemplate\": {\n                \"id\": \"<string>\"\n            },\n            \"isSkipped\": \"<boolean>\",\n            \"assignees\": [\n                {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            ],\n            \"scope\": {\n                \"type\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"targetLanguage\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        },\n        {\n            \"taskTemplate\": {\n                \"id\": \"<string>\"\n            },\n            \"isSkipped\": \"<boolean>\",\n            \"assignees\": [\n                {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            ],\n            \"scope\": {\n                \"type\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                },\n                \"targetLanguage\": {\n                    \"value\": \"<Error: Too many levels of nesting to fake this schema>\"\n                }\n            }\n        }\n    ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
             }
           },
           "event": []
         },
         {
-          "id": "17cc1233-84bd-44be-a57c-f372427a878c",
+          "id": "148f49eb-863b-4068-9f57-33b3f6db7d4d",
           "name": "List Workflows",
           "request": {
             "name": "List Workflows",
@@ -3169,7 +3192,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -3191,7 +3214,7 @@
       "event": []
     },
     {
-      "id": "db5324b2-ddac-453b-b738-012f21fdc64f",
+      "id": "44a27a03-e28f-4f56-ab79-e3bc76ae2b73",
       "name": "File Processing Configuration",
       "description": {
         "content": "",
@@ -3199,7 +3222,7 @@
       },
       "item": [
         {
-          "id": "b6d6cdcb-01da-4116-8701-22a2c40f8b67",
+          "id": "00d55896-6d71-4902-837f-250e79d82cb7",
           "name": "Get File Processing Configuration",
           "request": {
             "name": "Get File Processing Configuration",
@@ -3220,7 +3243,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -3229,7 +3252,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "fileProcessingConfigurationId",
-                  "description": "(Required) "
+                  "description": "(Required) The file processing configuration identifier."
                 }
               ]
             },
@@ -3247,7 +3270,7 @@
           "event": []
         },
         {
-          "id": "a22827f3-cf5f-4213-bfbf-c0a64b90cb92",
+          "id": "816b1e33-8457-4215-80a7-0afe8794a69d",
           "name": "List File Processing Configurations",
           "request": {
             "name": "List File Processing Configurations",
@@ -3297,7 +3320,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -3319,7 +3342,7 @@
       "event": []
     },
     {
-      "id": "aeef2420-792c-479c-8a6f-4652a99bf82c",
+      "id": "32fb8fd9-786f-4cf0-ba6e-c7095431e07f",
       "name": "Translation Engine",
       "description": {
         "content": "",
@@ -3327,7 +3350,7 @@
       },
       "item": [
         {
-          "id": "097a1b89-f0c8-4eee-aaba-e12614b5703f",
+          "id": "726e3aec-0fd6-479e-b274-b0128817070c",
           "name": "Get Translation Engine",
           "request": {
             "name": "Get Translation Engine",
@@ -3348,7 +3371,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -3357,7 +3380,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "translationEngineId",
-                  "description": "(Required) "
+                  "description": "(Required) The translation engine identifier."
                 }
               ]
             },
@@ -3375,7 +3398,7 @@
           "event": []
         },
         {
-          "id": "4c3f0d81-2e29-48cb-ac11-0b77c8985db5",
+          "id": "44cc67d1-233d-41a0-b15e-6fec7dc8a06e",
           "name": "List Translation Engines",
           "request": {
             "name": "List Translation Engines",
@@ -3425,7 +3448,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -3447,7 +3470,7 @@
       "event": []
     },
     {
-      "id": "9084a75b-0c4b-47e0-8216-fe0a22a3f38b",
+      "id": "2e60db6d-c9a8-45db-a57a-726bab458d03",
       "name": "Pricing Model",
       "description": {
         "content": "",
@@ -3455,7 +3478,7 @@
       },
       "item": [
         {
-          "id": "57929f23-6dff-4c39-89a9-0c9c63c9d997",
+          "id": "451fc287-f4c6-4e74-9fdf-4a82abfe3e25",
           "name": "Get Pricing Model",
           "request": {
             "name": "Get Pricing Model",
@@ -3476,7 +3499,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": [
@@ -3485,7 +3508,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "pricingModelId",
-                  "description": "(Required) "
+                  "description": "(Required) The pricing model identifier."
                 }
               ]
             },
@@ -3503,7 +3526,7 @@
           "event": []
         },
         {
-          "id": "980bb40b-e6d2-49c9-9322-b9b2015c3a60",
+          "id": "f1779dfe-79ff-44ea-b59a-343f987844d3",
           "name": "List Pricing Models",
           "request": {
             "name": "List Pricing Models",
@@ -3553,7 +3576,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -3575,7 +3598,7 @@
       "event": []
     },
     {
-      "id": "4de78c85-f1c0-45de-b756-9696d53427c8",
+      "id": "18f033a9-5856-4d3e-921f-b8346daa6412",
       "name": "Language",
       "description": {
         "content": "",
@@ -3583,7 +3606,7 @@
       },
       "item": [
         {
-          "id": "c7d7671d-da50-4a08-af18-8027f2ed047e",
+          "id": "6f271d0e-99f5-4d9b-bac2-3654f644b681",
           "name": "List Languages",
           "request": {
             "name": "List Languages",
@@ -3615,7 +3638,7 @@
                   "disabled": false,
                   "key": "fields",
                   "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excludng fields marked as optional). The same applies to nested objects when just specifiying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
                 }
               ],
               "variable": []
@@ -3637,15 +3660,15 @@
       "event": []
     },
     {
-      "id": "89d20c13-c1b7-408b-a243-d901219867b1",
-      "name": "Quotes",
+      "id": "d3fe96fe-a103-42bf-ad9c-712c0ef91f31",
+      "name": "Quote",
       "description": {
         "content": "",
         "type": "text/plain"
       },
       "item": [
         {
-          "id": "dd877d58-21ba-4be7-9f1e-74b3a55f1df5",
+          "id": "c7504650-ef97-4351-a048-b4fae6bff72b",
           "name": "Export Quote",
           "request": {
             "name": "Export Quote",
@@ -3688,7 +3711,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "projectId",
-                  "description": "(Required) "
+                  "description": "(Required) The project identifier."
                 }
               ]
             },
@@ -3792,7 +3815,7 @@
     }
   ],
   "info": {
-    "_postman_id": "d73d6d3a-ee2a-44b1-9a67-1ef0b3e4d01d",
+    "_postman_id": "ebeed360-5ae8-4c37-9e0f-7d81fd5a98de",
     "name": "Public API Live API.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
