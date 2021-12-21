@@ -1,0 +1,427 @@
+{
+	"info": {
+		"_postman_id": "834110cf-88be-4176-b413-b4df8a4b8b29",
+		"name": "Basic project creation flow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authenticate",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"pm.collectionVariables.set(\"lc_access_token\", jsonData.access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "audience",
+							"value": "https://api.sdl.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://sdl-prod.eu.auth0.com/oauth/token",
+					"protocol": "https",
+					"host": [
+						"sdl-prod",
+						"eu",
+						"auth0",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					]
+				},
+				"description": "<h1>Authentication</h1>\n\n  \nPlease read carefully about [Authentication](https://languagecloud.sdl.com/lc/api-docs/authenticate), and take into consideration that some steps might be done by RWS engineering."
+			},
+			"response": []
+		},
+		{
+			"name": "Create Project",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var projectResponse = JSON.parse(responseBody);\r",
+							"pm.globals.set(\"projectId\", projectResponse.id);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Basic Flow Project Two Files\",\n\t\"description\": \"Basic Flow Project Creation\",\n\t\"dueBy\": \"2022-09-04T08:14:05.858Z\",\n\t\"projectTemplate\": {\n\t\t\"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\"\n\t},\n\t\"languageDirections\": [\n\t\t{\n\t\t\t\"sourceLanguage\": {\n\t\t\t\t\"languageCode\": \"en-US\"\n\t\t\t},\n\t\t\t\"targetLanguage\": {\n\t\t\t\t\"languageCode\": \"fr-FR\"\n\t\t\t}\n\t\t}\n\t]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/projects",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects"
+					]
+				},
+				"description": "# **Create a new project**\n\nEndpoint: [`POST /projects`](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/createproject)\n\nFor running this endpoint you need to supply the required project details (body tab in Postman):\n\n> `POST` [https://lc-api.sdl.com/public-api/v1/projects](https://lc-api.sdl.com/public-api/v1/projects)\n\n``` json\n{\n    \"name\": \"Name of the Project\",\n    \"description\": \"Test Project\",\n    \"dueBy\": \"2021-09-04T08:14:05.858Z\",\n    \"projectTemplate\": {\n        \"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\" // Provided by RWS\n    },\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": \"en-US\"\n            },\n            \"targetLanguage\": {\n                \"languageCode\": \"fr-FR\"\n            }\n        }\n    ]\n}\n\n```\n\nSource and Target Language Codes can be obtained from [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/language/listlanguages/).\n\nThe API should respond with:\n\n*   HTTP Status Code: 201 Created.\n*   Body – your project details consisting of `projectId`, `project name`, `language direction`, `location` and other optional fields.\n    \n\nExample:\n\n``` json\n{\n    \"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\", // The project Id.\n    \"name\": \"Name of the Project\",\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": \"en-US\",\n                \"englishName\": \"English (United States)\"\n            },\n            \"targetLanguage\": {\n                \"languageCode\": \"fr-FR\",\n                \"englishName\": \"French (France)\"\n            }\n        }\n    ],\n    \"location\": {\n        \"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\",\n        \"name\": \"Project Location\"\n    }\n}\n\n```\n\n#### Scenario:\n\nIf your company has multiple divisions, you can imagine a hierarchy like this:\n\n**YOUR COMPANY**\n\n*   **Marketing Division**\n*   **Management Division**\n*   **HR Division**\n    \n\nIf you want to create projects for different divisions, this can be done by using the `location` parameter, which will be added in the body:\n\n``` json\n{\n    \"name\": \"Name of the Project\",\n    \"description\": \"Test Project\",\n    \"dueBy\": \"2021-09-04T08:14:05.858Z\",\n    \"projectTemplate\": {\n        \"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\" // Provided by RWS\n    },\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": \"en-US\"\n            },\n            \"targetLanguage\": {\n                \"languageCode\": \"fr-FR\"\n            }\n        }\n    ],\n    \"location\": \"xxxxxxxxxxxxxxxxxxxxxxxx\" // Provided by RWS\n}\n\n```\n\nUsing this request your project will be created in the specified Division and it will be visible only there.\n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/createproject)."
+			},
+			"response": []
+		},
+		{
+			"name": "Add Source File",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"description": "(Required) ",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "properties",
+							"value": "{\n\t\"language\": \"en-US\",\n\t\"type\": \"native\",\n\t\"role\": \"translatable\",\n\t\"name\": \"FileName.Extension\"\n}",
+							"description": "(Required) ",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseUrl}}/projects/{{projectId}}/source-files",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects",
+						"{{projectId}}",
+						"source-files"
+					]
+				},
+				"description": "Adds one or more source files to the project by making a request for each file.\n\nEndpoint: [`POST /projects/{projectId}/source-files`](https://languagecloud.sdl.com/lc/api-docs/rest-api/source-file/addsourcefile)\n\nFor running this endpoint you need to:\n\n*   Replace `{projectId}` from the URL with the Id received from the Create Project endpoint response:\n    \n> `POST` [https://lc-api.sdl.com/public-api/v1/projects/{projectId}/source-files](https://lc-api.sdl.com/public-api/v1/projects/{projectId}/source-files)\n    \n*   Add the file to the request body.\n*   Complete the details from Body tab - Properties field.\n    \n    ``` json\n    {\n    \"language\": \"en-US\",\n    \"type\": \"native\",\n    \"role\": \"translatable\",\n    \"name\": \"nameOfTheFile.extension\"\n    }\n    \n    ```\n    \n\nResponses:\n\n*   HTTP Code 201 Created.\n*   Body – a list with Id, name and role of the file.\n    \n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/source-file/addsourcefile)."
+			},
+			"response": []
+		},
+		{
+			"name": "Start Project",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/projects/{{projectId}}/start",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects",
+						"{{projectId}}",
+						"start"
+					]
+				},
+				"description": "Starts a project.\n\nBefore starting a project, translatable files should be uploaded. If the action is executed on an already started project, new translatable files should be uploaded first.\n\nEndpoint: [`PUT /projects/{projectId}/start`](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/startproject)\n\nFor running this endpoint you need to:\n\n*   `PUT` [https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/start](https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/start)\n    \n\nResponses:\n\n*   HTTP Code 202 Accepted\n    \n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/startproject)."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Project",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/projects/{{projectId}}?fields=name, description, dueBy, status, location, languageDirections",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects",
+						"{{projectId}}"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "name, description, dueBy, status, location, languageDirections"
+						}
+					]
+				},
+				"description": "Retrieves a list of all the projects in the account.\n\nEndpoint: [GET /projects/{projectId}](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/getproject)\n\nFor running this endpoint make a request to:\n\n> `GET` [https://lc-api.sdl.com/public-api/v1/projects/{projectId}](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/getproject)\n\nResponses:\n\n*   HTTP Code 200 OK.\n*   Body – a project with details consisting of projectId, project name, language direction, location and other optional fields\n    \n\nExample:\n\n``` json\n{\n\t\"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\",\n\t\"name\": \"Translation Project 1\",\n\t\"languageDirections\": [\n\t\t{\n\t\t\t\"sourceLanguage\": {\n\t\t\t\t\"languageCode\": \"en-US\",\n\t\t\t\t\"englishName\": \"English (United States)\"\n\t\t\t},\n\t\t\t\"targetLanguage\": {\n\t\t\t\t\"languageCode\": \"fr-FR\",\n\t\t\t\t\"englishName\": \"French (France)\"\n\t\t\t}\n\t\t}\n\t],\n\t\"location\": {\n\t\t\"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\",\n\t\t\"name\": \"Project Location\"\n\t}\n}\n\n```\n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/getproject)."
+			},
+			"response": []
+		},
+		{
+			"name": "List Project's Tasks",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/projects/{{projectId}}/tasks?fields=status, taskType",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects",
+						"{{projectId}}",
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "status, taskType"
+						}
+					]
+				},
+				"description": "List the tasks of a specific project. If all the tasks have the status `completed`, all the files are translated.\n\nEndpoint: [`GET /projects/{projectId}/tasks`](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/listprojecttasks/)\n\nFor running this endpoint you need to:\n\n*   `GET` [https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/tasks?fields=taskType,status](https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/tasks?fields=taskType,status)\n    \n\nUse `?fields=taskType` if you want to observe the task name.\n\nResponses:\n\n*   HTTP Code 200 Ok.\n*   Body – a list with task Id and Status.\n    \n\nExample:\n\n``` json\n{\n    \"items\": [\n        {\n            \"id\": \"613f621fe5ed2804ba31870e\",\n            \"status\": \"completed\",\n            \"taskType\": {\n                \"id\": \"607932f25c7cc701241f0f60\",\n                \"key\": \"scan\",\n                \"name\": \"File Type Detection\"\n            }\n        },\n        {\n            \"id\": \"613f623040d9943308ef7c3b\",\n            \"status\": \"completed\",\n            \"taskType\": {\n                \"id\": \"607932f3ce8af15851b70205\",\n                \"key\": \"convert\",\n                \"name\": \"File Format Conversion\"\n            }\n        },\n                ...\n    ],\n    \"itemCount\": 11\n}\n\n```\n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/listprojecttasks/)."
+			},
+			"response": []
+		},
+		{
+			"name": "List Target Files",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var listTargetFilesResponse = JSON.parse(responseBody);\r",
+							"pm.globals.set(\"targetFileId\", listTargetFilesResponse.items[0].id);\r",
+							"pm.globals.set(\"targetFileVersion\", listTargetFilesResponse.items[0].latestVersion.id);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/projects/{{projectId}}/target-files?fields=latestVersion,sourceFile.name",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects",
+						"{{projectId}}",
+						"target-files"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "latestVersion,sourceFile.name"
+						}
+					]
+				},
+				"description": "Retrieves the target `fileId` for a project and the latest version for the translated file.\n\nThe status of the file is available on the \\`status\\` attribute.\n\nEndpoint: [`GET /projects/{projectId}/target-files`](https://languagecloud.sdl.com/lc/api-docs/rest-api/target-file/listtargetfiles)\n\nFor running this endpoint you need to:\n\n*   `GET` [https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/target-files?fields=latestVersion,status](https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/target-files?fields=latestVersion,status)\n    \n\nResponses:\n\n*   HTTP Code 200 Ok.\n*   Body – a list with source and target file ids, source and target languages.\n    \n\nExample:\n\n``` json\n{\n    \"items\": [\n        {\n            \"id\": \"613f623ae5ed2804ba318a40\", // This is the target file id.\n            \"latestVersion\": {\n                \"id\": \"613f628540d9943308ef8497\", // This is the file version id.\n                \"type\": \"native\",\n                \"status\": \"inProgress\"\n            }\n        },\n        {\n            \"id\": \"613f623ae5ed2804ba318a43\",\n            \"latestVersion\": {\n                \"id\": \"613f628a40d9943308ef84cd\",\n                \"type\": \"native\",\n                \"status\": \"finished\"\n            }\n        }\n    ],\n    \"itemCount\": 2\n}\n\n```\n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/target-file/listtargetfiles)."
+			},
+			"response": []
+		},
+		{
+			"name": "Download First Target File Version",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/projects/{{projectId}}/target-files/{{targetFileId}}/versions/{{targetFileVersion}}/download",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects",
+						"{{projectId}}",
+						"target-files",
+						"{{targetFileId}}",
+						"versions",
+						"{{targetFileVersion}}",
+						"download"
+					]
+				},
+				"description": "Downloads the translated file.\n\nEndpoint: [`GET /projects/{projectId}/target-files/{targetFileId}/versions/{fileVersionId}/download`](https://languagecloud.sdl.com/lc/api-docs/rest-api/target-file/downloadfileversion)\n\nFor running this endpoint you need to:\n\n*   Replace `{projectId}` from the URL with the Id received from the Create Project endpoint response\n*   Replace `{targetFileId}` from the URL with the Id received from the List Project Target Files endpoint response\n*   Replace `{fileVersionId}` from the URL with the Id received from the List Project Target Files endpoint response\n    \n\n> `GET` [https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/target-files/**{targetFileId}**/versions/**{fileVersionId}**/download](https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/target-files/**{targetFileId}**/versions/**{fileVersionId}**/download)\n\nResponses:\n\n*   HTTP Code 200 OK.\n*   Body – the translated file. The file can be also saved from Save Response option.\n    \n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/target-file/downloadfileversion/)."
+			},
+			"response": []
+		},
+		{
+			"name": "Complete Project",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/projects/{{projectId}}/complete",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects",
+						"{{projectId}}",
+						"complete"
+					]
+				},
+				"description": "Marks a project as `completed`.\n\nEndpoint: [`PUT /projects/{projectId}/complete`](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/completeproject)\n\nFor running this endpoint you need to:\n\n*   `PUT` [https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/complete](https://lc-api.sdl.com/public-api/v1/projects/**{projectId}**/complete)\n    \n\nResponses:\n\n*   HTTP Code 204 No Content.\n    \n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/completeproject)."
+			},
+			"response": []
+		},
+		{
+			"name": "List Projects",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"description": "(Required) The id of the account where the request is executed.",
+						"key": "X-LC-Tenant",
+						"value": "{{lc_tenant}}"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/projects",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"projects"
+					]
+				},
+				"description": "Retrieves a list of all the projects in the account.\n\nEndpoint: [`GET /projects`](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/listprojects)\n\nFor running this endpoint make a request to:\n\n> `GET` [https://lc-api.sdl.com/public-api/v1/projects](https://lc-api.sdl.com/public-api/v1/projects)\n\nResponses:\n\n*   HTTP Code 200 OK.\n*   Body – a list of projects with details consisting of projectId, project name, language direction, location and other optional fields\n    \n\nExample:\n\n``` json\n{\n    \"items\": [\n        {\n            \"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\",\n            \"name\": \"Translation Project 1\",\n            \"languageDirections\": [\n                {\n                    \"sourceLanguage\": {\n                        \"languageCode\": \"en-US\",\n                        \"englishName\": \"English (United States)\"\n                    },\n                    \"targetLanguage\": {\n                        \"languageCode\": \"fr-FR\",\n                        \"englishName\": \"French (France)\"\n                    }\n                }\n            ],\n            \"location\": {\n                \"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\",\n                \"name\": \"Project Location\"\n            }\n        },\n        {\n            \"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\",\n            \"name\": \"Translation Project 2\",\n            \"languageDirections\": [\n                {\n                    \"sourceLanguage\": {\n                        \"languageCode\": \"en-US\",\n                        \"englishName\": \"English (United States)\"\n                    },\n                    \"targetLanguage\": {\n                        \"languageCode\": \"fr-FR\",\n                        \"englishName\": \"French (France)\"\n                    }\n                }\n            ],\n            \"location\": {\n                \"id\": \"xxxxxxxxxxxxxxxxxxxxxxxx\",\n                \"name\": \"Project Location\"\n            }\n        }\n    ],\n    \"itemCount\": 2\n}\n\n```\n\nMore details about this endpoint can be found [here](https://languagecloud.sdl.com/lc/api-docs/rest-api/project/listprojects)."
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{lc_access_token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://lc-api.sdl.com/public-api/v1"
+		},
+		{
+			"key": "lc_access_token",
+			"value": ""
+		},
+		{
+			"key": "lc_tenant",
+			"value": "LC-ADD_TENANT_ID"
+		}
+	]
+}
