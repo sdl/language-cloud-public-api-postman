@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "9d8986fd-c0de-430c-b58e-c890d14a8585",
+      "id": "b8d599d5-4b5b-4e9a-a194-7fec5b9e5670",
       "name": "Account",
       "description": {
         "content": "",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "c674412d-7958-4354-8960-324b1f015fe4",
+          "id": "70b094df-7867-4051-91e2-f13f232282bc",
           "name": "List my Accounts",
           "request": {
             "name": "List my Accounts",
@@ -44,7 +44,7 @@
       "event": []
     },
     {
-      "id": "c0894b7b-7b0e-4150-bbc9-8d3f57d6185a",
+      "id": "e8585e76-48da-4df8-86aa-a9bf32252edb",
       "name": "Custom Field",
       "description": {
         "content": "",
@@ -52,7 +52,7 @@
       },
       "item": [
         {
-          "id": "6bb5023b-059f-41f0-88e3-0b5fc56cb491",
+          "id": "c94e94ba-b249-47bd-b8ca-99e82119e05e",
           "name": "List Custom Field Definitions",
           "request": {
             "name": "List Custom Field Definitions",
@@ -121,7 +121,7 @@
           "event": []
         },
         {
-          "id": "96bd0ecf-6700-46fa-bdcc-36126710c576",
+          "id": "1a4086b0-3e7c-425b-99d7-5533971da0fa",
           "name": "Get Custom Field Definition",
           "request": {
             "name": "Get Custom Field Definition",
@@ -172,7 +172,7 @@
       "event": []
     },
     {
-      "id": "48467218-b7f7-419d-b364-d86d04eb0178",
+      "id": "a75a2338-1e52-472a-86c6-ed469b80d055",
       "name": "Customer",
       "description": {
         "content": "",
@@ -180,7 +180,7 @@
       },
       "item": [
         {
-          "id": "94ebe3e2-1230-4fb5-b6b4-4497a854c433",
+          "id": "e4f65bac-ee16-4ca9-b448-ca628567a437",
           "name": "Get Customer",
           "request": {
             "name": "Get Customer",
@@ -228,7 +228,7 @@
           "event": []
         },
         {
-          "id": "c5976068-36cb-4fc0-9b88-0af59889a50a",
+          "id": "73d9bda2-2b5b-4792-b03d-c9798fcf0525",
           "name": "List Customers",
           "request": {
             "name": "List Customers",
@@ -300,7 +300,7 @@
       "event": []
     },
     {
-      "id": "5c42e15c-b21c-40c5-994e-b8f5055af10b",
+      "id": "99cc02d3-1b8b-4bec-8f01-1ad6b110e5b3",
       "name": "File Processing Configuration",
       "description": {
         "content": "",
@@ -308,7 +308,7 @@
       },
       "item": [
         {
-          "id": "d3f04fa9-b8b7-44d0-8a17-90f89794c936",
+          "id": "f0da4740-0501-407a-b088-d911f28ae51b",
           "name": "Get File Processing Configuration",
           "request": {
             "name": "Get File Processing Configuration",
@@ -356,7 +356,7 @@
           "event": []
         },
         {
-          "id": "febdc289-7718-4bc5-986d-92ec42dc9c3a",
+          "id": "07452000-df14-4a83-a6fa-9546b63194a4",
           "name": "List File Processing Configurations",
           "request": {
             "name": "List File Processing Configurations",
@@ -428,7 +428,7 @@
       "event": []
     },
     {
-      "id": "c838d648-6394-444a-accf-4bb087fcc2f3",
+      "id": "0585d926-c2be-4f1d-a5b9-af2ac158b08d",
       "name": "Folder",
       "description": {
         "content": "",
@@ -436,7 +436,7 @@
       },
       "item": [
         {
-          "id": "13c79122-2ac6-46e7-bc93-5e94b5e76206",
+          "id": "fa08e347-7aa5-42de-820a-7ed381e94b61",
           "name": "Get Folder",
           "request": {
             "name": "Get Folder",
@@ -484,7 +484,7 @@
           "event": []
         },
         {
-          "id": "ddb94bce-76c6-4b4c-8692-53de92d31086",
+          "id": "836f7417-bf03-48c3-b0aa-e2e1ae9d8f17",
           "name": "Get Root Folder",
           "request": {
             "name": "Get Root Folder",
@@ -524,7 +524,7 @@
           "event": []
         },
         {
-          "id": "ddc805cf-b395-41cc-adbb-f7b41c4ac39e",
+          "id": "b834f162-7267-4b9c-b711-7e76e229aafe",
           "name": "List Folders",
           "request": {
             "name": "List Folders",
@@ -572,7 +572,7 @@
       "event": []
     },
     {
-      "id": "9683e3fb-75ab-4ae3-895f-368dbadf8956",
+      "id": "db7de4a9-9f2f-4742-9be5-c72f00930081",
       "name": "Group",
       "description": {
         "content": "",
@@ -580,7 +580,7 @@
       },
       "item": [
         {
-          "id": "373891dd-2e0e-4128-a58e-54a88bee1c6f",
+          "id": "2f428f66-aa90-491d-a2fd-ed781c800feb",
           "name": "Get Group",
           "request": {
             "name": "Get Group",
@@ -628,7 +628,7 @@
           "event": []
         },
         {
-          "id": "f356b84d-3719-4ffe-9a19-a4abd4d37129",
+          "id": "e69701b3-0c3c-4de5-9969-f5c0c36c9f1a",
           "name": "List Groups",
           "request": {
             "name": "List Groups",
@@ -700,7 +700,7 @@
       "event": []
     },
     {
-      "id": "680282eb-0277-4fc5-a00e-535b5b415dc9",
+      "id": "5d848e23-0733-4274-99c3-2c0a47d2f60f",
       "name": "Language",
       "description": {
         "content": "",
@@ -708,7 +708,7 @@
       },
       "item": [
         {
-          "id": "c96b7ecd-de98-4780-81c3-2267d588a872",
+          "id": "ad3e48af-5e8c-4933-baa5-2e15b3148f03",
           "name": "List Languages",
           "request": {
             "name": "List Languages",
@@ -762,7 +762,7 @@
       "event": []
     },
     {
-      "id": "6943c5ad-4b6a-40ed-b7e3-d6b5ce5fe403",
+      "id": "809f5036-6284-4d37-b861-eb25bb16de01",
       "name": "Pricing Model",
       "description": {
         "content": "",
@@ -770,55 +770,7 @@
       },
       "item": [
         {
-          "id": "84045635-1663-4335-aff1-43a112bb6233",
-          "name": "Get Pricing Model",
-          "request": {
-            "name": "Get Pricing Model",
-            "description": {
-              "content": "Retrieves a pricing model by id.",
-              "type": "text/plain"
-            },
-            "url": {
-              "path": [
-                "pricing-models",
-                ":pricingModelId"
-              ],
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "query": [
-                {
-                  "disabled": true,
-                  "key": "fields",
-                  "value": "<string>",
-                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
-                }
-              ],
-              "variable": [
-                {
-                  "disabled": false,
-                  "type": "any",
-                  "value": "<string>",
-                  "key": "pricingModelId",
-                  "description": "(Required) The pricing model identifier."
-                }
-              ]
-            },
-            "header": [
-              {
-                "disabled": false,
-                "description": "(Required) The identifier of the account where the request is executed.",
-                "key": "X-LC-Tenant",
-                "value": "{{lc_tenant}}"
-              }
-            ],
-            "method": "GET",
-            "auth": null
-          },
-          "event": []
-        },
-        {
-          "id": "e419f8f2-23b9-4f8b-9093-324db6a88734",
+          "id": "79feb41f-8188-4234-9dd7-340e08b89b0d",
           "name": "List Pricing Models",
           "request": {
             "name": "List Pricing Models",
@@ -885,31 +837,20 @@
             "auth": null
           },
           "event": []
-        }
-      ],
-      "event": []
-    },
-    {
-      "id": "ea308dab-08a7-4ad8-804e-edef9188126e",
-      "name": "Project",
-      "description": {
-        "content": "",
-        "type": "text/plain"
-      },
-      "item": [
+        },
         {
-          "id": "db622211-502c-4ed1-a8db-a05aa1fefa48",
-          "name": "Get Project",
+          "id": "ac58ebec-f1d6-4387-9622-f48e5738b75f",
+          "name": "Get Pricing Model",
           "request": {
-            "name": "Get Project",
+            "name": "Get Pricing Model",
             "description": {
-              "content": "Retrieves a project by id.",
+              "content": "Retrieves a pricing model by id.",
               "type": "text/plain"
             },
             "url": {
               "path": [
-                "projects",
-                ":projectId"
+                "pricing-models",
+                ":pricingModelId"
               ],
               "host": [
                 "{{baseUrl}}"
@@ -927,8 +868,8 @@
                   "disabled": false,
                   "type": "any",
                   "value": "<string>",
-                  "key": "projectId",
-                  "description": "(Required) The project identifier."
+                  "key": "pricingModelId",
+                  "description": "(Required) The pricing model identifier."
                 }
               ]
             },
@@ -944,104 +885,20 @@
             "auth": null
           },
           "event": []
-        },
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "20eb57f1-a764-4eda-819a-618a30a8b38a",
+      "name": "Project",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
         {
-          "id": "8da1ace6-fd78-4ded-91a8-16c219252ab8",
-          "name": "Update Project",
-          "request": {
-            "name": "Update Project",
-            "description": {
-              "content": "Updates the project in terms of: name, description, due date, language pairs, quote, and project resources. Observe the rules of [JSON Merge Patch Semantics](https://tools.ietf.org/html/rfc7386).",
-              "type": "text/plain"
-            },
-            "url": {
-              "path": [
-                "projects",
-                ":projectId"
-              ],
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "query": [],
-              "variable": [
-                {
-                  "disabled": false,
-                  "type": "any",
-                  "value": "<string>",
-                  "key": "projectId",
-                  "description": "(Required) The project identifier."
-                }
-              ]
-            },
-            "header": [
-              {
-                "disabled": false,
-                "description": "(Required) The identifier of the account where the request is executed.",
-                "key": "X-LC-Tenant",
-                "value": "{{lc_tenant}}"
-              },
-              {
-                "key": "Content-Type",
-                "value": "application/json"
-              }
-            ],
-            "method": "PUT",
-            "auth": null,
-            "body": {
-              "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueBy\": \"<dateTime>\",\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": \"<string>\"\n            },\n            \"targetLanguage\": {\n                \"languageCode\": \"<string>\"\n            }\n        },\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": \"<string>\"\n            },\n            \"targetLanguage\": {\n                \"languageCode\": \"<string>\"\n            }\n        }\n    ],\n    \"translationEngine\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"fileProcessingConfiguration\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"pricingModel\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"workflow\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"projectPlan\": {\n        \"taskConfigurations\": [\n            {\n                \"taskTemplate\": {\n                    \"id\": \"<string>\"\n                },\n                \"isSkipped\": \"<boolean>\",\n                \"assignees\": [\n                    {\n                        \"type\": \"<string>\",\n                        \"id\": \"<string>\"\n                    },\n                    {\n                        \"type\": \"<string>\",\n                        \"id\": \"<string>\"\n                    }\n                ],\n                \"scope\": {\n                    \"type\": \"<string>\",\n                    \"targetLanguage\": {\n                        \"languageCode\": \"<string>\"\n                    }\n                },\n                \"dueBy\": \"<dateTime>\"\n            }\n        ]\n    },\n    \"tqaProfile\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"quote\": {\n        \"languageCosts\": [\n            {\n                \"name\": \"<string>\",\n                \"count\": \"<number>\",\n                \"cost\": \"<number>\",\n                \"costOrder\": \"<integer>\",\n                \"conditionalCostThreshold\": \"<number>\",\n                \"costType\": \"<string>\",\n                \"volumeUnitType\": \"<string>\",\n                \"targetLanguage\": {\n                    \"languageCode\": \"<string>\"\n                },\n                \"conditionalCostType\": \"<string>\",\n                \"conditionalCostOperator\": \"<string>\",\n                \"conditionalCostVariable\": \"<string>\"\n            },\n            {\n                \"name\": \"<string>\",\n                \"count\": \"<number>\",\n                \"cost\": \"<number>\",\n                \"costOrder\": \"<integer>\",\n                \"conditionalCostThreshold\": \"<number>\",\n                \"costType\": \"<string>\",\n                \"volumeUnitType\": \"<string>\",\n                \"targetLanguage\": {\n                    \"languageCode\": \"<string>\"\n                },\n                \"conditionalCostType\": \"<string>\",\n                \"conditionalCostOperator\": \"<string>\",\n                \"conditionalCostVariable\": \"<string>\"\n            }\n        ],\n        \"additionalCosts\": [\n            {\n                \"name\": \"<string>\",\n                \"count\": \"<number>\",\n                \"cost\": \"<number>\",\n                \"costOrder\": \"<integer>\",\n                \"conditionalCostThreshold\": \"<number>\",\n                \"costType\": \"<string>\",\n                \"volumeUnitType\": \"<string>\",\n                \"conditionalCostType\": \"<string>\",\n                \"conditionalCostOperator\": \"<string>\",\n                \"conditionalCostVariable\": \"<string>\"\n            },\n            {\n                \"name\": \"<string>\",\n                \"count\": \"<number>\",\n                \"cost\": \"<number>\",\n                \"costOrder\": \"<integer>\",\n                \"conditionalCostThreshold\": \"<number>\",\n                \"costType\": \"<string>\",\n                \"volumeUnitType\": \"<string>\",\n                \"conditionalCostType\": \"<string>\",\n                \"conditionalCostOperator\": \"<string>\",\n                \"conditionalCostVariable\": \"<string>\"\n            }\n        ]\n    },\n    \"customFields\": [\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        },\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        }\n    ]\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            }
-          },
-          "event": []
-        },
-        {
-          "id": "11dfec56-75d9-4755-b629-930ee2065a0c",
-          "name": "Delete Project",
-          "request": {
-            "name": "Delete Project",
-            "description": {
-              "content": "Deletes a project.",
-              "type": "text/plain"
-            },
-            "url": {
-              "path": [
-                "projects",
-                ":projectId"
-              ],
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "query": [],
-              "variable": [
-                {
-                  "disabled": false,
-                  "type": "any",
-                  "value": "<string>",
-                  "key": "projectId",
-                  "description": "(Required) The project identifier."
-                }
-              ]
-            },
-            "header": [
-              {
-                "disabled": false,
-                "description": "(Required) The identifier of the account where the request is executed.",
-                "key": "X-LC-Tenant",
-                "value": "{{lc_tenant}}"
-              }
-            ],
-            "method": "DELETE",
-            "auth": null
-          },
-          "event": []
-        },
-        {
-          "id": "bfb877e7-1e13-4f69-9ddd-d7ab0448cd7e",
+          "id": "65842a1d-e5d3-4277-a48a-ba94420bb92f",
           "name": "List Projects",
           "request": {
             "name": "List Projects",
@@ -1116,7 +973,7 @@
           "event": []
         },
         {
-          "id": "6c864a2e-ac6b-4ac4-bc32-dea81102b746",
+          "id": "287ad187-770a-48a5-bb3b-b8eb42bbe630",
           "name": "Create Project",
           "request": {
             "name": "Create Project",
@@ -1157,7 +1014,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"dueBy\": \"<dateTime>\",\n    \"projectTemplate\": {\n        \"id\": \"<string>\"\n    },\n    \"languageDirections\": [\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": \"<string>\"\n            },\n            \"targetLanguage\": {\n                \"languageCode\": \"<string>\"\n            }\n        },\n        {\n            \"sourceLanguage\": {\n                \"languageCode\": \"<string>\"\n            },\n            \"targetLanguage\": {\n                \"languageCode\": \"<string>\"\n            }\n        }\n    ],\n    \"location\": \"<string>\",\n    \"translationEngine\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"fileProcessingConfiguration\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"workflow\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"pricingModel\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"customFields\": [\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        },\n        {\n            \"key\": \"<string>\",\n            \"value\": \"<object>\"\n        }\n    ],\n    \"tqaProfile\": {\n        \"id\": \"<string>\",\n        \"strategy\": \"copy\"\n    },\n    \"forceOnline\": \"<boolean>\"\n}",
+              "raw": "{\n \"name\": \"<string>\",\n \"tqaProfile\": {\n  \"id\": \"<string>\",\n  \"strategy\": \"copy\"\n },\n \"translationEngine\": {\n  \"id\": \"<string>\",\n  \"strategy\": \"copy\"\n },\n \"projectTemplate\": {\n  \"id\": \"<string>\"\n },\n \"fileProcessingConfiguration\": {\n  \"id\": \"<string>\",\n  \"strategy\": \"copy\"\n },\n \"dueBy\": \"<dateTime>\",\n \"forceOnline\": \"<boolean>\",\n \"description\": \"<string>\",\n \"location\": \"<string>\",\n \"customFields\": [\n  {\n   \"key\": \"<string>\"\n  },\n  {\n   \"key\": \"<string>\",\n   \"value\": \"<object>\"\n  }\n ],\n \"pricingModel\": {\n  \"id\": \"<string>\",\n  \"strategy\": \"copy\"\n }\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1165,10 +1022,159 @@
               }
             }
           },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "23318e46-aa83-4a4e-bfd8-dbdc05eada89",
+          "name": "Get Project",
+          "request": {
+            "name": "Get Project",
+            "description": {
+              "content": "Retrieves a project by id.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) The project identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
           "event": []
         },
         {
-          "id": "8a9bb325-d298-4e9a-99a2-cd2dd929f384",
+          "id": "825a6da0-31f3-467e-8f2c-499f6538bf75",
+          "name": "Update Project",
+          "request": {
+            "name": "Update Project",
+            "description": {
+              "content": "Updates the project in terms of: name, description, due date, language pairs, quote, and project resources. Observe the rules of [JSON Merge Patch Semantics](https://tools.ietf.org/html/rfc7386).",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) The project identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n \"quote\": {\n  \"languageCosts\": [\n   {\n    \"name\": \"<string>\",\n    \"count\": \"<number>\",\n    \"cost\": \"<number>\",\n    \"costOrder\": \"<integer>\",\n    \"conditionalCostThreshold\": \"<number>\",\n    \"costType\": \"<string>\",\n    \"conditionalCostVariable\": \"<string>\",\n    \"volumeUnitType\": \"<string>\",\n    \"conditionalCostType\": \"<string>\",\n    \"conditionalCostOperator\": \"<string>\"\n   },\n   {\n    \"name\": \"<string>\",\n    \"count\": \"<number>\",\n    \"cost\": \"<number>\",\n    \"costOrder\": \"<integer>\",\n    \"conditionalCostThreshold\": \"<number>\",\n    \"conditionalCostVariable\": \"<string>\",\n    \"targetLanguage\": {\n     \"languageCode\": \"<string>\"\n    },\n    \"volumeUnitType\": \"<string>\"\n   }\n  ],\n  \"additionalCosts\": [\n   {\n    \"name\": \"<string>\",\n    \"count\": \"<number>\",\n    \"cost\": \"<number>\",\n    \"costOrder\": \"<integer>\",\n    \"conditionalCostThreshold\": \"<number>\",\n    \"volumeUnitType\": \"<string>\",\n    \"conditionalCostOperator\": \"<string>\",\n    \"conditionalCostType\": \"<string>\",\n    \"conditionalCostVariable\": \"<string>\"\n   },\n   {\n    \"name\": \"<string>\",\n    \"count\": \"<number>\",\n    \"cost\": \"<number>\",\n    \"costOrder\": \"<integer>\",\n    \"conditionalCostThreshold\": \"<number>\",\n    \"conditionalCostOperator\": \"<string>\",\n    \"volumeUnitType\": \"<string>\"\n   }\n  ]\n },\n \"projectPlan\": {\n  \"taskConfigurations\": [\n   {\n    \"taskTemplate\": {\n     \"id\": \"<string>\"\n    },\n    \"isSkipped\": \"<boolean>\",\n    \"assignees\": [\n     {\n      \"type\": \"<string>\",\n      \"id\": \"<string>\"\n     },\n     {\n      \"type\": \"<string>\",\n      \"id\": \"<string>\"\n     }\n    ],\n    \"scope\": {\n     \"type\": \"<string>\"\n    }\n   }\n  ]\n },\n \"fileProcessingConfiguration\": {\n  \"id\": \"<string>\",\n  \"strategy\": \"copy\"\n },\n \"tqaProfile\": {\n  \"id\": \"<string>\",\n  \"strategy\": \"copy\"\n },\n \"description\": \"<string>\",\n \"dueBy\": \"<dateTime>\",\n \"workflow\": {\n  \"id\": \"<string>\",\n  \"strategy\": \"copy\"\n },\n \"name\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "d9065a6f-6c75-4716-a36b-d90517a7ad1c",
+          "name": "Delete Project",
+          "request": {
+            "name": "Delete Project",
+            "description": {
+              "content": "Deletes a project.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) The project identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              }
+            ],
+            "method": "DELETE",
+            "auth": null
+          },
+          "event": []
+        },
+        {
+          "id": "14c93ba7-df51-492b-ab90-42997970e234",
           "name": "Start Project",
           "request": {
             "name": "Start Project",
@@ -1210,7 +1216,7 @@
           "event": []
         },
         {
-          "id": "59f5935a-91ea-41f9-bc3b-2a27f24dbfd7",
+          "id": "ead0f8c7-9719-40c6-baab-39d1036b5089",
           "name": "Complete Project",
           "request": {
             "name": "Complete Project",
@@ -1252,7 +1258,58 @@
           "event": []
         },
         {
-          "id": "26558e70-0242-447e-b35c-c31fe84a512e",
+          "id": "c49f0581-b823-4de7-904e-720ac7797f90",
+          "name": "Cancel Project File",
+          "request": {
+            "name": "Cancel Project File",
+            "description": {
+              "content": "Cancels a project file.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId",
+                "files",
+                ":fileId",
+                "cancel"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) The project identifier."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "fileId",
+                  "description": "(Required) The file identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              }
+            ],
+            "method": "PUT",
+            "auth": null
+          },
+          "event": []
+        },
+        {
+          "id": "d0812c34-86f2-4ccf-9b69-8e2acd4a3d5d",
           "name": "List Project's Tasks",
           "request": {
             "name": "List Project's Tasks",
@@ -1329,63 +1386,12 @@
             "auth": null
           },
           "event": []
-        },
-        {
-          "id": "7e386e4c-d1fa-4ace-b11c-7164f1001309",
-          "name": "Cancel Project File",
-          "request": {
-            "name": "Cancel Project File",
-            "description": {
-              "content": "Cancels a project file.",
-              "type": "text/plain"
-            },
-            "url": {
-              "path": [
-                "projects",
-                ":projectId",
-                "files",
-                ":fileId",
-                "cancel"
-              ],
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "query": [],
-              "variable": [
-                {
-                  "disabled": false,
-                  "type": "any",
-                  "value": "<string>",
-                  "key": "projectId",
-                  "description": "(Required) The project identifier."
-                },
-                {
-                  "disabled": false,
-                  "type": "any",
-                  "value": "<string>",
-                  "key": "fileId",
-                  "description": "(Required) The file identifier."
-                }
-              ]
-            },
-            "header": [
-              {
-                "disabled": false,
-                "description": "(Required) The identifier of the account where the request is executed.",
-                "key": "X-LC-Tenant",
-                "value": "{{lc_tenant}}"
-              }
-            ],
-            "method": "PUT",
-            "auth": null
-          },
-          "event": []
         }
       ],
       "event": []
     },
     {
-      "id": "9cd03875-fa8c-4a05-afab-22574f79c918",
+      "id": "b3c3eea2-0a37-4693-849b-3dd5ea10adf6",
       "name": "Project Template",
       "description": {
         "content": "",
@@ -1393,7 +1399,7 @@
       },
       "item": [
         {
-          "id": "d680346c-19ed-4599-9030-ed456901cad7",
+          "id": "11bd393d-7442-41c2-ac49-44ed81e8648a",
           "name": "Get Project Template",
           "request": {
             "name": "Get Project Template",
@@ -1441,7 +1447,7 @@
           "event": []
         },
         {
-          "id": "c516327f-013f-43ac-8fcc-9c4a788620e1",
+          "id": "12b84009-d62e-4dab-86c5-f90830ed0d0c",
           "name": "List Project Templates",
           "request": {
             "name": "List Project Templates",
@@ -1519,7 +1525,77 @@
       "event": []
     },
     {
-      "id": "7a04dcc2-2a20-465b-98bb-0d2766fbe79a",
+      "id": "ea07cd2d-5e7b-4de2-acc5-4bbb66626be1",
+      "name": "Public Keys",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "a7bc72f2-1634-4ad5-839e-3fdefad7821c",
+          "name": "List Public Keys",
+          "request": {
+            "name": "List Public Keys",
+            "description": {
+              "content": "List all available Public Keys.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                ".well-known",
+                "jwks.json"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "event": []
+        },
+        {
+          "id": "38435532-4d64-488a-a244-9fa253fa51a0",
+          "name": "Get Public Key",
+          "request": {
+            "name": "Get Public Key",
+            "description": {
+              "content": "Retrieves a public key by it's id.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                ".well-known",
+                "jwks.json",
+                ":kid"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "kid",
+                  "description": "(Required) The key id."
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "event": []
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "15207338-bc20-44d4-b23c-7a6d3c794214",
       "name": "Quote",
       "description": {
         "content": "",
@@ -1527,7 +1603,7 @@
       },
       "item": [
         {
-          "id": "6afb1400-42d6-4b23-ad19-5f7cb5b2fd49",
+          "id": "26dbdaa2-d735-49b7-8a7d-5a2a7f5d2352",
           "name": "Export Quote",
           "request": {
             "name": "Export Quote",
@@ -1591,7 +1667,7 @@
       "event": []
     },
     {
-      "id": "a27d8aec-09cc-4534-8fe7-ec5c6457aee6",
+      "id": "1d5491cf-4cc2-4863-8069-ed27ff59fb86",
       "name": "Source File",
       "description": {
         "content": "",
@@ -1599,7 +1675,7 @@
       },
       "item": [
         {
-          "id": "99723adb-9a31-41f3-8323-4c0ddfbb77c0",
+          "id": "390a9117-75a9-4ed1-8972-92738dc8d009",
           "name": "List Source Files",
           "request": {
             "name": "List Source Files",
@@ -1678,7 +1754,7 @@
           "event": []
         },
         {
-          "id": "19a1beda-5376-4b65-96a5-1950a001231a",
+          "id": "7785186e-72f4-4287-9983-fe8d597a236d",
           "name": "Add Source File",
           "request": {
             "name": "Add Source File",
@@ -1730,17 +1806,20 @@
                 },
                 {
                   "key": "properties",
-                  "value": "{\"name\":\"<string>\",\"role\":\"<string>\",\"type\":\"<string>\",\"language\":\"<string>\",\"targetLanguages\":[\"<string>\",\"<string>\"],\"path\":[\"<string>\",\"<string>\"]}",
+                  "value": "{\"name\":\"<string>\",\"role\":\"<string>\",\"type\":\"<string>\",\"language\":\"<string>\",\"path\":[\"<string>\",\"<string>\"],\"targetLanguages\":[\"<string>\",\"<string>\"]}",
                   "type": "text",
                   "description": "(Required) "
                 }
               ]
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "27491710-f365-4776-93f0-d49cc7b71f9d",
+          "id": "af909ff9-01e6-4064-af27-47da652a8ad9",
           "name": "Get Source File",
           "request": {
             "name": "Get Source File",
@@ -1797,7 +1876,7 @@
           "event": []
         },
         {
-          "id": "9fe9d0d0-102f-40fd-88aa-5c55645c4ad1",
+          "id": "612f3132-b07b-4e18-9f09-86743dec65b4",
           "name": "List Source File Versions",
           "request": {
             "name": "List Source File Versions",
@@ -1855,7 +1934,7 @@
           "event": []
         },
         {
-          "id": "bdb9b9d2-7d34-42b9-9a4f-f3645328b4b2",
+          "id": "f135394b-c24c-4d61-9dc5-c58e05ea6a34",
           "name": "Download Source File Version",
           "request": {
             "name": "Download Source File Version",
@@ -1918,7 +1997,7 @@
       "event": []
     },
     {
-      "id": "1f485414-5a5b-45c9-abd8-19956e44db8f",
+      "id": "e55a4cb2-bdee-4835-a10b-eb74bc86c95c",
       "name": "Target File",
       "description": {
         "content": "",
@@ -1926,7 +2005,7 @@
       },
       "item": [
         {
-          "id": "b76ce8ea-041f-48ad-ac88-30c096b27dee",
+          "id": "7e0f5af1-d9dd-4ab3-a79e-5ae3afe48229",
           "name": "Get Target File",
           "request": {
             "name": "Get Target File",
@@ -1983,7 +2062,7 @@
           "event": []
         },
         {
-          "id": "331a6fe8-c408-4a29-9328-b9611b9ec8fe",
+          "id": "0364c39e-6dcd-4e23-a1e8-b062ce689d14",
           "name": "List Target Files",
           "request": {
             "name": "List Target Files",
@@ -2056,7 +2135,7 @@
           "event": []
         },
         {
-          "id": "91a1fa1f-c393-495b-80e7-182ddcfc50f6",
+          "id": "fc4e05a2-0b36-4707-9f21-a32d2381df20",
           "name": "Get Target File Version",
           "request": {
             "name": "Get Target File Version",
@@ -2122,7 +2201,7 @@
           "event": []
         },
         {
-          "id": "4396b99e-9c72-468c-810f-1c82dcbe4630",
+          "id": "d19172a2-7a7a-48f2-b110-70457b730fa6",
           "name": "List Target File Versions",
           "request": {
             "name": "List Target File Versions",
@@ -2180,7 +2259,7 @@
           "event": []
         },
         {
-          "id": "04d1529b-011d-4fcf-9fb5-68e4a25fe02d",
+          "id": "b26acef6-569c-4d79-95df-fc06b03aed7f",
           "name": "Export Target File Version",
           "request": {
             "name": "Export Target File Version",
@@ -2247,7 +2326,7 @@
           "event": []
         },
         {
-          "id": "7229453c-6a9b-4a3a-9533-041e8c45871c",
+          "id": "d40094c7-0f40-4c8f-9a18-2a8e229f0fab",
           "name": "Poll Target File Version Export",
           "request": {
             "name": "Poll Target File Version Export",
@@ -2315,7 +2394,7 @@
           "event": []
         },
         {
-          "id": "4c7d3025-50d0-42a8-8aaa-5b723ef2417a",
+          "id": "0ebb13bf-bd56-4768-835b-0f298db06f46",
           "name": "Download Exported Target File Version",
           "request": {
             "name": "Download Exported Target File Version",
@@ -2384,7 +2463,7 @@
           "event": []
         },
         {
-          "id": "e5bf6719-ee65-448e-844e-81807dbabaae",
+          "id": "63f0ff6a-61ec-4b1f-81d7-23e65e0cb84f",
           "name": "Download Target File Version",
           "request": {
             "name": "Download Target File Version",
@@ -2444,7 +2523,7 @@
           "event": []
         },
         {
-          "id": "7ae5a533-cf0f-4fc0-a4e7-8fb0e80474b7",
+          "id": "cf0517b8-4780-49e9-bd70-4f387a707a14",
           "name": "Import Target File Version",
           "request": {
             "name": "Import Target File Version",
@@ -2503,14 +2582,23 @@
                   "key": "file",
                   "type": "file",
                   "description": ""
+                },
+                {
+                  "key": "amet_14f",
+                  "value": "79928497.50175118",
+                  "type": "text",
+                  "description": ""
                 }
               ]
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "6b6c929e-756f-4ec4-bd81-0f0df4a2de82",
+          "id": "7950f83e-456c-42d6-963e-e086f49e5d25",
           "name": "Poll Target File Version Import",
           "request": {
             "name": "Poll Target File Version Import",
@@ -2573,7 +2661,7 @@
       "event": []
     },
     {
-      "id": "a11ba12f-062a-41e7-a0f7-95cd04c8f6f8",
+      "id": "afdf1740-81bd-4b8f-9bd0-7388d9195af5",
       "name": "Task",
       "description": {
         "content": "",
@@ -2581,7 +2669,7 @@
       },
       "item": [
         {
-          "id": "e0f0c91a-94e0-4a8f-9294-f56bf7efdfec",
+          "id": "1446f0f7-0fe7-4e7f-a079-d8551b09b61d",
           "name": "Get Task",
           "request": {
             "name": "Get Task",
@@ -2629,7 +2717,7 @@
           "event": []
         },
         {
-          "id": "1c667ba5-1e82-4492-a229-4a5c1e4d6dca",
+          "id": "92494635-90cb-4870-a999-ad03303d05ff",
           "name": "List Tasks assigned to me",
           "request": {
             "name": "List Tasks assigned to me",
@@ -2705,7 +2793,7 @@
           "event": []
         },
         {
-          "id": "82b6afe8-2d3d-4319-ae5a-9414dcd37e02",
+          "id": "06f72d2a-7716-4124-8056-0a4bd30f1803",
           "name": "Accept Task",
           "request": {
             "name": "Accept Task",
@@ -2747,7 +2835,7 @@
           "event": []
         },
         {
-          "id": "2237b15f-d8db-4628-9e33-5ed1601c68e7",
+          "id": "07f082d5-3d06-42dc-9261-bbb4e70d4481",
           "name": "Reject Task",
           "request": {
             "name": "Reject Task",
@@ -2789,7 +2877,7 @@
           "event": []
         },
         {
-          "id": "017bba09-fa1b-414d-a5e4-57e190d54472",
+          "id": "fc3133c9-f2de-4687-8b9d-d64cb341b210",
           "name": "Complete Task",
           "request": {
             "name": "Complete Task",
@@ -2833,7 +2921,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"outcome\": \"<string>\",\n    \"comment\": \"<string>\"\n}",
+              "raw": "{\n \"outcome\": \"<string>\",\n \"comment\": \"<string>\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -2841,10 +2929,13 @@
               }
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "64564b0c-0ac0-419f-9a9f-f5ac5f43253a",
+          "id": "3c4c8691-13f2-459e-9ce1-41d3a1936089",
           "name": "Release Task",
           "request": {
             "name": "Release Task",
@@ -2886,7 +2977,7 @@
           "event": []
         },
         {
-          "id": "c9a3ea3b-efc7-41c6-abc0-07864f0ba99e",
+          "id": "ee6f318c-8319-414a-b8d5-250bb12a62e5",
           "name": "Reclaim Task",
           "request": {
             "name": "Reclaim Task",
@@ -2928,7 +3019,7 @@
           "event": []
         },
         {
-          "id": "96d4f612-e1f0-4421-8291-a96557878a2f",
+          "id": "9504e0db-2cf5-40ba-b44b-ce0af89aad31",
           "name": "Assign Task",
           "request": {
             "name": "Assign Task",
@@ -2972,7 +3063,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"assignees\": [\n        {\n            \"id\": \"<string>\",\n            \"type\": \"<string>\"\n        },\n        {\n            \"id\": \"<string>\",\n            \"type\": \"<string>\"\n        }\n    ]\n}",
+              "raw": "{\n \"assignees\": [\n  {\n   \"id\": \"<string>\",\n   \"type\": \"<string>\"\n  },\n  {\n   \"id\": \"<string>\",\n   \"type\": \"<string>\"\n  }\n ],\n \"ipsumae_\": false,\n \"adipisicingbdc\": -93766366,\n \"laborum_6\": 1569199,\n \"pariatur__5e\": false\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -2980,13 +3071,16 @@
               }
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         }
       ],
       "event": []
     },
     {
-      "id": "8827d4e4-fe19-468e-a0fa-a143a9d480e1",
+      "id": "a596cf96-4963-4600-9480-1a0f48ed42ad",
       "name": "Task Type",
       "description": {
         "content": "",
@@ -2994,7 +3088,7 @@
       },
       "item": [
         {
-          "id": "a00282e0-c2e5-43ff-9df6-1f2b890011f1",
+          "id": "223ab801-df15-4722-bf4c-3b949c0c2d6e",
           "name": "Get Task Type",
           "request": {
             "name": "Get Task Type",
@@ -3042,7 +3136,7 @@
           "event": []
         },
         {
-          "id": "884a5453-acdf-4db1-b4a5-23a8daf29b57",
+          "id": "8b0f128e-f6fc-4320-86a8-27c8ffe05bbd",
           "name": "List Task Types",
           "request": {
             "name": "List Task Types",
@@ -3126,7 +3220,7 @@
       "event": []
     },
     {
-      "id": "b0672bac-fab8-4d62-b9b8-c66edcc06b51",
+      "id": "7ba90ea0-64ca-4419-8876-07d7023304bd",
       "name": "Termbase",
       "description": {
         "content": "",
@@ -3134,7 +3228,7 @@
       },
       "item": [
         {
-          "id": "001739b8-100d-4dfa-858c-c9f48cc77916",
+          "id": "ab912750-51af-42fe-a040-ac6c63642404",
           "name": "List Termbases",
           "request": {
             "name": "List Termbases",
@@ -3197,7 +3291,7 @@
           "event": []
         },
         {
-          "id": "1da1e90a-8bbe-48bd-99ea-ef39bfd10b9f",
+          "id": "fa524987-2dae-411a-964e-8e0aaeccd98b",
           "name": "Create Termbase",
           "request": {
             "name": "Create Termbase",
@@ -3238,7 +3332,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"copyright\": \"<string>\",\n    \"location\": \"<string>\",\n    \"termbaseTemplateId\": \"<string>\",\n    \"termbaseStructure\": {\n        \"languages\": [\n            {\n                \"languageCode\": \"<string>\"\n            },\n            {\n                \"languageCode\": \"<string>\"\n            }\n        ],\n        \"fields\": [\n            {\n                \"name\": \"<string>\",\n                \"level\": \"<string>\",\n                \"dataType\": \"<string>\",\n                \"description\": \"<string>\",\n                \"pickListValues\": [\n                    \"<string>\"\n                ],\n                \"allowCustomValues\": false,\n                \"allowMultiple\": true,\n                \"isMandatory\": false\n            },\n            {\n                \"name\": \"<string>\",\n                \"level\": \"<string>\",\n                \"dataType\": \"<string>\",\n                \"description\": \"<string>\",\n                \"pickListValues\": [\n                    \"<string>\"\n                ],\n                \"allowCustomValues\": false,\n                \"allowMultiple\": true,\n                \"isMandatory\": false\n            }\n        ]\n    }\n}",
+              "raw": "{\n \"name\": \"<string>\",\n \"copyright\": \"<string>\",\n \"location\": \"<string>\",\n \"termbaseTemplateId\": \"<string>\",\n \"termbaseStructure\": {\n  \"languages\": [\n   {\n    \"languageCode\": \"<string>\"\n   },\n   {\n    \"languageCode\": \"<string>\"\n   }\n  ],\n  \"fields\": [\n   {\n    \"name\": \"<string>\",\n    \"level\": \"<string>\",\n    \"dataType\": \"<string>\",\n    \"isMandatory\": false\n   },\n   {\n    \"name\": \"<string>\",\n    \"level\": \"<string>\",\n    \"dataType\": \"<string>\",\n    \"pickListValues\": [\n     \"<string>\"\n    ],\n    \"isMandatory\": false\n   }\n  ]\n },\n \"description\": \"<string>\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -3246,10 +3340,13 @@
               }
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "2212ebc9-494d-46ca-af85-2e69bd8cdc83",
+          "id": "96eac9b9-3d33-435e-b4cd-0d853da54c6d",
           "name": "Get Termbase",
           "request": {
             "name": "Get Termbase",
@@ -3297,7 +3394,7 @@
           "event": []
         },
         {
-          "id": "f1c1054c-4fb2-4a34-82f5-979423fc7291",
+          "id": "bdce8563-2d91-4118-9d8a-ae0ba59a7ad1",
           "name": "Delete Termbase",
           "request": {
             "name": "Delete Termbase",
@@ -3338,7 +3435,7 @@
           "event": []
         },
         {
-          "id": "f3945de1-4eb0-46e1-aaaa-df9bd0d4c49b",
+          "id": "94c36280-99a0-4b14-b171-d69ed7b19bfe",
           "name": "Update Termbase",
           "request": {
             "name": "Update Termbase",
@@ -3381,7 +3478,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"copyright\": \"<string>\",\n    \"termbaseTemplateId\": \"<string>\",\n    \"termbaseStructure\": {\n        \"languages\": [\n            {\n                \"languageCode\": \"<string>\"\n            },\n            {\n                \"languageCode\": \"<string>\"\n            }\n        ],\n        \"fields\": [\n            {\n                \"name\": \"<string>\",\n                \"level\": \"<string>\",\n                \"dataType\": \"<string>\",\n                \"id\": \"<string>\",\n                \"description\": \"<string>\",\n                \"pickListValues\": [\n                    \"<string>\"\n                ],\n                \"allowCustomValues\": false,\n                \"allowMultiple\": true,\n                \"isMandatory\": false\n            },\n            {\n                \"name\": \"<string>\",\n                \"level\": \"<string>\",\n                \"dataType\": \"<string>\",\n                \"id\": \"<string>\",\n                \"description\": \"<string>\",\n                \"pickListValues\": [\n                    \"<string>\"\n                ],\n                \"allowCustomValues\": false,\n                \"allowMultiple\": true,\n                \"isMandatory\": false\n            }\n        ]\n    }\n}",
+              "raw": "{\n \"termbaseTemplateId\": \"<string>\",\n \"name\": \"<string>\",\n \"copyright\": \"<string>\",\n \"description\": \"<string>\",\n \"termbaseStructure\": {\n  \"fields\": [\n   {\n    \"name\": \"<string>\",\n    \"level\": \"<string>\",\n    \"dataType\": \"<string>\",\n    \"allowCustomValues\": false,\n    \"description\": \"<string>\",\n    \"pickListValues\": [\n     \"<string>\"\n    ],\n    \"isMandatory\": false,\n    \"id\": \"<string>\"\n   },\n   {\n    \"name\": \"<string>\",\n    \"level\": \"<string>\",\n    \"dataType\": \"<string>\",\n    \"pickListValues\": [\n     \"<string>\"\n    ],\n    \"description\": \"<string>\",\n    \"allowCustomValues\": false\n   }\n  ]\n }\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -3389,10 +3486,13 @@
               }
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "7fad3766-4eae-486c-a7bf-9ce736c39e17",
+          "id": "39ec61f0-9e2f-4c53-8ff4-03d8f367c17d",
           "name": "Create Termbase Entry",
           "request": {
             "name": "Create Termbase Entry",
@@ -3443,7 +3543,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"languages\": [\n        {\n            \"language\": {\n                \"languageCode\": \"<string>\"\n            },\n            \"terms\": [\n                {\n                    \"text\": \"<string>\",\n                    \"termbaseFieldValues\": [\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        },\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        }\n                    ]\n                },\n                {\n                    \"text\": \"<string>\",\n                    \"termbaseFieldValues\": [\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        },\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"termbaseFieldValues\": [\n                {\n                    \"termbaseFieldId\": \"<string>\",\n                    \"value\": \"<string>\",\n                    \"fieldValueLinks\": [\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        },\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        }\n                    ]\n                },\n                {\n                    \"termbaseFieldId\": \"<string>\",\n                    \"value\": \"<string>\",\n                    \"fieldValueLinks\": [\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        },\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"language\": {\n                \"languageCode\": \"<string>\"\n            },\n            \"terms\": [\n                {\n                    \"text\": \"<string>\",\n                    \"termbaseFieldValues\": [\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        },\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        }\n                    ]\n                },\n                {\n                    \"text\": \"<string>\",\n                    \"termbaseFieldValues\": [\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        },\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"termbaseFieldValues\": [\n                {\n                    \"termbaseFieldId\": \"<string>\",\n                    \"value\": \"<string>\",\n                    \"fieldValueLinks\": [\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        },\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        }\n                    ]\n                },\n                {\n                    \"termbaseFieldId\": \"<string>\",\n                    \"value\": \"<string>\",\n                    \"fieldValueLinks\": [\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        },\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ],\n    \"humanReadableId\": \"<string>\",\n    \"termbaseFieldValues\": [\n        {\n            \"termbaseFieldId\": \"<string>\",\n            \"value\": \"<string>\",\n            \"fieldValueLinks\": [\n                {\n                    \"type\": \"<string>\",\n                    \"value\": \"<string>\"\n                },\n                {\n                    \"type\": \"<string>\",\n                    \"value\": \"<string>\"\n                }\n            ]\n        },\n        {\n            \"termbaseFieldId\": \"<string>\",\n            \"value\": \"<string>\",\n            \"fieldValueLinks\": [\n                {\n                    \"type\": \"<string>\",\n                    \"value\": \"<string>\"\n                },\n                {\n                    \"type\": \"<string>\",\n                    \"value\": \"<string>\"\n                }\n            ]\n        }\n    ]\n}",
+              "raw": "{\n \"languages\": [\n  {\n   \"language\": {\n    \"languageCode\": \"<string>\"\n   },\n   \"terms\": [\n    {\n     \"text\": \"<string>\",\n     \"termbaseFieldValues\": [\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\"\n      },\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\",\n       \"fieldValueLinks\": [\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        },\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        }\n       ]\n      }\n     ]\n    },\n    {\n     \"text\": \"<string>\",\n     \"termbaseFieldValues\": [\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\",\n       \"fieldValueLinks\": [\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        },\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        }\n       ]\n      },\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\",\n       \"fieldValueLinks\": [\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        },\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        }\n       ]\n      }\n     ]\n    }\n   ],\n   \"termbaseFieldValues\": [\n    {\n     \"termbaseFieldId\": \"<string>\",\n     \"value\": \"<string>\",\n     \"fieldValueLinks\": [\n      {\n       \"type\": \"<string>\",\n       \"value\": \"<string>\"\n      },\n      {\n       \"type\": \"<string>\",\n       \"value\": \"<string>\"\n      }\n     ]\n    },\n    {\n     \"termbaseFieldId\": \"<string>\",\n     \"value\": \"<string>\"\n    }\n   ]\n  },\n  {\n   \"language\": {\n    \"languageCode\": \"<string>\"\n   },\n   \"terms\": [\n    {\n     \"text\": \"<string>\"\n    },\n    {\n     \"text\": \"<string>\",\n     \"termbaseFieldValues\": [\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\",\n       \"fieldValueLinks\": [\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        },\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        }\n       ]\n      },\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\",\n       \"fieldValueLinks\": [\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        },\n        {\n         \"type\": \"<string>\",\n         \"value\": \"<string>\"\n        }\n       ]\n      }\n     ]\n    }\n   ],\n   \"termbaseFieldValues\": [\n    {\n     \"termbaseFieldId\": \"<string>\",\n     \"value\": \"<string>\"\n    },\n    {\n     \"termbaseFieldId\": \"<string>\",\n     \"value\": \"<string>\",\n     \"fieldValueLinks\": [\n      {\n       \"type\": \"<string>\",\n       \"value\": \"<string>\"\n      },\n      {\n       \"type\": \"<string>\",\n       \"value\": \"<string>\"\n      }\n     ]\n    }\n   ]\n  }\n ],\n \"humanReadableId\": \"<string>\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -3451,10 +3551,13 @@
               }
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "148c860b-86c1-4055-a009-157e16a41490",
+          "id": "ac980664-6ff7-4da6-95ee-748acddee842",
           "name": "List Termbase Entries",
           "request": {
             "name": "List Termbase Entries",
@@ -3489,6 +3592,18 @@
                   "key": "fields",
                   "value": "<string>",
                   "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                },
+                {
+                  "disabled": true,
+                  "key": "humanReadableIds",
+                  "value": "<string>",
+                  "description": "Can provide a list of humanReadableId from entries to filter by."
+                },
+                {
+                  "disabled": true,
+                  "key": "humanReadableIds",
+                  "value": "<string>",
+                  "description": "Can provide a list of humanReadableId from entries to filter by."
                 }
               ],
               "variable": [
@@ -3515,7 +3630,7 @@
           "event": []
         },
         {
-          "id": "77ab58b7-b678-4522-84e9-afcbf136381b",
+          "id": "cb48e35d-ac51-457c-b3ec-8e5e1753115b",
           "name": "Delete Termbase Entries",
           "request": {
             "name": "Delete Termbase Entries",
@@ -3557,7 +3672,7 @@
           "event": []
         },
         {
-          "id": "a7ead93c-b589-45ba-8eaf-90584ce7d50e",
+          "id": "4ce24c34-1483-4886-b574-24e05c2a2b25",
           "name": "Get Termbase Entry",
           "request": {
             "name": "Get Termbase Entry",
@@ -3614,7 +3729,7 @@
           "event": []
         },
         {
-          "id": "526c75a9-91d2-4ed1-a89c-602440c06e9f",
+          "id": "add04b16-c21e-4994-a5a9-e3fb60b13ac3",
           "name": "Update Termbase Entry",
           "request": {
             "name": "Update Termbase Entry",
@@ -3666,7 +3781,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"languages\": [\n        {\n            \"id\": \"<string>\",\n            \"language\": {\n                \"languageCode\": \"<string>\"\n            },\n            \"terms\": [\n                {\n                    \"id\": \"<string>\",\n                    \"text\": \"<string>\",\n                    \"termbaseFieldValues\": [\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"id\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        },\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"id\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        }\n                    ]\n                },\n                {\n                    \"id\": \"<string>\",\n                    \"text\": \"<string>\",\n                    \"termbaseFieldValues\": [\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"id\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        },\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"id\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"termbaseFieldValues\": [\n                {\n                    \"termbaseFieldId\": \"<string>\",\n                    \"value\": \"<string>\",\n                    \"id\": \"<string>\",\n                    \"fieldValueLinks\": [\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        },\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        }\n                    ]\n                },\n                {\n                    \"termbaseFieldId\": \"<string>\",\n                    \"value\": \"<string>\",\n                    \"id\": \"<string>\",\n                    \"fieldValueLinks\": [\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        },\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"id\": \"<string>\",\n            \"language\": {\n                \"languageCode\": \"<string>\"\n            },\n            \"terms\": [\n                {\n                    \"id\": \"<string>\",\n                    \"text\": \"<string>\",\n                    \"termbaseFieldValues\": [\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"id\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        },\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"id\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        }\n                    ]\n                },\n                {\n                    \"id\": \"<string>\",\n                    \"text\": \"<string>\",\n                    \"termbaseFieldValues\": [\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"id\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        },\n                        {\n                            \"termbaseFieldId\": \"<string>\",\n                            \"value\": \"<string>\",\n                            \"id\": \"<string>\",\n                            \"fieldValueLinks\": [\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                },\n                                {\n                                    \"type\": \"<string>\",\n                                    \"value\": \"<string>\"\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"termbaseFieldValues\": [\n                {\n                    \"termbaseFieldId\": \"<string>\",\n                    \"value\": \"<string>\",\n                    \"id\": \"<string>\",\n                    \"fieldValueLinks\": [\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        },\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        }\n                    ]\n                },\n                {\n                    \"termbaseFieldId\": \"<string>\",\n                    \"value\": \"<string>\",\n                    \"id\": \"<string>\",\n                    \"fieldValueLinks\": [\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        },\n                        {\n                            \"type\": \"<string>\",\n                            \"value\": \"<string>\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ],\n    \"humanReadableId\": \"<string>\",\n    \"termbaseFieldValues\": [\n        {\n            \"termbaseFieldId\": \"<string>\",\n            \"value\": \"<string>\",\n            \"id\": \"<string>\",\n            \"fieldValueLinks\": [\n                {\n                    \"type\": \"<string>\",\n                    \"value\": \"<string>\"\n                },\n                {\n                    \"type\": \"<string>\",\n                    \"value\": \"<string>\"\n                }\n            ]\n        },\n        {\n            \"termbaseFieldId\": \"<string>\",\n            \"value\": \"<string>\",\n            \"id\": \"<string>\",\n            \"fieldValueLinks\": [\n                {\n                    \"type\": \"<string>\",\n                    \"value\": \"<string>\"\n                },\n                {\n                    \"type\": \"<string>\",\n                    \"value\": \"<string>\"\n                }\n            ]\n        }\n    ]\n}",
+              "raw": "{\n \"languages\": [\n  {\n   \"id\": \"<string>\",\n   \"language\": {\n    \"languageCode\": \"<string>\"\n   },\n   \"terms\": [\n    {\n     \"text\": \"<string>\",\n     \"termbaseFieldValues\": [\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\",\n       \"fieldValueLinks\": [\n        {\n         \"value\": \"<string>\",\n         \"type\": \"<string>\"\n        },\n        {\n         \"value\": \"<string>\"\n        }\n       ],\n       \"id\": \"<string>\"\n      },\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\",\n       \"id\": \"<string>\"\n      }\n     ],\n     \"id\": \"<string>\"\n    },\n    {\n     \"text\": \"<string>\",\n     \"termbaseFieldValues\": [\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\"\n      },\n      {\n       \"termbaseFieldId\": \"<string>\",\n       \"value\": \"<string>\",\n       \"id\": \"<string>\"\n      }\n     ]\n    }\n   ],\n   \"termbaseFieldValues\": [\n    {\n     \"termbaseFieldId\": \"<string>\",\n     \"value\": \"<string>\",\n     \"fieldValueLinks\": [\n      {\n       \"value\": \"<string>\",\n       \"type\": \"<string>\"\n      },\n      {\n       \"type\": \"<string>\"\n      }\n     ]\n    },\n    {\n     \"termbaseFieldId\": \"<string>\",\n     \"value\": \"<string>\",\n     \"fieldValueLinks\": [\n      {\n       \"value\": \"<string>\"\n      },\n      {\n       \"value\": \"<string>\"\n      }\n     ],\n     \"id\": \"<string>\"\n    }\n   ]\n  },\n  {\n   \"id\": \"<string>\",\n   \"language\": {\n    \"languageCode\": \"<string>\"\n   },\n   \"terms\": [\n    {\n     \"text\": \"<string>\"\n    },\n    {\n     \"text\": \"<string>\"\n    }\n   ],\n   \"termbaseFieldValues\": [\n    {\n     \"termbaseFieldId\": \"<string>\",\n     \"value\": \"<string>\",\n     \"fieldValueLinks\": [\n      {\n       \"type\": \"<string>\"\n      }\n     ]\n    },\n    {\n     \"termbaseFieldId\": \"<string>\",\n     \"value\": \"<string>\",\n     \"id\": \"<string>\"\n    }\n   ]\n  }\n ],\n \"termbaseFieldValues\": [\n  {\n   \"termbaseFieldId\": \"<string>\",\n   \"value\": \"<string>\",\n   \"fieldValueLinks\": [\n    {\n     \"value\": \"<string>\"\n    },\n    {\n     \"value\": \"<string>\"\n    }\n   ]\n  },\n  {\n   \"termbaseFieldId\": \"<string>\",\n   \"value\": \"<string>\",\n   \"fieldValueLinks\": [\n    {\n     \"value\": \"<string>\"\n    }\n   ],\n   \"id\": \"<string>\"\n  }\n ]\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -3674,10 +3789,13 @@
               }
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "3752c270-5438-40a7-a03f-ea8916d64e65",
+          "id": "b1200091-7f44-479a-a89a-88cfc99297d9",
           "name": "Delete Termbase Entry",
           "request": {
             "name": "Delete Termbase Entry",
@@ -3727,7 +3845,7 @@
           "event": []
         },
         {
-          "id": "6d81a664-970b-4162-a678-feaed364a1b0",
+          "id": "8be25380-2ba8-4e05-8238-66ba5d1ba1a9",
           "name": "List Termbase Terms",
           "request": {
             "name": "List Termbase Terms",
@@ -3811,7 +3929,7 @@
       "event": []
     },
     {
-      "id": "f6ad1a04-d6d9-4697-86d7-acbf8fe83300",
+      "id": "5c2f05c6-8990-4f85-852d-d6a1d1f6653e",
       "name": "Termbase Template",
       "description": {
         "content": "",
@@ -3819,7 +3937,7 @@
       },
       "item": [
         {
-          "id": "b572104c-a7c6-4553-a66f-ad2c73a78bf4",
+          "id": "ef87f22a-be2b-452c-a0d6-9b530931c0a6",
           "name": "List Termbase Templates",
           "request": {
             "name": "List Termbase Templates",
@@ -3882,7 +4000,7 @@
           "event": []
         },
         {
-          "id": "d2e7b430-29a4-42a8-a122-c36a47b8af77",
+          "id": "47e6eb28-95c4-4a51-80e3-bb2f8a21abb7",
           "name": "Create Termbase Template",
           "request": {
             "name": "Create Termbase Template",
@@ -3923,7 +4041,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"copyright\": \"<string>\",\n    \"location\": \"<string>\",\n    \"languages\": [\n        {\n            \"languageCode\": \"<string>\"\n        },\n        {\n            \"languageCode\": \"<string>\"\n        }\n    ],\n    \"fields\": [\n        {\n            \"name\": \"<string>\",\n            \"level\": \"<string>\",\n            \"dataType\": \"<string>\",\n            \"description\": \"<string>\",\n            \"pickListValues\": [\n                \"<string>\"\n            ],\n            \"allowCustomValues\": false,\n            \"allowMultiple\": true,\n            \"isMandatory\": false\n        },\n        {\n            \"name\": \"<string>\",\n            \"level\": \"<string>\",\n            \"dataType\": \"<string>\",\n            \"description\": \"<string>\",\n            \"pickListValues\": [\n                \"<string>\"\n            ],\n            \"allowCustomValues\": false,\n            \"allowMultiple\": true,\n            \"isMandatory\": false\n        }\n    ]\n}",
+              "raw": "{\n \"name\": \"<string>\",\n \"description\": \"<string>\",\n \"location\": \"<string>\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -3931,10 +4049,13 @@
               }
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "609ed49f-5d6d-40ef-8b98-fd4e582b6cc5",
+          "id": "a1c4fa22-7d71-4afd-b711-d9bdcdbe5eae",
           "name": "Get Termbase Template",
           "request": {
             "name": "Get Termbase Template",
@@ -3982,7 +4103,7 @@
           "event": []
         },
         {
-          "id": "993a6fe1-11a6-4a1a-b483-d3ad7d85823e",
+          "id": "db0ab643-c047-4c10-9116-aa6e88b42058",
           "name": "Delete Termbase Template",
           "request": {
             "name": "Delete Termbase Template",
@@ -4023,7 +4144,7 @@
           "event": []
         },
         {
-          "id": "a24dbe4b-95e7-4d4b-bde7-7cb3de2d5d35",
+          "id": "5bc7b36e-f88a-4985-bdbf-52d4dafe7912",
           "name": "Update Termbase Template",
           "request": {
             "name": "Update Termbase Template",
@@ -4066,7 +4187,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"copyright\": \"<string>\",\n    \"languages\": [\n        {\n            \"languageCode\": \"<string>\"\n        },\n        {\n            \"languageCode\": \"<string>\"\n        }\n    ],\n    \"fields\": [\n        {\n            \"name\": \"<string>\",\n            \"level\": \"<string>\",\n            \"dataType\": \"<string>\",\n            \"id\": \"<string>\",\n            \"description\": \"<string>\",\n            \"pickListValues\": [\n                \"<string>\"\n            ],\n            \"allowCustomValues\": false,\n            \"allowMultiple\": true,\n            \"isMandatory\": false\n        },\n        {\n            \"name\": \"<string>\",\n            \"level\": \"<string>\",\n            \"dataType\": \"<string>\",\n            \"id\": \"<string>\",\n            \"description\": \"<string>\",\n            \"pickListValues\": [\n                \"<string>\"\n            ],\n            \"allowCustomValues\": false,\n            \"allowMultiple\": true,\n            \"isMandatory\": false\n        }\n    ]\n}",
+              "raw": "{}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -4074,13 +4195,261 @@
               }
             }
           },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "84e47ebe-8eb1-4fef-a6bb-c6610e1305c9",
+      "name": "Termbase Import",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "1cf2f74c-48fe-4b19-9b11-e10513be710d",
+          "name": "Get Termbase Import History",
+          "request": {
+            "name": "Get Termbase Import History",
+            "description": {
+              "content": "Gets the import history for a termbase.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "termbases",
+                ":termbaseId",
+                "imports"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                },
+                {
+                  "disabled": true,
+                  "key": "top",
+                  "value": "100",
+                  "description": "The number of items to include inside the page."
+                },
+                {
+                  "disabled": true,
+                  "key": "skip",
+                  "value": "0",
+                  "description": "The number of items that are skipped to reach the desired page."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "termbaseId",
+                  "description": "(Required) The termbase identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": []
+        },
+        {
+          "id": "63096daa-f5d6-4eb0-829e-ab2809d4bf8b",
+          "name": "Import Termbase",
+          "request": {
+            "name": "Import Termbase",
+            "description": {
+              "content": "Generates an asynchronous import operation.<br>\nUse the Poll Import Termbase endpoint to poll until the import status is `done`.<br>",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "termbases",
+                ":termbaseId",
+                "imports"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "strictImport",
+                  "value": "true",
+                  "description": "Specifies if the entries are only imported into the exact language that matches your imported file.<br> `true` - The import will only occur if the language in your import file matches exactly with a language in your termbase.<br> `false` - The import will occur even there are non-matching languages, by trying to match them to a relevant main language or language variant, if available."
+                },
+                {
+                  "disabled": true,
+                  "key": "duplicateEntriesStrategy",
+                  "value": "overwrite",
+                  "description": "The strategy for duplicate entries. Determines how the duplicate entries will be handled.<br> `ignore` - The content of the current entry with the same ID will be kept, and the new entry will be ignored<br> `merge` - The content of the current entry with the same ID will be merged with the imported entry. If the ID is not provided the content will be merged by text.<br> `overwrite` - The content of the current entry with the same ID will be replaced by the imported entry."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "termbaseId",
+                  "description": "(Required) The termbase identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "multipart/form-data"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "file",
+                  "type": "file",
+                  "description": "(Required) The file to import into the termbase.<br>\nAccepted file types: <b>.xml</b>, <b>.tbx</b>\n<br>\nIt's recommended you do not exceed 10Mb file size for tembase imports."
+                }
+              ]
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "68cfad19-2f38-4bc8-9162-f737e5c0e405",
+          "name": "Poll Termbase Import",
+          "request": {
+            "name": "Poll Termbase Import",
+            "description": {
+              "content": "Polls a termbase import operation.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "termbases",
+                ":termbaseId",
+                "imports",
+                ":importId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "termbaseId",
+                  "description": "(Required) The termbase identifier."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "importId",
+                  "description": "(Required) The import identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": []
+        },
+        {
+          "id": "7d9ad6e7-378c-41b4-9899-30a96d207145",
+          "name": "Download Termbase Import Logs",
+          "request": {
+            "name": "Download Termbase Import Logs",
+            "description": {
+              "content": "Downloads the termbase import logs.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "termbases",
+                ":termbaseId",
+                "imports",
+                ":importId",
+                "logs"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "termbaseId",
+                  "description": "(Required) The termbase identifier."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "importId",
+                  "description": "(Required) The import identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
           "event": []
         }
       ],
       "event": []
     },
     {
-      "id": "28ad22fe-f2e3-4aa4-b6c2-e1daa4e194f7",
+      "id": "06ce4ee7-f9a5-4b5a-a99b-525ac8646971",
       "name": "TQA Profile",
       "description": {
         "content": "",
@@ -4088,7 +4457,7 @@
       },
       "item": [
         {
-          "id": "4798e96f-26f6-48cb-b407-10cab32b96a5",
+          "id": "c9e34cf4-e922-43a7-b25c-b8a06e0f4c3c",
           "name": "List TQA Profiles",
           "request": {
             "name": "List TQA Profiles",
@@ -4157,7 +4526,7 @@
           "event": []
         },
         {
-          "id": "989b35e0-9398-4af1-8159-1da34f1c2e1b",
+          "id": "dab1306c-5549-43cb-b960-b184db4f6675",
           "name": "Get TQA Profile",
           "request": {
             "name": "Get TQA Profile",
@@ -4208,7 +4577,7 @@
       "event": []
     },
     {
-      "id": "c55805dd-e346-44ac-bd23-dc0057f636cc",
+      "id": "de273c32-db75-4469-a0cd-0088e81186d3",
       "name": "Translation Engine",
       "description": {
         "content": "",
@@ -4216,7 +4585,7 @@
       },
       "item": [
         {
-          "id": "a7e6f7c3-5ecb-43c0-8d1e-cdc6e5ea3ea2",
+          "id": "86695a57-70b0-4d8c-8e7f-8d21cb2bdb49",
           "name": "Get Translation Engine",
           "request": {
             "name": "Get Translation Engine",
@@ -4264,7 +4633,7 @@
           "event": []
         },
         {
-          "id": "b26df6d2-d9c9-42a6-a832-21d9ff14affc",
+          "id": "444c1cf3-daca-4051-a652-9ae665923061",
           "name": "List Translation Engines",
           "request": {
             "name": "List Translation Engines",
@@ -4336,7 +4705,7 @@
       "event": []
     },
     {
-      "id": "bb5935f2-ef97-4c02-a836-4602f52ab1bf",
+      "id": "d78e6c41-716a-42de-8663-bddf8c0103ab",
       "name": "User",
       "description": {
         "content": "",
@@ -4344,7 +4713,7 @@
       },
       "item": [
         {
-          "id": "01eb9f80-2a77-489f-a9e5-71c9b051ac68",
+          "id": "ff40d68e-087a-4a5c-9d07-099939d29658",
           "name": "Get my User",
           "request": {
             "name": "Get my User",
@@ -4384,7 +4753,7 @@
           "event": []
         },
         {
-          "id": "0ae9dbdd-1956-481d-bf4e-cc884fcfe073",
+          "id": "fd8a823a-a3ef-4910-8b2a-0773a62648ee",
           "name": "List Users",
           "request": {
             "name": "List Users",
@@ -4453,7 +4822,7 @@
           "event": []
         },
         {
-          "id": "5eac9956-1b80-42c2-a5bb-fdab1f6bf93c",
+          "id": "e6c2efe6-c23c-4563-87b8-df52e3e6bfe5",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -4504,7 +4873,7 @@
       "event": []
     },
     {
-      "id": "5582e86d-ea61-4b1b-9752-5fe224cc8b73",
+      "id": "fd73c651-f051-4f5d-81ce-161e63de28a9",
       "name": "Workflow",
       "description": {
         "content": "",
@@ -4512,7 +4881,7 @@
       },
       "item": [
         {
-          "id": "2a66bbf1-5d5d-4d9e-9184-879504f520e9",
+          "id": "dbc42834-041a-4841-91d7-b38b8ca1e6e9",
           "name": "Get Workflow",
           "request": {
             "name": "Get Workflow",
@@ -4560,7 +4929,7 @@
           "event": []
         },
         {
-          "id": "bcbce3da-8a79-4341-b6de-644e17efb93d",
+          "id": "616195c3-e6ba-446b-ac8a-31043f85a375",
           "name": "Update Workflow",
           "request": {
             "name": "Update Workflow",
@@ -4603,7 +4972,7 @@
             "auth": null,
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"name\": \"<string>\",\n    \"description\": \"<string>\",\n    \"taskConfigurations\": [\n        {\n            \"taskTemplate\": {\n                \"id\": \"<string>\"\n            },\n            \"isSkipped\": \"<boolean>\",\n            \"assignees\": [\n                {\n                    \"type\": \"<string>\",\n                    \"user\": {\n                        \"id\": \"<string>\",\n                        \"email\": \"<string>\",\n                        \"firstName\": \"<string>\",\n                        \"lastName\": \"<string>\",\n                        \"location\": {\n                            \"id\": \"<string>\",\n                            \"name\": \"<string>\"\n                        },\n                        \"groups\": [\n                            {\n                                \"id\": \"<string>\",\n                                \"name\": \"<string>\",\n                                \"description\": \"<string>\",\n                                \"location\": {\n                                    \"id\": \"<string>\",\n                                    \"name\": \"<string>\"\n                                },\n                                \"users\": [\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    },\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    }\n                                ]\n                            },\n                            {\n                                \"id\": \"<string>\",\n                                \"name\": \"<string>\",\n                                \"description\": \"<string>\",\n                                \"location\": {\n                                    \"id\": \"<string>\",\n                                    \"name\": \"<string>\"\n                                },\n                                \"users\": [\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    },\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    }\n                                ]\n                            }\n                        ],\n                        \"anonymized\": \"<boolean>\",\n                        \"anonymizedUserName\": \"<string>\"\n                    },\n                    \"group\": {\n                        \"id\": \"<string>\",\n                        \"name\": \"<string>\",\n                        \"description\": \"<string>\",\n                        \"location\": {\n                            \"id\": \"<string>\",\n                            \"name\": \"<string>\"\n                        },\n                        \"users\": [\n                            {\n                                \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                            },\n                            {\n                                \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                            }\n                        ]\n                    },\n                    \"vendorOrderTemplate\": {\n                        \"id\": \"<string>\"\n                    }\n                },\n                {\n                    \"type\": \"<string>\",\n                    \"user\": {\n                        \"id\": \"<string>\",\n                        \"email\": \"<string>\",\n                        \"firstName\": \"<string>\",\n                        \"lastName\": \"<string>\",\n                        \"location\": {\n                            \"id\": \"<string>\",\n                            \"name\": \"<string>\"\n                        },\n                        \"groups\": [\n                            {\n                                \"id\": \"<string>\",\n                                \"name\": \"<string>\",\n                                \"description\": \"<string>\",\n                                \"location\": {\n                                    \"id\": \"<string>\",\n                                    \"name\": \"<string>\"\n                                },\n                                \"users\": [\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    },\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    }\n                                ]\n                            },\n                            {\n                                \"id\": \"<string>\",\n                                \"name\": \"<string>\",\n                                \"description\": \"<string>\",\n                                \"location\": {\n                                    \"id\": \"<string>\",\n                                    \"name\": \"<string>\"\n                                },\n                                \"users\": [\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    },\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    }\n                                ]\n                            }\n                        ],\n                        \"anonymized\": \"<boolean>\",\n                        \"anonymizedUserName\": \"<string>\"\n                    },\n                    \"group\": {\n                        \"id\": \"<string>\",\n                        \"name\": \"<string>\",\n                        \"description\": \"<string>\",\n                        \"location\": {\n                            \"id\": \"<string>\",\n                            \"name\": \"<string>\"\n                        },\n                        \"users\": [\n                            {\n                                \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                            },\n                            {\n                                \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                            }\n                        ]\n                    },\n                    \"vendorOrderTemplate\": {\n                        \"id\": \"<string>\"\n                    }\n                }\n            ],\n            \"scope\": {\n                \"type\": \"<string>\",\n                \"targetLanguage\": {\n                    \"languageCode\": \"<string>\"\n                }\n            }\n        },\n        {\n            \"taskTemplate\": {\n                \"id\": \"<string>\"\n            },\n            \"isSkipped\": \"<boolean>\",\n            \"assignees\": [\n                {\n                    \"type\": \"<string>\",\n                    \"user\": {\n                        \"id\": \"<string>\",\n                        \"email\": \"<string>\",\n                        \"firstName\": \"<string>\",\n                        \"lastName\": \"<string>\",\n                        \"location\": {\n                            \"id\": \"<string>\",\n                            \"name\": \"<string>\"\n                        },\n                        \"groups\": [\n                            {\n                                \"id\": \"<string>\",\n                                \"name\": \"<string>\",\n                                \"description\": \"<string>\",\n                                \"location\": {\n                                    \"id\": \"<string>\",\n                                    \"name\": \"<string>\"\n                                },\n                                \"users\": [\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    },\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    }\n                                ]\n                            },\n                            {\n                                \"id\": \"<string>\",\n                                \"name\": \"<string>\",\n                                \"description\": \"<string>\",\n                                \"location\": {\n                                    \"id\": \"<string>\",\n                                    \"name\": \"<string>\"\n                                },\n                                \"users\": [\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    },\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    }\n                                ]\n                            }\n                        ],\n                        \"anonymized\": \"<boolean>\",\n                        \"anonymizedUserName\": \"<string>\"\n                    },\n                    \"group\": {\n                        \"id\": \"<string>\",\n                        \"name\": \"<string>\",\n                        \"description\": \"<string>\",\n                        \"location\": {\n                            \"id\": \"<string>\",\n                            \"name\": \"<string>\"\n                        },\n                        \"users\": [\n                            {\n                                \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                            },\n                            {\n                                \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                            }\n                        ]\n                    },\n                    \"vendorOrderTemplate\": {\n                        \"id\": \"<string>\"\n                    }\n                },\n                {\n                    \"type\": \"<string>\",\n                    \"user\": {\n                        \"id\": \"<string>\",\n                        \"email\": \"<string>\",\n                        \"firstName\": \"<string>\",\n                        \"lastName\": \"<string>\",\n                        \"location\": {\n                            \"id\": \"<string>\",\n                            \"name\": \"<string>\"\n                        },\n                        \"groups\": [\n                            {\n                                \"id\": \"<string>\",\n                                \"name\": \"<string>\",\n                                \"description\": \"<string>\",\n                                \"location\": {\n                                    \"id\": \"<string>\",\n                                    \"name\": \"<string>\"\n                                },\n                                \"users\": [\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    },\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    }\n                                ]\n                            },\n                            {\n                                \"id\": \"<string>\",\n                                \"name\": \"<string>\",\n                                \"description\": \"<string>\",\n                                \"location\": {\n                                    \"id\": \"<string>\",\n                                    \"name\": \"<string>\"\n                                },\n                                \"users\": [\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    },\n                                    {\n                                        \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                                    }\n                                ]\n                            }\n                        ],\n                        \"anonymized\": \"<boolean>\",\n                        \"anonymizedUserName\": \"<string>\"\n                    },\n                    \"group\": {\n                        \"id\": \"<string>\",\n                        \"name\": \"<string>\",\n                        \"description\": \"<string>\",\n                        \"location\": {\n                            \"id\": \"<string>\",\n                            \"name\": \"<string>\"\n                        },\n                        \"users\": [\n                            {\n                                \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                            },\n                            {\n                                \"value\": \"<Circular reference to #/components/schemas/user-request detected>\"\n                            }\n                        ]\n                    },\n                    \"vendorOrderTemplate\": {\n                        \"id\": \"<string>\"\n                    }\n                }\n            ],\n            \"scope\": {\n                \"type\": \"<string>\",\n                \"targetLanguage\": {\n                    \"languageCode\": \"<string>\"\n                }\n            }\n        }\n    ]\n}",
+              "raw": "{\n \"name\": \"<string>\",\n \"description\": \"<string>\"\n}",
               "options": {
                 "raw": {
                   "language": "json"
@@ -4611,10 +4980,13 @@
               }
             }
           },
-          "event": []
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
         },
         {
-          "id": "408f9aa5-b871-4efb-b22f-046fba6df9d5",
+          "id": "ed8a5d17-45b9-4fd9-81f6-6ca350465422",
           "name": "List Workflows",
           "request": {
             "name": "List Workflows",
@@ -4769,7 +5141,7 @@
     }
   ],
   "info": {
-    "_postman_id": "cf3fbf9d-fb09-4c99-9759-47547c3d6069",
+    "_postman_id": "7ec59cc5-0667-45e5-b1fa-6bfea775e370",
     "name": "Public API Live API.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
