@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "a7b3a332-be0a-40bd-99a4-c5d9c99e34ee",
+      "id": "1d8cf496-3238-4af9-885e-3acf84a18ce7",
       "name": "Account",
       "description": {
         "content": "",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "8a40c143-a2a7-448a-aaac-5cc269c20a98",
+          "id": "3716f3b6-f378-4d7c-af6e-070ab624a991",
           "name": "List my Accounts",
           "request": {
             "name": "List my Accounts",
@@ -48,7 +48,7 @@
       "event": []
     },
     {
-      "id": "cc9000f1-b8b4-4a8f-a95c-6bbc8a6dc6f9",
+      "id": "145e4a7c-d3a1-41fe-b8c7-be5bb53147f7",
       "name": "Custom Field",
       "description": {
         "content": "",
@@ -56,7 +56,7 @@
       },
       "item": [
         {
-          "id": "b3191906-ad74-43b5-a875-6955c7cc264e",
+          "id": "ad70765b-437f-440a-a67f-47baed88e7ab",
           "name": "List Custom Field Definitions",
           "request": {
             "name": "List Custom Field Definitions",
@@ -129,7 +129,7 @@
           "event": []
         },
         {
-          "id": "ef6e67bb-a651-4ae6-8094-023b1475657e",
+          "id": "31bcdfc2-618c-4143-91e2-1b0dcb98810f",
           "name": "Get Custom Field Definition",
           "request": {
             "name": "Get Custom Field Definition",
@@ -184,7 +184,7 @@
       "event": []
     },
     {
-      "id": "77bf9111-e18e-49be-a6af-64592717cdb6",
+      "id": "982a6f89-1784-45d7-851e-2753477b9b70",
       "name": "Customer",
       "description": {
         "content": "",
@@ -192,7 +192,7 @@
       },
       "item": [
         {
-          "id": "459770f7-4e86-4b7a-a663-cbf582cc3514",
+          "id": "ab4fec82-b25b-4e76-9650-35d6bdd93df7",
           "name": "Get Customer",
           "request": {
             "name": "Get Customer",
@@ -244,7 +244,7 @@
           "event": []
         },
         {
-          "id": "862f92f5-9f49-43dc-bc71-2aa88bca1c35",
+          "id": "1fcd7542-8350-43ca-b4e8-72224a50be92",
           "name": "List Customers",
           "request": {
             "name": "List Customers",
@@ -320,7 +320,7 @@
       "event": []
     },
     {
-      "id": "2086e284-183f-41ca-916f-a25461eb0541",
+      "id": "c37af9d3-2df7-4178-bf57-2a99c1edb557",
       "name": "File Processing Configuration",
       "description": {
         "content": "",
@@ -328,7 +328,7 @@
       },
       "item": [
         {
-          "id": "ec0c9fc5-0098-46a3-a0f8-24e6c6e8710e",
+          "id": "2ecc53fd-dcf7-482c-9960-6a5058d0d8f6",
           "name": "Get File Processing Configuration",
           "request": {
             "name": "Get File Processing Configuration",
@@ -380,7 +380,7 @@
           "event": []
         },
         {
-          "id": "abcd4e9a-fa22-4ba7-814c-d71f83de46d1",
+          "id": "c8afa59d-8f95-463f-b191-ee8436d6ea4d",
           "name": "List File Processing Configurations",
           "request": {
             "name": "List File Processing Configurations",
@@ -456,7 +456,7 @@
       "event": []
     },
     {
-      "id": "c5c06604-015c-4cb0-826b-ab2d4f314180",
+      "id": "c646f81d-363a-4971-aeb0-6b5af9bbec6a",
       "name": "File",
       "description": {
         "content": "",
@@ -464,7 +464,7 @@
       },
       "item": [
         {
-          "id": "0293c619-fd4a-49e5-aa7d-9a077eeb2bc7",
+          "id": "3854b624-01d7-4898-a488-935659e07351",
           "name": "Upload Zip File",
           "request": {
             "name": "Upload Zip File",
@@ -505,9 +505,8 @@
               "formdata": [
                 {
                   "key": "file",
-                  "value": "<byte>",
-                  "type": "text",
-                  "description": "The .zip file to be uploaded.  "
+                  "type": "file",
+                  "description": "(Required) The .zip file to be uploaded.  "
                 }
               ]
             }
@@ -518,7 +517,7 @@
           }
         },
         {
-          "id": "0c3a201a-57d7-4701-8579-9c6cfe2035c0",
+          "id": "3ee90279-3b94-4038-88d9-e7ff61b6e914",
           "name": "Poll Upload Zip File",
           "request": {
             "name": "Poll Upload Zip File",
@@ -566,7 +565,7 @@
       "event": []
     },
     {
-      "id": "bbdfd6f1-9fd8-4145-b13a-9ee7a2cd0399",
+      "id": "24e010e3-8827-415f-aff7-42f90623477a",
       "name": "Folder",
       "description": {
         "content": "",
@@ -574,7 +573,7 @@
       },
       "item": [
         {
-          "id": "0c415329-faa2-42f8-9d88-4c3ed8a9a2d7",
+          "id": "58b7d2c2-6fed-440a-9be2-7773f09a6f38",
           "name": "Get Folder",
           "request": {
             "name": "Get Folder",
@@ -626,7 +625,7 @@
           "event": []
         },
         {
-          "id": "360e8331-c828-4095-b68e-70ec0ad76e56",
+          "id": "e489506c-a586-4670-acce-7dab907c9abd",
           "name": "Get Root Folder",
           "request": {
             "name": "Get Root Folder",
@@ -670,7 +669,7 @@
           "event": []
         },
         {
-          "id": "ee1cd6ad-0f14-4e56-871c-f4dbba883985",
+          "id": "df462ade-13f3-43d9-923e-429181e9c831",
           "name": "List Folders",
           "request": {
             "name": "List Folders",
@@ -722,7 +721,7 @@
       "event": []
     },
     {
-      "id": "65136508-92c1-46d9-b843-c73608fdf757",
+      "id": "d3a236df-5fc0-492d-a90f-28a62e9793d9",
       "name": "Group",
       "description": {
         "content": "",
@@ -730,7 +729,7 @@
       },
       "item": [
         {
-          "id": "cfe381d6-ad8b-431f-b924-d59fdebef170",
+          "id": "4b9d393f-d898-481c-ab5b-65d26ac7bab9",
           "name": "Get Group",
           "request": {
             "name": "Get Group",
@@ -782,7 +781,7 @@
           "event": []
         },
         {
-          "id": "3e3c71aa-f9fa-475d-ab71-e18a6c0de766",
+          "id": "5e98a9b4-f7fa-4b96-894a-06137c609f7d",
           "name": "List Groups",
           "request": {
             "name": "List Groups",
@@ -858,7 +857,7 @@
       "event": []
     },
     {
-      "id": "15e1f069-7c31-466c-b764-a03da8f350ee",
+      "id": "f4a02edb-df9f-4a79-82ed-7f7a8851c6e5",
       "name": "Language",
       "description": {
         "content": "",
@@ -866,7 +865,7 @@
       },
       "item": [
         {
-          "id": "852b2108-293e-4362-827a-9e17ff52fc01",
+          "id": "4110b909-b799-4c9c-8a34-17b2c57dbd02",
           "name": "List Languages",
           "request": {
             "name": "List Languages",
@@ -924,7 +923,7 @@
       "event": []
     },
     {
-      "id": "116599c9-8bc7-44c9-b0f9-c7c431ba0684",
+      "id": "fd728a5f-0bb5-43c0-a0d8-5254ae0111a5",
       "name": "Pricing Model",
       "description": {
         "content": "",
@@ -932,7 +931,7 @@
       },
       "item": [
         {
-          "id": "0c1a7f21-cdff-4f3e-834b-cb202f83a309",
+          "id": "a942be4e-fc37-4012-8db8-08ecd765d6af",
           "name": "List Pricing Models",
           "request": {
             "name": "List Pricing Models",
@@ -1005,7 +1004,7 @@
           "event": []
         },
         {
-          "id": "63e32c45-1400-4985-85f0-f61cfc769d88",
+          "id": "4c88f368-73eb-49b7-b4e3-da2a8b15070a",
           "name": "Get Pricing Model",
           "request": {
             "name": "Get Pricing Model",
@@ -1060,7 +1059,7 @@
       "event": []
     },
     {
-      "id": "e4f263f8-ba2d-451a-814c-853a54180904",
+      "id": "74072b63-d35a-45bc-9d37-8d021f077c0b",
       "name": "Project",
       "description": {
         "content": "",
@@ -1068,7 +1067,7 @@
       },
       "item": [
         {
-          "id": "7552e698-77be-4267-bd14-e620da315458",
+          "id": "bc0aebb3-67c1-46c8-9725-0410fa4acf85",
           "name": "List Projects",
           "request": {
             "name": "List Projects",
@@ -1147,7 +1146,7 @@
           "event": []
         },
         {
-          "id": "c8e41b9c-adfa-4464-9e11-22c50b145301",
+          "id": "7df403c3-25bd-42f9-b2fa-9719c04cded7",
           "name": "Create Project",
           "request": {
             "name": "Create Project",
@@ -1206,7 +1205,7 @@
           }
         },
         {
-          "id": "3abcf7c0-e9cf-4d4e-a976-fdc7495579fd",
+          "id": "abe3a95f-f696-441d-9b2c-28070dee0676",
           "name": "Get Project",
           "request": {
             "name": "Get Project",
@@ -1258,7 +1257,7 @@
           "event": []
         },
         {
-          "id": "89afcb86-8e88-41ff-bd22-7ccc3211d3fa",
+          "id": "77537be4-8058-46a2-abe4-8ab07526280e",
           "name": "Update Project",
           "request": {
             "name": "Update Project",
@@ -1319,7 +1318,7 @@
           }
         },
         {
-          "id": "6691b25f-2d7b-4337-8a5c-66973846616d",
+          "id": "b22d6394-28bd-4ac9-9c03-9fb4b3085ba0",
           "name": "Delete Project",
           "request": {
             "name": "Delete Project",
@@ -1364,7 +1363,7 @@
           "event": []
         },
         {
-          "id": "e8846896-9620-4a1e-b529-cb01e02876d7",
+          "id": "53ac695e-209f-4caf-9fc6-879f073651d8",
           "name": "Start Project",
           "request": {
             "name": "Start Project",
@@ -1410,7 +1409,7 @@
           "event": []
         },
         {
-          "id": "62a7962e-5231-4f71-843d-ee3e2e1456e7",
+          "id": "14dfa32b-3fb9-4a2a-a7dd-e74f3fd4c864",
           "name": "Complete Project",
           "request": {
             "name": "Complete Project",
@@ -1456,7 +1455,7 @@
           "event": []
         },
         {
-          "id": "1c8768c2-18ef-4597-9c9b-7b681a33e642",
+          "id": "f636588b-cf9f-48b7-a9ae-40c41256ef86",
           "name": "Cancel Project File",
           "request": {
             "name": "Cancel Project File",
@@ -1511,7 +1510,7 @@
           "event": []
         },
         {
-          "id": "ba313370-7b94-429a-9118-98c38c04bd56",
+          "id": "18c8658d-2271-4afa-8e78-3e3e26f14dd1",
           "name": "List Project's Tasks",
           "request": {
             "name": "List Project's Tasks",
@@ -1597,7 +1596,7 @@
       "event": []
     },
     {
-      "id": "64ff6a32-52a6-41fc-832e-ad9a2fa90863",
+      "id": "b769ee6f-c2a6-459d-bed9-df15dcbd2003",
       "name": "Project Template",
       "description": {
         "content": "",
@@ -1605,7 +1604,7 @@
       },
       "item": [
         {
-          "id": "f51b677d-cf9f-4f5d-b4ac-7b0500fb839b",
+          "id": "979394c5-96c8-4ead-8c45-bc457c059b73",
           "name": "Get Project Template",
           "request": {
             "name": "Get Project Template",
@@ -1657,7 +1656,7 @@
           "event": []
         },
         {
-          "id": "583b6a9f-aeb6-4e7c-ba50-95590f3c4739",
+          "id": "29f449d4-9dac-44ee-8bbd-aecd81496c12",
           "name": "List Project Templates",
           "request": {
             "name": "List Project Templates",
@@ -1739,7 +1738,7 @@
       "event": []
     },
     {
-      "id": "51702ecc-0313-427c-9e9f-1e6482d35b6d",
+      "id": "af9ef802-3d57-4e5f-8f34-90193e87bca3",
       "name": "Public Keys",
       "description": {
         "content": "",
@@ -1747,7 +1746,7 @@
       },
       "item": [
         {
-          "id": "21a100e3-9c9f-410b-8afc-0fba42f0562e",
+          "id": "62fe58ef-2965-48a5-88c3-6df0a4e8477d",
           "name": "List Public Keys",
           "request": {
             "name": "List Public Keys",
@@ -1778,7 +1777,7 @@
           "event": []
         },
         {
-          "id": "072acde8-8dfd-48a0-bd2d-e885fa734819",
+          "id": "087890aa-6fa8-4b25-886c-dd8adf417605",
           "name": "Get Public Key",
           "request": {
             "name": "Get Public Key",
@@ -1821,7 +1820,7 @@
       "event": []
     },
     {
-      "id": "1b87b633-6751-43ca-bf22-a3c183750765",
+      "id": "2ad05135-ac53-425a-82ef-81f47b5c2cfa",
       "name": "Quote",
       "description": {
         "content": "",
@@ -1829,7 +1828,7 @@
       },
       "item": [
         {
-          "id": "ace8711a-c6f8-41c2-b49b-837fde701292",
+          "id": "8b21c0d2-fd4f-41c2-9bb6-00f9f2d8c955",
           "name": "Export Quote",
           "request": {
             "name": "Export Quote",
@@ -1897,7 +1896,7 @@
       "event": []
     },
     {
-      "id": "aa4d1c79-c429-437f-bd51-2c355fdb3bb8",
+      "id": "70567d71-9e1a-4764-a7ed-9d666ec8e5a7",
       "name": "Source File",
       "description": {
         "content": "",
@@ -1905,7 +1904,7 @@
       },
       "item": [
         {
-          "id": "88dbbecd-24a2-40bf-af06-2463b065f64a",
+          "id": "c2583d69-a412-416a-b636-8799d80b2569",
           "name": "List Source Files",
           "request": {
             "name": "List Source Files",
@@ -1988,7 +1987,7 @@
           "event": []
         },
         {
-          "id": "26ac0423-e922-4879-8ca3-b06012fa2031",
+          "id": "9851bca2-14f7-4796-a9af-2415ffbe5eb7",
           "name": "Add Source File",
           "request": {
             "name": "Add Source File",
@@ -2057,7 +2056,7 @@
           }
         },
         {
-          "id": "942b1711-9c52-40d7-974e-2fbb55216131",
+          "id": "eb96490f-5531-43c2-a79b-59bb9e1fe327",
           "name": "Attach Source Files",
           "request": {
             "name": "Attach Source Files",
@@ -2120,7 +2119,7 @@
           }
         },
         {
-          "id": "e64b46ca-408f-41ad-b2ce-47d22216261d",
+          "id": "4d2e2714-f513-46d4-abd5-f96c72e81e1e",
           "name": "Get Source File",
           "request": {
             "name": "Get Source File",
@@ -2181,7 +2180,7 @@
           "event": []
         },
         {
-          "id": "6037671d-c6ee-45e9-9050-af8f17c6aef7",
+          "id": "60ef0797-5cb6-4b4e-a416-cc05dff34e92",
           "name": "List Source File Versions",
           "request": {
             "name": "List Source File Versions",
@@ -2243,7 +2242,7 @@
           "event": []
         },
         {
-          "id": "e63ade40-29b8-4f5f-9cde-f6e1696625a6",
+          "id": "e70de7dc-498c-4b52-a0f0-109f4fcdae7e",
           "name": "Download Source File Version",
           "request": {
             "name": "Download Source File Version",
@@ -2310,7 +2309,7 @@
       "event": []
     },
     {
-      "id": "b61b9e9e-e6bc-4f1c-bfa0-11fee63416af",
+      "id": "d1f87518-d2d8-4788-bd00-63f9b8f14f9b",
       "name": "Target File",
       "description": {
         "content": "",
@@ -2318,7 +2317,7 @@
       },
       "item": [
         {
-          "id": "b9bcb5d7-2335-4911-a780-8df3658b33e1",
+          "id": "8194338e-ea48-41e2-8b0a-031ba7287a53",
           "name": "Get Target File",
           "request": {
             "name": "Get Target File",
@@ -2379,7 +2378,7 @@
           "event": []
         },
         {
-          "id": "a437e6d7-1acd-4835-bba7-ca9138a8fea8",
+          "id": "ef100ae4-c1d7-4e9d-8eaf-af2d95071f20",
           "name": "List Target Files",
           "request": {
             "name": "List Target Files",
@@ -2456,7 +2455,7 @@
           "event": []
         },
         {
-          "id": "56cd0d04-e7b1-4273-9d23-7a924681d8da",
+          "id": "8ad176d6-0176-42ad-9a12-c9969001fe20",
           "name": "Get Target File Version",
           "request": {
             "name": "Get Target File Version",
@@ -2526,7 +2525,7 @@
           "event": []
         },
         {
-          "id": "1d9aaf85-ff3a-4409-a49a-7be62ba48edd",
+          "id": "944ab3ea-7cda-4cfc-ac0c-7224516bb748",
           "name": "List Target File Versions",
           "request": {
             "name": "List Target File Versions",
@@ -2588,7 +2587,7 @@
           "event": []
         },
         {
-          "id": "753b4606-9387-4df9-8f10-389f49dbd53c",
+          "id": "27af9246-ec87-4c0a-92c4-2e916d29d266",
           "name": "Export Target File Version",
           "request": {
             "name": "Export Target File Version",
@@ -2659,7 +2658,7 @@
           "event": []
         },
         {
-          "id": "33f89c83-ff8e-42eb-96cd-2cd6b57a89b0",
+          "id": "64ac2813-fc71-4e24-a7bb-13ec83cfbd2f",
           "name": "Poll Target File Version Export",
           "request": {
             "name": "Poll Target File Version Export",
@@ -2731,7 +2730,7 @@
           "event": []
         },
         {
-          "id": "fc789ffb-2678-4d50-8797-cab8db4d47a7",
+          "id": "84cd25cb-8000-4a95-93e5-5607bc0c9cb5",
           "name": "Download Exported Target File Version",
           "request": {
             "name": "Download Exported Target File Version",
@@ -2804,7 +2803,7 @@
           "event": []
         },
         {
-          "id": "0ee268f3-e17b-4ead-82fa-93651865e817",
+          "id": "d553994d-7a32-48c4-bf79-ab13a6dd8e1a",
           "name": "Download Target File Version",
           "request": {
             "name": "Download Target File Version",
@@ -2868,7 +2867,7 @@
           "event": []
         },
         {
-          "id": "67e74962-62fb-4b86-9233-bbd14b676bdc",
+          "id": "ae82c868-b2de-480b-bc15-0c5545d21e80",
           "name": "Import Target File Version",
           "request": {
             "name": "Import Target File Version",
@@ -2930,7 +2929,7 @@
                 {
                   "key": "file",
                   "type": "file",
-                  "description": ""
+                  "description": "(Required) "
                 }
               ]
             }
@@ -2941,7 +2940,7 @@
           }
         },
         {
-          "id": "d7b3555e-2ae2-4155-b550-b87d64452799",
+          "id": "48136953-2026-4bf4-83ad-e383045792a1",
           "name": "Poll Target File Version Import",
           "request": {
             "name": "Poll Target File Version Import",
@@ -3008,7 +3007,7 @@
       "event": []
     },
     {
-      "id": "911eff83-68fa-4bd7-bcd3-f4265457829a",
+      "id": "d050530c-463d-4abf-8aab-2e769b5730bb",
       "name": "Task",
       "description": {
         "content": "",
@@ -3016,7 +3015,7 @@
       },
       "item": [
         {
-          "id": "be5ce320-a653-42b2-a522-fd7258cf2da8",
+          "id": "9984c57d-764e-4aea-96a0-541766c4f079",
           "name": "Get Task",
           "request": {
             "name": "Get Task",
@@ -3068,7 +3067,7 @@
           "event": []
         },
         {
-          "id": "1c9d3cd5-519c-4ae5-821c-8ed6b0513d21",
+          "id": "11ad634a-020b-411a-b47e-a6d0cbdbf52f",
           "name": "List Tasks assigned to me",
           "request": {
             "name": "List Tasks assigned to me",
@@ -3148,7 +3147,7 @@
           "event": []
         },
         {
-          "id": "348bf5bd-57da-4902-b3fb-c087b5d170eb",
+          "id": "faac71ac-39c2-4cad-be74-c859faae3804",
           "name": "Accept Task",
           "request": {
             "name": "Accept Task",
@@ -3194,7 +3193,7 @@
           "event": []
         },
         {
-          "id": "5600a82d-6590-4514-b5eb-ffde3340fc51",
+          "id": "a6b4a378-01ce-43b7-962b-92dc0bc6a974",
           "name": "Reject Task",
           "request": {
             "name": "Reject Task",
@@ -3240,7 +3239,7 @@
           "event": []
         },
         {
-          "id": "1c79c535-a13e-4145-907d-efc21e7d3d9b",
+          "id": "17d460f6-876a-436d-bd9a-f0f2b430f710",
           "name": "Complete Task",
           "request": {
             "name": "Complete Task",
@@ -3302,7 +3301,7 @@
           }
         },
         {
-          "id": "005f12f7-9252-4228-bfd8-c511a09ef45e",
+          "id": "1d9927f4-2c7b-4f86-8f1a-ffa9232dfce9",
           "name": "Release Task",
           "request": {
             "name": "Release Task",
@@ -3348,7 +3347,7 @@
           "event": []
         },
         {
-          "id": "40d737bf-2940-4189-8b41-25d750a319b9",
+          "id": "193b1865-2eab-47b7-a33d-56b3fa333e8c",
           "name": "Reclaim Task",
           "request": {
             "name": "Reclaim Task",
@@ -3394,7 +3393,7 @@
           "event": []
         },
         {
-          "id": "f2cb7c44-40fb-4499-8756-bb1d890e5e97",
+          "id": "e9e3a319-204e-48a2-accb-b1cfad0e7c92",
           "name": "Assign Task",
           "request": {
             "name": "Assign Task",
@@ -3459,7 +3458,7 @@
       "event": []
     },
     {
-      "id": "bda84f6d-b059-489e-a0fb-0fb901e2531a",
+      "id": "bff22524-f91b-48d7-ba77-f74911e78846",
       "name": "Task Type",
       "description": {
         "content": "",
@@ -3467,7 +3466,7 @@
       },
       "item": [
         {
-          "id": "2e313bb6-f059-4232-b582-176f58aefab6",
+          "id": "4ce550a0-120f-40a4-82ef-b38adf85fdef",
           "name": "Get Task Type",
           "request": {
             "name": "Get Task Type",
@@ -3519,7 +3518,7 @@
           "event": []
         },
         {
-          "id": "d7c94d12-f48d-49b7-a5df-966c02552c43",
+          "id": "dd99ba82-b525-4852-9dad-5fbc94ed34af",
           "name": "List Task Types",
           "request": {
             "name": "List Task Types",
@@ -3607,7 +3606,7 @@
       "event": []
     },
     {
-      "id": "44c8dd71-8858-4c21-bc5a-097f29088fff",
+      "id": "55912755-182f-4104-befc-1b8f47d8ba42",
       "name": "Termbase",
       "description": {
         "content": "",
@@ -3615,7 +3614,7 @@
       },
       "item": [
         {
-          "id": "b84a1ce1-f28a-4aee-af06-ac0be7700dab",
+          "id": "558900f7-c05a-4e27-a7c1-ba567a4afb11",
           "name": "List Termbases",
           "request": {
             "name": "List Termbases",
@@ -3682,7 +3681,7 @@
           "event": []
         },
         {
-          "id": "fbe1003b-3c7d-44b2-ae54-e1d143e34a8a",
+          "id": "a685287d-fb2c-47e6-b5d1-599d15801f10",
           "name": "Create Termbase",
           "request": {
             "name": "Create Termbase",
@@ -3741,7 +3740,7 @@
           }
         },
         {
-          "id": "601a1253-88cc-4208-930a-c9913c879ed5",
+          "id": "b5b491e0-7799-4a3f-a3c1-23875f1a44c2",
           "name": "Get Termbase",
           "request": {
             "name": "Get Termbase",
@@ -3793,7 +3792,7 @@
           "event": []
         },
         {
-          "id": "e469236e-c3d4-4a48-b8fd-c35189de4344",
+          "id": "1413c202-1017-480d-b211-fef92d7d938e",
           "name": "Delete Termbase",
           "request": {
             "name": "Delete Termbase",
@@ -3838,7 +3837,7 @@
           "event": []
         },
         {
-          "id": "25c9ab7b-b6ef-4909-a033-b49a4dda45f5",
+          "id": "bb527e4a-50a3-49e3-b038-76c927aa07a5",
           "name": "Update Termbase",
           "request": {
             "name": "Update Termbase",
@@ -3899,7 +3898,7 @@
           }
         },
         {
-          "id": "1000bb3b-d451-44fc-a1f6-df3aff0dc4cf",
+          "id": "19f46429-a150-49be-b795-c3e3ebbdb7ed",
           "name": "Create Termbase Entry",
           "request": {
             "name": "Create Termbase Entry",
@@ -3968,7 +3967,7 @@
           }
         },
         {
-          "id": "28bc9581-5301-463d-b9c2-7bdf40f6a1f8",
+          "id": "8fecd316-24c3-4480-9fc3-b8970cd9358f",
           "name": "List Termbase Entries",
           "request": {
             "name": "List Termbase Entries",
@@ -4045,7 +4044,7 @@
           "event": []
         },
         {
-          "id": "7f5f3eea-49cc-43d4-864c-42d1ba4e2750",
+          "id": "4fcf8ef1-6da9-4f41-a82e-aacec7965d09",
           "name": "Delete Termbase Entries",
           "request": {
             "name": "Delete Termbase Entries",
@@ -4091,7 +4090,7 @@
           "event": []
         },
         {
-          "id": "12fadfec-3d36-429c-917b-d03c22e69abd",
+          "id": "9dbd6a81-1ad2-47ca-a375-698a36e82d5f",
           "name": "Get Termbase Entry",
           "request": {
             "name": "Get Termbase Entry",
@@ -4152,7 +4151,7 @@
           "event": []
         },
         {
-          "id": "5bf458f2-b97c-40a4-96aa-11ff1d1597a4",
+          "id": "e248cc9f-263c-4364-8fa2-e16cfec91eca",
           "name": "Update Termbase Entry",
           "request": {
             "name": "Update Termbase Entry",
@@ -4222,7 +4221,7 @@
           }
         },
         {
-          "id": "a299d5c7-48ea-4396-86bf-3991960c658e",
+          "id": "f022e5b2-ae19-4781-98eb-7e4b2d482b43",
           "name": "Delete Termbase Entry",
           "request": {
             "name": "Delete Termbase Entry",
@@ -4276,7 +4275,7 @@
           "event": []
         },
         {
-          "id": "c92be21a-ec5f-4bb0-b005-c2ec3c40afb2",
+          "id": "1a064c34-90c4-4a5a-a9af-b0699e28913f",
           "name": "List Termbase Terms",
           "request": {
             "name": "List Termbase Terms",
@@ -4364,7 +4363,7 @@
       "event": []
     },
     {
-      "id": "2e8c186b-b6f9-4d70-91f3-65086d6ad76d",
+      "id": "705d76ca-c8c2-410b-877d-f4e10de93702",
       "name": "Termbase Template",
       "description": {
         "content": "",
@@ -4372,7 +4371,7 @@
       },
       "item": [
         {
-          "id": "09ffb4d7-8fc3-429a-8d03-e5ec400b9de5",
+          "id": "f55e5761-10d5-41e7-a405-36fdcf0523b9",
           "name": "List Termbase Templates",
           "request": {
             "name": "List Termbase Templates",
@@ -4445,7 +4444,7 @@
           "event": []
         },
         {
-          "id": "3caa1d73-a282-4320-8c99-77c96af077a7",
+          "id": "873160a4-39e3-4938-9840-74ab34a01984",
           "name": "Create Termbase Template",
           "request": {
             "name": "Create Termbase Template",
@@ -4504,7 +4503,7 @@
           }
         },
         {
-          "id": "8832dfd2-5551-4baa-81f4-b4c0cc4b7910",
+          "id": "48554b61-bac1-4ba9-8931-0a30dab61a8e",
           "name": "Get Termbase Template",
           "request": {
             "name": "Get Termbase Template",
@@ -4556,7 +4555,7 @@
           "event": []
         },
         {
-          "id": "7fa67757-d5fa-493a-a5c5-0ab5352e4445",
+          "id": "253110bc-97a8-4912-affa-bbdc8db5ed4f",
           "name": "Delete Termbase Template",
           "request": {
             "name": "Delete Termbase Template",
@@ -4601,7 +4600,7 @@
           "event": []
         },
         {
-          "id": "519a308f-a81f-4323-bc05-5834047201ef",
+          "id": "bc6eced4-970c-42c3-9a4f-4889b93b9dc2",
           "name": "Update Termbase Template",
           "request": {
             "name": "Update Termbase Template",
@@ -4662,7 +4661,7 @@
           }
         },
         {
-          "id": "f65abaaa-3e0a-4940-87bb-eed451b6b3ad",
+          "id": "d0536133-29bf-4eae-a204-3dcccd38d8fc",
           "name": "Convert XDT to Termbase Structure",
           "request": {
             "name": "Convert XDT to Termbase Structure",
@@ -4726,7 +4725,7 @@
       "event": []
     },
     {
-      "id": "de5f9574-a92a-499a-8330-e585d36732a2",
+      "id": "405b29bd-00b9-4b77-804b-d36334b7b50b",
       "name": "Termbase Import",
       "description": {
         "content": "",
@@ -4734,7 +4733,7 @@
       },
       "item": [
         {
-          "id": "9c12eb1a-b63a-4c87-a7f8-5bcee4189472",
+          "id": "8a46acf4-0850-4d48-a61a-9c88a8f6b0be",
           "name": "Get Termbase Import History",
           "request": {
             "name": "Get Termbase Import History",
@@ -4799,7 +4798,7 @@
           "event": []
         },
         {
-          "id": "1c46cc75-b2b7-448c-bd50-bab9d4d305f7",
+          "id": "b132ca0d-5752-42d1-901d-884a6ed58ac2",
           "name": "Import Termbase",
           "request": {
             "name": "Import Termbase",
@@ -4875,7 +4874,7 @@
           }
         },
         {
-          "id": "3a153a49-de59-43f8-bff5-813000ea4479",
+          "id": "c1e9c466-faa4-4f80-9fec-a65312e006d6",
           "name": "Poll Termbase Import",
           "request": {
             "name": "Poll Termbase Import",
@@ -4929,7 +4928,7 @@
           "event": []
         },
         {
-          "id": "d3ab9de7-c4ef-47a9-a3fd-fb0df9829d11",
+          "id": "fd625c22-6671-4f25-8ace-83c4b7337875",
           "name": "Download Termbase Import Logs",
           "request": {
             "name": "Download Termbase Import Logs",
@@ -4987,7 +4986,7 @@
       "event": []
     },
     {
-      "id": "44901c10-38ca-4aa7-9191-d452af2a7b7e",
+      "id": "09314b32-cc60-43d2-be61-d6a987f14293",
       "name": "Termbase Export",
       "description": {
         "content": "",
@@ -4995,7 +4994,7 @@
       },
       "item": [
         {
-          "id": "20e36984-3f4f-4c1e-89b5-16426332a616",
+          "id": "7d91158c-69bc-4647-800e-b342e4b890ce",
           "name": "Export Termbase",
           "request": {
             "name": "Export Termbase",
@@ -5057,7 +5056,7 @@
           }
         },
         {
-          "id": "7096b852-3699-4eb7-a74e-42e2f8352d58",
+          "id": "0dcc8f0e-1190-47a3-8434-82f56eb83d62",
           "name": "Poll Termbase Export",
           "request": {
             "name": "Poll Termbase Export",
@@ -5111,7 +5110,7 @@
           "event": []
         },
         {
-          "id": "a3311b4a-2cd5-4ba7-9dde-f542ed3b2cc9",
+          "id": "f1642b29-4b59-4bd4-8b60-d42a1c0f00e3",
           "name": "Download Exported Termbase",
           "request": {
             "name": "Download Exported Termbase",
@@ -5166,7 +5165,7 @@
           "event": []
         },
         {
-          "id": "0b473e95-5e18-4425-897d-5613e934ab66",
+          "id": "9a920f0c-fb3d-4a6b-ba9e-11728336b4ad",
           "name": "Export Termbase Template",
           "request": {
             "name": "Export Termbase Template",
@@ -5215,7 +5214,7 @@
       "event": []
     },
     {
-      "id": "9f3d4bc1-38ce-4a98-bbbd-2d0b5fdd18fc",
+      "id": "9500c795-9296-44f6-acdb-6e2788574452",
       "name": "TQA Profile",
       "description": {
         "content": "",
@@ -5223,7 +5222,7 @@
       },
       "item": [
         {
-          "id": "434776e3-a22e-44a6-b46d-64fd1f07e772",
+          "id": "c93ad33e-3b51-4f98-ab2e-d407acdd48b7",
           "name": "List TQA Profiles",
           "request": {
             "name": "List TQA Profiles",
@@ -5296,7 +5295,7 @@
           "event": []
         },
         {
-          "id": "0e9db465-3ebd-43c1-bf01-a751b1c5373c",
+          "id": "b85e381c-4a34-4710-af5a-42b8c233411d",
           "name": "Get TQA Profile",
           "request": {
             "name": "Get TQA Profile",
@@ -5351,7 +5350,7 @@
       "event": []
     },
     {
-      "id": "d0877ad9-0d0f-4f82-ac8e-d8d25d862341",
+      "id": "b8c6a30e-fd47-481e-aa53-3bdcb9fda3b5",
       "name": "Translation Engine",
       "description": {
         "content": "",
@@ -5359,7 +5358,7 @@
       },
       "item": [
         {
-          "id": "c84264a9-486b-4c3a-8cd8-9d4e44885645",
+          "id": "18ae9ac8-3175-452f-b643-059c3cd61ac7",
           "name": "Get Translation Engine",
           "request": {
             "name": "Get Translation Engine",
@@ -5411,7 +5410,7 @@
           "event": []
         },
         {
-          "id": "ec5e17f0-a2a6-4115-a83b-3b68e873d529",
+          "id": "24a61d70-e5a0-404e-8f30-bb3352b4b7bf",
           "name": "List Translation Engines",
           "request": {
             "name": "List Translation Engines",
@@ -5487,7 +5486,7 @@
       "event": []
     },
     {
-      "id": "ba42255a-9dc2-4e39-b5c3-96d7dc74125b",
+      "id": "aa28de13-82e6-4c13-b38e-e4af8a3a78ca",
       "name": "User",
       "description": {
         "content": "",
@@ -5495,7 +5494,7 @@
       },
       "item": [
         {
-          "id": "c5d08299-5a20-4233-9add-815b49a70d90",
+          "id": "825b9a2f-5aea-4591-8b98-d754571c4074",
           "name": "Get my User",
           "request": {
             "name": "Get my User",
@@ -5539,7 +5538,7 @@
           "event": []
         },
         {
-          "id": "b52c48ce-083e-41b1-9501-0f5f41f0d6aa",
+          "id": "c3f0885f-3bac-4798-867b-6f31e9298e02",
           "name": "List Users",
           "request": {
             "name": "List Users",
@@ -5612,7 +5611,7 @@
           "event": []
         },
         {
-          "id": "e6feefac-49a3-4922-84a2-a60a2f093956",
+          "id": "41487781-4be4-4a20-afcb-14df8ecd25b1",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -5667,7 +5666,7 @@
       "event": []
     },
     {
-      "id": "1049aded-ea02-483d-a9b8-4e4afbfab580",
+      "id": "99355f61-c26e-44b7-b4c7-6603571c00a1",
       "name": "Workflow",
       "description": {
         "content": "",
@@ -5675,7 +5674,7 @@
       },
       "item": [
         {
-          "id": "fb6220cb-6480-46b6-a5a5-5b3db5f95957",
+          "id": "b4200f3d-1bce-4cfc-954a-778c9a5f63dc",
           "name": "Get Workflow",
           "request": {
             "name": "Get Workflow",
@@ -5727,7 +5726,7 @@
           "event": []
         },
         {
-          "id": "b43ba82c-2de6-427f-87f0-8262ce68051e",
+          "id": "f52edc88-eab0-4a18-a3c8-ceb8a70ab5a1",
           "name": "Update Workflow",
           "request": {
             "name": "Update Workflow",
@@ -5788,7 +5787,7 @@
           }
         },
         {
-          "id": "20989265-c93f-4264-a142-048ff8359e3d",
+          "id": "ac176da1-9896-48e3-98fb-799aafa4457e",
           "name": "List Workflows",
           "request": {
             "name": "List Workflows",
@@ -5947,7 +5946,7 @@
     }
   ],
   "info": {
-    "_postman_id": "3071e86c-75d2-48e0-9233-95c4306f56f7",
+    "_postman_id": "cbc722e3-ec4f-49b9-bec1-6a6823bf2255",
     "name": "RWS Language Cloud API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
