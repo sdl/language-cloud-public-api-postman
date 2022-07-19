@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "d792fd65-be1b-4cb3-83a7-ac0dea94ab4d",
+      "id": "a53ada81-ea5f-448d-ae77-8977d2dadc40",
       "name": "Account",
       "description": {
         "content": "",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "96d6b82a-0fcf-4a1e-8edf-fa41dbe30618",
+          "id": "29b28145-2614-43e3-a6e8-4e16f9bbc9a7",
           "name": "List my Accounts",
           "request": {
             "name": "List my Accounts",
@@ -48,7 +48,7 @@
       "event": []
     },
     {
-      "id": "e24b4b30-3ac0-4519-b908-486569479338",
+      "id": "65a2e010-9627-42df-919f-ab2f57d36493",
       "name": "Custom Field",
       "description": {
         "content": "",
@@ -56,7 +56,7 @@
       },
       "item": [
         {
-          "id": "24d4bbe7-e71c-4b10-8201-d24d87961798",
+          "id": "75c3617c-9f8b-42c9-91f3-2dc0cd887b35",
           "name": "List Custom Field Definitions",
           "request": {
             "name": "List Custom Field Definitions",
@@ -129,7 +129,7 @@
           "event": []
         },
         {
-          "id": "d07951e2-028b-4636-a17a-c3ee585d9bd7",
+          "id": "84275379-5051-44e1-81bb-b51091fde645",
           "name": "Get Custom Field Definition",
           "request": {
             "name": "Get Custom Field Definition",
@@ -184,7 +184,7 @@
       "event": []
     },
     {
-      "id": "8bc8c827-56aa-41d9-8efd-ea9ce8730140",
+      "id": "f4297b4f-4b53-4eb2-97d0-da0004295975",
       "name": "Customer",
       "description": {
         "content": "",
@@ -192,7 +192,7 @@
       },
       "item": [
         {
-          "id": "156017b9-9577-4d43-80d3-53a9e3268cb0",
+          "id": "b4d74b94-b20e-4d2a-a1b4-36e7b121e7f5",
           "name": "Get Customer",
           "request": {
             "name": "Get Customer",
@@ -244,7 +244,7 @@
           "event": []
         },
         {
-          "id": "358f3036-a9de-4bae-bfb1-fc4531f60a66",
+          "id": "c2c0da83-e660-46b8-952d-a7aaf6b4eef5",
           "name": "List Customers",
           "request": {
             "name": "List Customers",
@@ -320,7 +320,7 @@
       "event": []
     },
     {
-      "id": "a63c771d-2347-4a07-8700-15eed3d3ecb4",
+      "id": "9e4b7aa3-43bb-4709-b3d3-67cc78c40c62",
       "name": "File Processing Configuration",
       "description": {
         "content": "",
@@ -328,7 +328,7 @@
       },
       "item": [
         {
-          "id": "dadad8b1-3e8f-4e9d-856b-0aa4d4457340",
+          "id": "1490aad5-69cc-45ee-a0e9-64e8a4084b58",
           "name": "Get File Processing Configuration",
           "request": {
             "name": "Get File Processing Configuration",
@@ -380,7 +380,7 @@
           "event": []
         },
         {
-          "id": "869f3a12-3f2c-49b4-879c-401b020b635f",
+          "id": "d431fb6b-2c99-41ff-9906-ba4118aeffed",
           "name": "List File Processing Configurations",
           "request": {
             "name": "List File Processing Configurations",
@@ -456,7 +456,7 @@
       "event": []
     },
     {
-      "id": "f3800d88-a644-4d3a-8ac6-dc1f0e84e0bb",
+      "id": "9b751e96-c1d7-479b-8704-3c05eebbcde0",
       "name": "File",
       "description": {
         "content": "",
@@ -464,7 +464,7 @@
       },
       "item": [
         {
-          "id": "83f6f886-bbe1-40df-879f-fe12745de3a6",
+          "id": "ea367ea4-8980-40a8-b19e-92b5ab01563c",
           "name": "Upload Zip File",
           "request": {
             "name": "Upload Zip File",
@@ -517,7 +517,7 @@
           }
         },
         {
-          "id": "97d440cc-63e9-4293-8665-4d54e24cdc01",
+          "id": "0a6de95f-10dc-4da4-bfca-9e0e9258122b",
           "name": "Poll Upload Zip File",
           "request": {
             "name": "Poll Upload Zip File",
@@ -565,7 +565,7 @@
       "event": []
     },
     {
-      "id": "300cdb9a-1574-41c8-a2c1-7cb974366519",
+      "id": "3c3f6d37-6e29-4bcd-90f5-ea2153dcf1d6",
       "name": "Folder",
       "description": {
         "content": "",
@@ -573,7 +573,7 @@
       },
       "item": [
         {
-          "id": "86c1e84a-651b-4805-9317-565db13fcb0c",
+          "id": "d689aacc-5799-481d-bdad-eab31b56c867",
           "name": "Get Folder",
           "request": {
             "name": "Get Folder",
@@ -625,7 +625,7 @@
           "event": []
         },
         {
-          "id": "cd40e587-1788-4081-8239-d97bb3dd60a1",
+          "id": "3bd73eb4-1b3e-471b-81a0-cd6415e7a465",
           "name": "Get Root Folder",
           "request": {
             "name": "Get Root Folder",
@@ -669,7 +669,7 @@
           "event": []
         },
         {
-          "id": "8db80b5c-3d9e-4b78-a872-6bc28d3c8c16",
+          "id": "66587467-61df-40ce-a6bd-f8dc289bc592",
           "name": "List Folders",
           "request": {
             "name": "List Folders",
@@ -721,7 +721,7 @@
       "event": []
     },
     {
-      "id": "3e64a7d8-46ec-487a-88d1-ce5a8f26dc86",
+      "id": "01760278-b241-43f8-b5bf-63f66cf0bd98",
       "name": "Group",
       "description": {
         "content": "",
@@ -729,7 +729,7 @@
       },
       "item": [
         {
-          "id": "261c7162-eef8-417f-bed1-1d4201eff281",
+          "id": "867553c9-5d3d-4025-81e1-143cf2ad935d",
           "name": "Get Group",
           "request": {
             "name": "Get Group",
@@ -781,7 +781,7 @@
           "event": []
         },
         {
-          "id": "fa81ef5e-f95e-46a2-92c4-6fb65a6b280f",
+          "id": "43813c97-c472-45a9-ab21-470a5a0c3f04",
           "name": "List Groups",
           "request": {
             "name": "List Groups",
@@ -857,7 +857,7 @@
       "event": []
     },
     {
-      "id": "c9c3e5b7-013b-4aa0-9629-fe44002782d9",
+      "id": "82f614a2-e6b8-43de-99cb-2eb85ce8275b",
       "name": "Language",
       "description": {
         "content": "",
@@ -865,7 +865,7 @@
       },
       "item": [
         {
-          "id": "c56cce7a-08aa-4a48-91fd-00711998be56",
+          "id": "b6ac772c-7237-4969-83bb-1dd4a976bad4",
           "name": "List Languages",
           "request": {
             "name": "List Languages",
@@ -923,7 +923,7 @@
       "event": []
     },
     {
-      "id": "eeabad8d-8f7c-42ee-a42c-34ed9e1616e8",
+      "id": "37f64e65-69cf-49ee-a5c4-0589538f67e9",
       "name": "Pricing Model",
       "description": {
         "content": "",
@@ -931,7 +931,7 @@
       },
       "item": [
         {
-          "id": "d943d645-cfd2-467c-9fd9-c272b994c39e",
+          "id": "1a747da5-9185-43be-8b9c-d85c5989da8e",
           "name": "List Pricing Models",
           "request": {
             "name": "List Pricing Models",
@@ -1004,7 +1004,7 @@
           "event": []
         },
         {
-          "id": "833e906a-d656-477b-a6e0-187d1539fe87",
+          "id": "ce800e38-ded2-49bb-a0ce-0f712ed26f95",
           "name": "Get Pricing Model",
           "request": {
             "name": "Get Pricing Model",
@@ -1059,7 +1059,7 @@
       "event": []
     },
     {
-      "id": "95482ebe-5d17-4eca-a989-cc8fd3ba60c0",
+      "id": "7949503a-d8a6-4946-aa21-a32f64ad5509",
       "name": "Project",
       "description": {
         "content": "",
@@ -1067,7 +1067,7 @@
       },
       "item": [
         {
-          "id": "75f68790-6eef-4c68-82da-d62f93bf8908",
+          "id": "df533bb3-f724-4dbc-aa70-e0c83cf7bb97",
           "name": "List Projects",
           "request": {
             "name": "List Projects",
@@ -1146,7 +1146,7 @@
           "event": []
         },
         {
-          "id": "a5040d44-1790-46e7-8c8b-17e5c6073c1d",
+          "id": "06b0b65f-bcdd-4df0-89e6-ed48133f8e94",
           "name": "Create Project",
           "request": {
             "name": "Create Project",
@@ -1205,7 +1205,7 @@
           }
         },
         {
-          "id": "bdcd1da2-a8ee-45fd-b45f-09142a3b9c99",
+          "id": "e025ed7b-0fb5-41f7-b3a5-1dc881b34485",
           "name": "Get Project",
           "request": {
             "name": "Get Project",
@@ -1257,7 +1257,7 @@
           "event": []
         },
         {
-          "id": "915af252-2622-491d-883b-c0cb8788e9ea",
+          "id": "09216e0d-56fd-4dc8-89f2-277e9383c576",
           "name": "Update Project",
           "request": {
             "name": "Update Project",
@@ -1318,7 +1318,7 @@
           }
         },
         {
-          "id": "37af5777-a12b-43b1-8ab3-6c7d1f1ba39b",
+          "id": "8399222f-5223-4b1f-b2a0-e3961621aa01",
           "name": "Delete Project",
           "request": {
             "name": "Delete Project",
@@ -1363,7 +1363,7 @@
           "event": []
         },
         {
-          "id": "c06a63e5-fabf-4c01-aa2e-8f1282e05a4a",
+          "id": "02eb874d-0011-442d-bae3-dd975a6e422a",
           "name": "Get Project Configuration",
           "request": {
             "name": "Get Project Configuration",
@@ -1416,7 +1416,7 @@
           "event": []
         },
         {
-          "id": "41fedadd-bdff-4d84-b396-328801e97bf2",
+          "id": "335e1b79-c261-4107-b57d-c179a4f4e437",
           "name": "Update Project Configuration",
           "request": {
             "name": "Update Project Configuration",
@@ -1478,7 +1478,7 @@
           }
         },
         {
-          "id": "3393fb59-8312-45fe-bba0-51f3d1c26dc6",
+          "id": "430f2544-c1a2-4d8f-8a12-5d01890efc06",
           "name": "Start Project",
           "request": {
             "name": "Start Project",
@@ -1524,7 +1524,7 @@
           "event": []
         },
         {
-          "id": "9d46fbba-45f1-40dc-8acb-21c14813146c",
+          "id": "0fcef72a-a170-4581-8983-a391a38716b0",
           "name": "Complete Project",
           "request": {
             "name": "Complete Project",
@@ -1570,7 +1570,7 @@
           "event": []
         },
         {
-          "id": "c8ce2702-908b-4c9a-b73e-09785367767a",
+          "id": "276df41f-5f1c-4fe6-a0ce-272d2bea8355",
           "name": "Cancel Project File",
           "request": {
             "name": "Cancel Project File",
@@ -1625,7 +1625,7 @@
           "event": []
         },
         {
-          "id": "57460f71-364f-4e46-9f41-0970040fd2cf",
+          "id": "d4f447ce-7893-4745-986a-d6b7138bf7d9",
           "name": "List Project's Tasks",
           "request": {
             "name": "List Project's Tasks",
@@ -1711,7 +1711,7 @@
       "event": []
     },
     {
-      "id": "cd1d6e1c-9c38-4241-93e5-0549a81a1463",
+      "id": "d5c73188-c1d7-42cb-8fbb-c7d83423398f",
       "name": "Project Template",
       "description": {
         "content": "",
@@ -1719,7 +1719,7 @@
       },
       "item": [
         {
-          "id": "3c25211f-f31b-40bc-ab21-50b7593aec21",
+          "id": "aaf7e709-966e-422e-8732-95b373f80352",
           "name": "Get Project Template",
           "request": {
             "name": "Get Project Template",
@@ -1771,7 +1771,7 @@
           "event": []
         },
         {
-          "id": "77021340-f137-4544-a002-dda81c24b076",
+          "id": "43507bb9-4a97-433e-ac1c-05653b4d23d5",
           "name": "List Project Templates",
           "request": {
             "name": "List Project Templates",
@@ -1853,7 +1853,7 @@
       "event": []
     },
     {
-      "id": "2d88c943-21cd-46a3-917f-e7bd5624bdc4",
+      "id": "f713a71c-7c49-48af-bd78-300890f9d35a",
       "name": "Public Keys",
       "description": {
         "content": "",
@@ -1861,7 +1861,7 @@
       },
       "item": [
         {
-          "id": "b0d2be43-7559-479e-8288-e3e74a4c8c5e",
+          "id": "170f2311-a1d5-436d-973d-54ad1c8cf9e6",
           "name": "List Public Keys",
           "request": {
             "name": "List Public Keys",
@@ -1892,7 +1892,7 @@
           "event": []
         },
         {
-          "id": "5330bdf0-5a4c-490c-9019-9d66e448aa08",
+          "id": "a6bcde2e-494d-4b1e-96b8-2e20f75d343d",
           "name": "Get Public Key",
           "request": {
             "name": "Get Public Key",
@@ -1935,7 +1935,7 @@
       "event": []
     },
     {
-      "id": "78352857-dff1-48e4-87ab-24c77f95c4e6",
+      "id": "5487925b-7c0b-4b16-b9a8-3bf494801c35",
       "name": "Quote",
       "description": {
         "content": "",
@@ -1943,7 +1943,7 @@
       },
       "item": [
         {
-          "id": "ad70defb-0fb7-4e8a-aea0-eae28ec5b894",
+          "id": "7a9180ff-c42b-404a-904e-ef13299c562f",
           "name": "Export Quote",
           "request": {
             "name": "Export Quote",
@@ -2011,7 +2011,7 @@
       "event": []
     },
     {
-      "id": "7ba19ef0-f480-400b-83d0-6e4016b9a895",
+      "id": "6ddaf5b2-c22c-4b9d-ba6a-8d6261c8a7f6",
       "name": "Source File",
       "description": {
         "content": "",
@@ -2019,7 +2019,7 @@
       },
       "item": [
         {
-          "id": "dfc07bd8-a6f3-45b3-a27b-a8233880953e",
+          "id": "d3a3357d-6ff0-4a5e-abc0-1dcfb66ba1a6",
           "name": "List Source Files",
           "request": {
             "name": "List Source Files",
@@ -2090,7 +2090,7 @@
           "event": []
         },
         {
-          "id": "e6bb4709-071b-40da-a00c-1bf1df96eb7c",
+          "id": "3c634376-6a28-4c0f-b656-a47dddc36e8b",
           "name": "Add Source File",
           "request": {
             "name": "Add Source File",
@@ -2159,7 +2159,59 @@
           }
         },
         {
-          "id": "951ebbfb-000c-4148-b30b-9a410f6a196d",
+          "id": "73c1545c-d2e4-4981-a9ef-0cfdefc5c7c0",
+          "name": "Update Source Files",
+          "request": {
+            "name": "Update Source Files",
+            "description": {
+              "content": "Updates multiple source files. If any of the files fails to be updated, an error will be returned for each file. ",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId",
+                "source-files"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) The project identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"files\": [\n    {\n      \"id\": \"<string>\",\n      \"name\": \"<string>\",\n      \"updateTargetFilesName\": false\n    },\n    {\n      \"id\": \"<string>\",\n      \"name\": \"<string>\",\n      \"updateTargetFilesName\": false\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "3cac41b1-8bd9-4de6-8772-f0fea31d3f93",
           "name": "Attach Source Files",
           "request": {
             "name": "Attach Source Files",
@@ -2229,7 +2281,7 @@
           }
         },
         {
-          "id": "e9d034ad-f4a1-4465-9a92-3d03f7ced0a4",
+          "id": "3487569b-b368-406f-8427-1d512ff10ca2",
           "name": "Get Source File",
           "request": {
             "name": "Get Source File",
@@ -2290,7 +2342,67 @@
           "event": []
         },
         {
-          "id": "ffb2859a-7cb8-4fe8-aaa7-82efad571257",
+          "id": "340e104f-36d6-40bb-9a3b-a8865781195d",
+          "name": "Update Source File",
+          "request": {
+            "name": "Update Source File",
+            "description": {
+              "content": "Updates a source file.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId",
+                "source-files",
+                ":sourceFileId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) The project identifier."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "sourceFileId",
+                  "description": "(Required) The source file identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"<string>\",\n  \"updateTargetFilesName\": false\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "3450f234-da9a-4bb8-90e8-1f41e9410be6",
           "name": "List Source File Versions",
           "request": {
             "name": "List Source File Versions",
@@ -2352,7 +2464,7 @@
           "event": []
         },
         {
-          "id": "416e1cb0-867c-4793-a003-2216759ee3cd",
+          "id": "75c385a6-f074-432b-bc61-ade73cd0a719",
           "name": "Download Source File Version",
           "request": {
             "name": "Download Source File Version",
@@ -2419,7 +2531,7 @@
       "event": []
     },
     {
-      "id": "2fe93032-556a-4117-b61e-700bc8bd9f59",
+      "id": "7370643b-a4b1-48f7-842c-8f8ac5f673cb",
       "name": "Target File",
       "description": {
         "content": "",
@@ -2427,7 +2539,7 @@
       },
       "item": [
         {
-          "id": "ed3183a1-4b7b-4f9f-afdb-77ade8e25123",
+          "id": "7772915b-9ecd-4ab5-bf85-29231edbddc2",
           "name": "Get Target File",
           "request": {
             "name": "Get Target File",
@@ -2488,7 +2600,67 @@
           "event": []
         },
         {
-          "id": "291bb7ad-1bde-4afd-a689-0786cf6fa7ec",
+          "id": "5b6ea944-78a9-4371-b1f3-e1134c835ffb",
+          "name": "Update Target File",
+          "request": {
+            "name": "Update Target File",
+            "description": {
+              "content": "Updates a target file.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId",
+                "target-files",
+                ":targetFileId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) The project identifier."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "targetFileId",
+                  "description": "(Required) The target file identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "046d8a55-d52d-4b3f-9c72-f4626bc5a3f1",
           "name": "List Target Files",
           "request": {
             "name": "List Target Files",
@@ -2565,7 +2737,59 @@
           "event": []
         },
         {
-          "id": "e16aa6ac-7fdf-4133-bbbb-e66ab5e5e802",
+          "id": "3f9c6fce-94f5-41e8-96a4-a23ef557f503",
+          "name": "Update Target Files",
+          "request": {
+            "name": "Update Target Files",
+            "description": {
+              "content": "Updates multiple target files. If any of the files fails to be updated, an error will be returned for each file. ",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "projects",
+                ":projectId",
+                "target-files"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectId",
+                  "description": "(Required) The project identifier."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"files\": [\n    {\n      \"id\": \"<string>\",\n      \"name\": \"<string>\"\n    },\n    {\n      \"id\": \"<string>\",\n      \"name\": \"<string>\"\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "85ce8d57-aeef-4e4a-9219-1f2c50e7fc7c",
           "name": "Get Target File Version",
           "request": {
             "name": "Get Target File Version",
@@ -2635,7 +2859,7 @@
           "event": []
         },
         {
-          "id": "cbec99c7-04e5-4d1b-92d6-6d336d72e077",
+          "id": "c0d3e6c6-32b6-45a3-80f9-97696d4d7ce1",
           "name": "List Target File Versions",
           "request": {
             "name": "List Target File Versions",
@@ -2697,12 +2921,12 @@
           "event": []
         },
         {
-          "id": "64a97fce-562f-4ad1-bb46-1117b6d79409",
+          "id": "bac20153-8d5b-465b-a1aa-e41f7cc8be30",
           "name": "Export Target File Version",
           "request": {
             "name": "Export Target File Version",
             "description": {
-              "content": "Generates an asynchronous export operation, exclusively available for versions of the file in BCM format. Use the Get Target File Version export endpoint to poll until the export is completed.",
+              "content": "Generates an asynchronous export operation, exclusively available for versions of the file in BCM format. Use the [dedicated endpoint](../reference/Public-API.v1.json/paths/~1projects~1{projectId}~1target-files~1{targetFileId}~1versions~1{fileVersionId}~1exports~1{exportId}/get) to poll until the export is completed.",
               "type": "text/plain"
             },
             "url": {
@@ -2768,7 +2992,7 @@
           "event": []
         },
         {
-          "id": "95518af9-5f32-4d03-badc-ac14de171aac",
+          "id": "9d448725-c9cc-4a87-93e3-6102da85ecb8",
           "name": "Poll Target File Version Export",
           "request": {
             "name": "Poll Target File Version Export",
@@ -2840,7 +3064,7 @@
           "event": []
         },
         {
-          "id": "cdbf9cea-5805-4458-9cf6-fe33bc3d1d6a",
+          "id": "5722605c-8174-4493-ad03-afd695d5387d",
           "name": "Download Exported Target File Version",
           "request": {
             "name": "Download Exported Target File Version",
@@ -2913,7 +3137,7 @@
           "event": []
         },
         {
-          "id": "b43a6b5d-f3f8-42f9-8a3d-dd7e25b1fa7a",
+          "id": "5af24fef-8db5-45a0-86e1-875950ff7ae4",
           "name": "Download Target File Version",
           "request": {
             "name": "Download Target File Version",
@@ -2977,12 +3201,12 @@
           "event": []
         },
         {
-          "id": "7ef571e1-1b85-42e1-92e9-a181486471c0",
+          "id": "380f9567-620d-44c2-9ce2-a2c7c1cf9361",
           "name": "Import Target File Version",
           "request": {
             "name": "Import Target File Version",
             "description": {
-              "content": "Generates an asynchronous import operation. Use the Get Target File Version Import endpoint to poll until the import is completed. Only `sdlxliff` files can be imported.",
+              "content": "Generates an asynchronous import operation. Use the [dedicated endpoint](../reference/Public-API.v1.json/paths/~1projects~1{projectId}~1target-files~1{targetFileId}~1versions~1imports~1{importId}/get) to poll until the import is completed. Only `sdlxliff` files can be imported.",
               "type": "text/plain"
             },
             "url": {
@@ -3050,7 +3274,7 @@
           }
         },
         {
-          "id": "78114edf-bf9a-46a8-a8c2-48662f7db2dc",
+          "id": "1c9630ee-bd6b-42df-94e9-03b797525c35",
           "name": "Poll Target File Version Import",
           "request": {
             "name": "Poll Target File Version Import",
@@ -3117,7 +3341,7 @@
       "event": []
     },
     {
-      "id": "deb15314-d1f2-43bc-9393-ea761b23da1c",
+      "id": "31831df4-d8ae-44e0-86d6-4aea1de023d5",
       "name": "Task",
       "description": {
         "content": "",
@@ -3125,7 +3349,7 @@
       },
       "item": [
         {
-          "id": "80879a2f-b14d-40f8-b933-9bff238d3b23",
+          "id": "c4dc0099-b989-48a1-b610-e260e5ae9aaa",
           "name": "Get Task",
           "request": {
             "name": "Get Task",
@@ -3177,12 +3401,12 @@
           "event": []
         },
         {
-          "id": "6e156346-3442-411c-aae2-a933ca2e9e8f",
+          "id": "27c2e0a8-fb37-478a-bbec-6dcdd27d7fe1",
           "name": "List Tasks assigned to me",
           "request": {
             "name": "List Tasks assigned to me",
             "description": {
-              "content": "Retrieves tasks assigned to the autheticated user.",
+              "content": "Retrieves tasks assigned to the authenticated user.",
               "type": "text/plain"
             },
             "url": {
@@ -3257,7 +3481,7 @@
           "event": []
         },
         {
-          "id": "165b6fdd-4b7b-4bb2-854c-101a2beca529",
+          "id": "e75c4803-45c5-4578-8be7-63a65f741338",
           "name": "Accept Task",
           "request": {
             "name": "Accept Task",
@@ -3303,7 +3527,7 @@
           "event": []
         },
         {
-          "id": "1b62fd67-5aab-411f-a8ad-ddb35e928cf7",
+          "id": "b1f66c66-6462-4a04-9d59-514ddff1f4ee",
           "name": "Reject Task",
           "request": {
             "name": "Reject Task",
@@ -3349,7 +3573,7 @@
           "event": []
         },
         {
-          "id": "65c72a39-ec1b-413c-9cfa-2c9ea9f9cbc0",
+          "id": "9ce199bc-d140-4df1-8f20-f442f79e5b6d",
           "name": "Complete Task",
           "request": {
             "name": "Complete Task",
@@ -3411,7 +3635,7 @@
           }
         },
         {
-          "id": "2715e8b4-4397-4381-8372-16345110ad75",
+          "id": "c33317e5-db1b-4a8d-a9ac-8707c5344749",
           "name": "Release Task",
           "request": {
             "name": "Release Task",
@@ -3457,7 +3681,7 @@
           "event": []
         },
         {
-          "id": "498e4e1c-a04e-4843-80cd-944f7eee0a96",
+          "id": "1fa9be04-3329-473e-84cf-e16f7f082c49",
           "name": "Reclaim Task",
           "request": {
             "name": "Reclaim Task",
@@ -3503,7 +3727,7 @@
           "event": []
         },
         {
-          "id": "ab3a7a5b-b10d-4797-ac77-7f1174c0f7d6",
+          "id": "f5bd461f-f1d1-4eca-87e5-112fb3a288be",
           "name": "Assign Task",
           "request": {
             "name": "Assign Task",
@@ -3568,7 +3792,7 @@
       "event": []
     },
     {
-      "id": "1ff0b1b4-ae96-4397-87c4-28742c0933ae",
+      "id": "91c6112c-69aa-466b-b1fa-e6c42b8d5157",
       "name": "Task Type",
       "description": {
         "content": "",
@@ -3576,7 +3800,7 @@
       },
       "item": [
         {
-          "id": "82b68a92-0e71-4cb4-a50c-6c8362dc3ef8",
+          "id": "1f350f8b-5a0d-48cc-b957-edda4dda54c5",
           "name": "Get Task Type",
           "request": {
             "name": "Get Task Type",
@@ -3628,7 +3852,7 @@
           "event": []
         },
         {
-          "id": "5c750ab5-6029-4d2a-89ae-1ab61708cd0f",
+          "id": "2f94916d-d8a5-412e-9de0-f98a214391c3",
           "name": "List Task Types",
           "request": {
             "name": "List Task Types",
@@ -3716,7 +3940,7 @@
       "event": []
     },
     {
-      "id": "13d9a83f-8e48-445c-bacb-ab3b7ce8d9c2",
+      "id": "85f2cd61-19ea-4f12-ab32-70b98572f02a",
       "name": "Termbase",
       "description": {
         "content": "",
@@ -3724,7 +3948,7 @@
       },
       "item": [
         {
-          "id": "6f68bf78-e7a8-4f0a-bfd7-7bb8f2b9c924",
+          "id": "9cee5f8a-c02e-4e7b-a774-590745d037f5",
           "name": "List Termbases",
           "request": {
             "name": "List Termbases",
@@ -3791,7 +4015,7 @@
           "event": []
         },
         {
-          "id": "a486fda0-673b-4612-b940-3a0f32725b6b",
+          "id": "83beaf03-71a4-44a6-8d04-ea95adb64451",
           "name": "Create Termbase",
           "request": {
             "name": "Create Termbase",
@@ -3850,7 +4074,7 @@
           }
         },
         {
-          "id": "32d42e3f-1cdb-409c-a8bd-3604af759d89",
+          "id": "45ca1fa8-a9f0-481a-a3e4-216177161591",
           "name": "Get Termbase",
           "request": {
             "name": "Get Termbase",
@@ -3902,7 +4126,7 @@
           "event": []
         },
         {
-          "id": "a3b8b88c-de4c-426a-8d12-f1146747a5a6",
+          "id": "0b0dd5b2-7ba2-4e8b-ba36-e0ad5af78e82",
           "name": "Delete Termbase",
           "request": {
             "name": "Delete Termbase",
@@ -3947,7 +4171,7 @@
           "event": []
         },
         {
-          "id": "dd74ed26-593f-423a-9611-5a7a3497b468",
+          "id": "5d22a783-1096-4f31-8738-cf98d2cbf31a",
           "name": "Update Termbase",
           "request": {
             "name": "Update Termbase",
@@ -4008,12 +4232,12 @@
           }
         },
         {
-          "id": "c12d5429-23ef-41f1-b442-cf8f84b352cd",
+          "id": "3f89cbaf-78a0-4d5f-938a-3984a6e6524f",
           "name": "Create Termbase Entry",
           "request": {
             "name": "Create Termbase Entry",
             "description": {
-              "content": "Creates a new termbase entry. For more information about how to use `fieldValueLinks` see [`Create termbase entry`](/termbaseentries#creating-a-termbase-entry).",
+              "content": "Creates a new termbase entry. For more information about how to use `fieldValueLinks` see [`Create termbase entry`](../docs/termbase/Termbase-entries.md#creating-a-termbase-entry).",
               "type": "text/plain"
             },
             "url": {
@@ -4077,7 +4301,7 @@
           }
         },
         {
-          "id": "29be5a6c-f330-4abd-9045-6e1a255849c7",
+          "id": "8cb3db89-7bbb-460d-8020-3fe553aab203",
           "name": "List Termbase Entries",
           "request": {
             "name": "List Termbase Entries",
@@ -4154,7 +4378,7 @@
           "event": []
         },
         {
-          "id": "eebb6346-1c2d-40ec-8ea5-ca39a9294bd3",
+          "id": "5046bf1d-0891-44b9-82a8-133f260d0c6f",
           "name": "Delete Termbase Entries",
           "request": {
             "name": "Delete Termbase Entries",
@@ -4200,7 +4424,7 @@
           "event": []
         },
         {
-          "id": "e3a48740-6c88-4798-923d-e8e7579846cb",
+          "id": "cb2ada8b-1649-45df-92dc-996431226b13",
           "name": "Get Termbase Entry",
           "request": {
             "name": "Get Termbase Entry",
@@ -4261,7 +4485,7 @@
           "event": []
         },
         {
-          "id": "e6734c3d-513e-4fc2-9602-dd6fae09a3ce",
+          "id": "b32e33a5-46a3-41f1-a245-bf4181b621d6",
           "name": "Update Termbase Entry",
           "request": {
             "name": "Update Termbase Entry",
@@ -4331,7 +4555,7 @@
           }
         },
         {
-          "id": "a6dda00b-875b-4d5a-aa7d-d8a2d7c0d87f",
+          "id": "5879773b-ec49-41b8-8dfe-776a7c563416",
           "name": "Delete Termbase Entry",
           "request": {
             "name": "Delete Termbase Entry",
@@ -4385,7 +4609,7 @@
           "event": []
         },
         {
-          "id": "2a9c3f8f-57cb-4285-ba01-b86ad4c196b4",
+          "id": "30a4ce2e-45f0-4be1-af7c-00cf8b36e727",
           "name": "List Termbase Terms",
           "request": {
             "name": "List Termbase Terms",
@@ -4473,7 +4697,7 @@
       "event": []
     },
     {
-      "id": "c1251433-f6ff-409c-bd28-f01681bb6e74",
+      "id": "9c02be64-e3e1-4514-a9ea-482ed98d654d",
       "name": "Termbase Template",
       "description": {
         "content": "",
@@ -4481,7 +4705,7 @@
       },
       "item": [
         {
-          "id": "2f78cd29-38fa-4918-8715-2e328f63d050",
+          "id": "7932bcb4-5853-406c-bca1-1c2ac9bbdc38",
           "name": "List Termbase Templates",
           "request": {
             "name": "List Termbase Templates",
@@ -4554,7 +4778,7 @@
           "event": []
         },
         {
-          "id": "f9414d01-edd4-4954-9ac6-ae6f42c307d5",
+          "id": "a0cfa882-ef1c-4d40-8311-61173ca2da35",
           "name": "Create Termbase Template",
           "request": {
             "name": "Create Termbase Template",
@@ -4613,7 +4837,7 @@
           }
         },
         {
-          "id": "a3d03e2f-5e07-4949-ae25-9d273fc0dc2a",
+          "id": "7eb95288-1c4a-43d1-af0b-05173b3f6bc0",
           "name": "Get Termbase Template",
           "request": {
             "name": "Get Termbase Template",
@@ -4665,7 +4889,7 @@
           "event": []
         },
         {
-          "id": "9abbb701-61fb-43aa-84f4-cf49bcb2296d",
+          "id": "89a41e74-8515-4a7b-bafa-4275cb9e7d03",
           "name": "Delete Termbase Template",
           "request": {
             "name": "Delete Termbase Template",
@@ -4710,7 +4934,7 @@
           "event": []
         },
         {
-          "id": "725b4d5e-e6de-4199-815a-7a017dfd855b",
+          "id": "e05a1abe-5fe5-4ab7-9062-df8bd62b6df0",
           "name": "Update Termbase Template",
           "request": {
             "name": "Update Termbase Template",
@@ -4771,7 +4995,7 @@
           }
         },
         {
-          "id": "2d07c92a-8b85-41b5-be43-fa21bbce7de8",
+          "id": "2569a4c1-8101-463f-9987-5d3328ab5045",
           "name": "Convert XDT to Termbase Structure",
           "request": {
             "name": "Convert XDT to Termbase Structure",
@@ -4835,7 +5059,7 @@
       "event": []
     },
     {
-      "id": "163cf89d-2d32-4ce0-a28b-7851c92c154d",
+      "id": "1c510c06-0f30-439b-b0ed-01f476510c4a",
       "name": "Termbase Import",
       "description": {
         "content": "",
@@ -4843,7 +5067,7 @@
       },
       "item": [
         {
-          "id": "cd873702-49ee-4413-ad5d-4585878cd97c",
+          "id": "843676ae-dcd6-40bc-8c89-848e8f8ffc7a",
           "name": "Get Termbase Import History",
           "request": {
             "name": "Get Termbase Import History",
@@ -4908,7 +5132,7 @@
           "event": []
         },
         {
-          "id": "d2775987-6ecb-4edc-81f4-df4aa1b9f0f8",
+          "id": "81fd6b20-7109-4288-a32f-3a97f52a7cad",
           "name": "Import Termbase",
           "request": {
             "name": "Import Termbase",
@@ -4984,7 +5208,7 @@
           }
         },
         {
-          "id": "b2a535b3-82a8-4b4a-8ea7-c13dd4975e3b",
+          "id": "2c2077e4-125c-4ca1-b483-70727b2bd508",
           "name": "Poll Termbase Import",
           "request": {
             "name": "Poll Termbase Import",
@@ -5038,7 +5262,7 @@
           "event": []
         },
         {
-          "id": "2eae31d1-f28b-4e3a-88a3-cd8ed81ef1ec",
+          "id": "18c9b8f9-bdff-4efb-b517-73d24b392d17",
           "name": "Download Termbase Import Logs",
           "request": {
             "name": "Download Termbase Import Logs",
@@ -5096,7 +5320,7 @@
       "event": []
     },
     {
-      "id": "b706f9eb-8ca9-49d2-a79f-8d871e96d018",
+      "id": "5ab0ed2b-fe2a-402c-8979-be8ecbbe5bad",
       "name": "Termbase Export",
       "description": {
         "content": "",
@@ -5104,7 +5328,7 @@
       },
       "item": [
         {
-          "id": "d23f9433-fec2-41de-9215-c5e88dc2347b",
+          "id": "99ee6c3d-3723-4fc9-b4f4-be88525c6c59",
           "name": "Export Termbase",
           "request": {
             "name": "Export Termbase",
@@ -5166,7 +5390,7 @@
           }
         },
         {
-          "id": "8a42b1c9-c19c-4fcf-84ad-31e68408dd9b",
+          "id": "06d4f591-d0bc-4e0a-b86f-a8dfaad68d07",
           "name": "Poll Termbase Export",
           "request": {
             "name": "Poll Termbase Export",
@@ -5220,7 +5444,7 @@
           "event": []
         },
         {
-          "id": "40d6352f-ac1e-4751-8a59-3f3ce028130f",
+          "id": "e0a83b31-9f47-48d5-9689-ffc83d4d1e64",
           "name": "Download Exported Termbase",
           "request": {
             "name": "Download Exported Termbase",
@@ -5275,7 +5499,7 @@
           "event": []
         },
         {
-          "id": "5de48006-2d35-4670-a18a-43d806ea5618",
+          "id": "7c7228ff-7bee-43b0-b8ab-850b9e8b8db4",
           "name": "Export Termbase Template",
           "request": {
             "name": "Export Termbase Template",
@@ -5324,7 +5548,7 @@
       "event": []
     },
     {
-      "id": "fd289614-eaf5-4df5-8364-2343a95cf688",
+      "id": "8af4eb1f-edad-4508-ba8a-d87972664767",
       "name": "TQA Profile",
       "description": {
         "content": "",
@@ -5332,7 +5556,7 @@
       },
       "item": [
         {
-          "id": "277cf600-ef79-4ac9-bcba-2ede319938b4",
+          "id": "feaf121e-deb8-460d-a440-27524afc3862",
           "name": "List TQA Profiles",
           "request": {
             "name": "List TQA Profiles",
@@ -5405,7 +5629,7 @@
           "event": []
         },
         {
-          "id": "2ddf5276-8aba-4222-bf65-c6bd624ab553",
+          "id": "1c037c4b-0c5f-45ab-bc42-d2a78e000c5a",
           "name": "Get TQA Profile",
           "request": {
             "name": "Get TQA Profile",
@@ -5460,7 +5684,7 @@
       "event": []
     },
     {
-      "id": "f3e3baca-c589-4733-833c-30a22e45fadd",
+      "id": "e73632ef-ee1f-449d-acd5-555b5e810339",
       "name": "Translation Engine",
       "description": {
         "content": "",
@@ -5468,7 +5692,7 @@
       },
       "item": [
         {
-          "id": "b5bbf3de-491e-45fe-ad38-36448feff24f",
+          "id": "9f2c3071-11e9-42ba-9c4b-847abceb6229",
           "name": "Get Translation Engine",
           "request": {
             "name": "Get Translation Engine",
@@ -5520,7 +5744,7 @@
           "event": []
         },
         {
-          "id": "f2993f3c-987f-4eaa-832d-ad2a128a80ae",
+          "id": "7801621a-3b26-4e70-8d50-ed9ff4eec179",
           "name": "List Translation Engines",
           "request": {
             "name": "List Translation Engines",
@@ -5596,7 +5820,7 @@
       "event": []
     },
     {
-      "id": "2a0bf80c-43ec-42cb-b9d4-785a502c03fc",
+      "id": "26aac7ed-9510-49e8-b2b3-7d62475aabb1",
       "name": "User",
       "description": {
         "content": "",
@@ -5604,7 +5828,7 @@
       },
       "item": [
         {
-          "id": "a4967806-9d5f-41a8-9357-e263492c3c7e",
+          "id": "92540b47-7680-436e-9e0a-47ad858b1a2b",
           "name": "Get my User",
           "request": {
             "name": "Get my User",
@@ -5648,7 +5872,7 @@
           "event": []
         },
         {
-          "id": "3d199ed7-b769-478b-8e0b-d44df39f8b6d",
+          "id": "916e435a-8c90-4679-b677-64e9263aa9f6",
           "name": "List Users",
           "request": {
             "name": "List Users",
@@ -5721,7 +5945,7 @@
           "event": []
         },
         {
-          "id": "8db201af-d5b7-4d26-b915-1f6164913a1e",
+          "id": "7400e4cb-5524-416e-97f2-07910120af18",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -5776,7 +6000,7 @@
       "event": []
     },
     {
-      "id": "379a97f9-5bf1-4267-b2e9-390d1d6cba35",
+      "id": "a4ac9621-72ac-4215-8b03-d7e0585f6864",
       "name": "Workflow",
       "description": {
         "content": "",
@@ -5784,7 +6008,7 @@
       },
       "item": [
         {
-          "id": "28cacf11-da77-4dcb-b575-8149b6c5acff",
+          "id": "45888049-667c-482e-8b78-2e6dfc5539bb",
           "name": "Get Workflow",
           "request": {
             "name": "Get Workflow",
@@ -5836,7 +6060,7 @@
           "event": []
         },
         {
-          "id": "1d2f7162-85bc-482f-8686-f40c46efb7a1",
+          "id": "8275ad70-dcb0-4eb0-83cc-ae7b52d5b7a6",
           "name": "Update Workflow",
           "request": {
             "name": "Update Workflow",
@@ -5897,7 +6121,7 @@
           }
         },
         {
-          "id": "35da4d97-58c3-4b2f-a020-3bf089680965",
+          "id": "2eedf3bf-f4ca-4bf8-9de5-61d755354658",
           "name": "List Workflows",
           "request": {
             "name": "List Workflows",
@@ -6056,7 +6280,7 @@
     }
   ],
   "info": {
-    "_postman_id": "a3a0a3ab-d55a-4439-9129-2f133df81e68",
+    "_postman_id": "5ac42530-82c7-485b-b4ce-925f668ad185",
     "name": "RWS Language Cloud API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
