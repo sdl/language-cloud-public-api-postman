@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "1f1c0be6-5d91-4d3d-a774-61fbf8cc12b5",
+      "id": "73649368-2bd5-4337-828f-bbfe6d4cff88",
       "name": "Account",
       "description": {
         "content": "",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "f123297b-37f6-4ea2-96d6-ee9c217d4050",
+          "id": "51348d56-8450-4fe6-856c-464b73b61128",
           "name": "List my Accounts",
           "request": {
             "name": "List my Accounts",
@@ -51,7 +51,7 @@
       "event": []
     },
     {
-      "id": "f1564bc2-931f-4d07-ac16-5971eaaa234f",
+      "id": "9ca32258-cc29-43ea-a43a-951a539d9e08",
       "name": "Custom Field",
       "description": {
         "content": "",
@@ -59,7 +59,7 @@
       },
       "item": [
         {
-          "id": "3df48d15-2d73-42fe-a3df-5117751cc0a8",
+          "id": "e97b8265-7d3e-4922-8de8-65e2a9e89b00",
           "name": "List Custom Field Definitions",
           "request": {
             "name": "List Custom Field Definitions",
@@ -135,7 +135,7 @@
           }
         },
         {
-          "id": "0e9384e2-b125-4e87-8a55-e7f652f32f63",
+          "id": "dcb9b6b1-73f3-421d-b4bf-7145287ccc07",
           "name": "Get Custom Field Definition",
           "request": {
             "name": "Get Custom Field Definition",
@@ -193,7 +193,7 @@
       "event": []
     },
     {
-      "id": "da0ecfd8-ce4c-40b7-ad78-60396ec25c4b",
+      "id": "46e9dbb2-1548-458e-9e38-100ca675ecfe",
       "name": "Customer",
       "description": {
         "content": "",
@@ -201,7 +201,7 @@
       },
       "item": [
         {
-          "id": "c031d73d-6685-4f57-8e87-521d10b83578",
+          "id": "0ee9bfd0-c320-4c20-a377-af27350447f0",
           "name": "Get Customer",
           "request": {
             "name": "Get Customer",
@@ -256,7 +256,7 @@
           }
         },
         {
-          "id": "6bc65235-2c4d-42d3-bc42-74edee6840e6",
+          "id": "0f54bbbe-5073-439f-a9e8-b10c30241a9f",
           "name": "List Customers",
           "request": {
             "name": "List Customers",
@@ -335,7 +335,7 @@
       "event": []
     },
     {
-      "id": "873cd424-a7eb-41e0-8c00-75ca09662de6",
+      "id": "e473a6bc-9331-4b4e-937a-8c0f4ab6ffdd",
       "name": "File Processing Configuration",
       "description": {
         "content": "",
@@ -343,7 +343,7 @@
       },
       "item": [
         {
-          "id": "ee136af0-db56-4f47-bdd9-7cc1e61f8903",
+          "id": "db764417-0893-4533-803a-53d42daf7d79",
           "name": "Get File Processing Configuration",
           "request": {
             "name": "Get File Processing Configuration",
@@ -398,7 +398,7 @@
           }
         },
         {
-          "id": "b9edb479-2422-4233-9f12-21352421f84b",
+          "id": "5bea1a6c-8585-4f15-86a8-488114df3e65",
           "name": "List File Processing Configurations",
           "request": {
             "name": "List File Processing Configurations",
@@ -474,7 +474,7 @@
           }
         },
         {
-          "id": "6d7b27f2-ad74-49a1-a24c-4faf78cd6e04",
+          "id": "6eb1bc4f-be0f-49d2-9bac-68c881c57cde",
           "name": "Get File Type Setting",
           "request": {
             "name": "Get File Type Setting",
@@ -538,7 +538,7 @@
           }
         },
         {
-          "id": "02922216-2ea9-4c0e-adbc-1d21bb6c27d5",
+          "id": "3d0f061d-156d-419f-9be1-a2b16876c04a",
           "name": "List File Type Settings",
           "request": {
             "name": "List File Type Settings",
@@ -597,7 +597,7 @@
       "event": []
     },
     {
-      "id": "5921f4cf-7abc-41ca-9ce2-3e84137e87ae",
+      "id": "ff3d06f4-9673-48a2-9199-bf09f5656e65",
       "name": "File",
       "description": {
         "content": "",
@@ -605,7 +605,7 @@
       },
       "item": [
         {
-          "id": "9d2afd06-a27b-4bd1-a711-3ad1687ce502",
+          "id": "a538473c-15ca-4d70-82f8-5435e7300d70",
           "name": "Upload Zip File",
           "request": {
             "name": "Upload Zip File",
@@ -658,7 +658,7 @@
           }
         },
         {
-          "id": "5ac63dde-380f-4a7b-913e-3bb300176f94",
+          "id": "c4548b5f-fcc8-44f9-9fb5-e1863c07f947",
           "name": "Poll Upload Zip File",
           "request": {
             "name": "Poll Upload Zip File",
@@ -709,7 +709,7 @@
       "event": []
     },
     {
-      "id": "5e0efdbb-cf3b-4acf-a799-96e75d85cb15",
+      "id": "26836562-531f-40c8-948a-c75c64322cb9",
       "name": "Folder",
       "description": {
         "content": "",
@@ -717,7 +717,7 @@
       },
       "item": [
         {
-          "id": "c3f74dd0-3656-4755-a402-37b2184e35d6",
+          "id": "a8d549aa-cbd6-4197-a85a-f97faae26e50",
           "name": "Get Folder",
           "request": {
             "name": "Get Folder",
@@ -772,7 +772,7 @@
           }
         },
         {
-          "id": "473d7e61-a6d0-44e5-8c5b-09531b7bff6a",
+          "id": "0d098ac9-cc38-4d37-80b0-a3816d5c31d3",
           "name": "Get Root Folder",
           "request": {
             "name": "Get Root Folder",
@@ -819,7 +819,7 @@
           }
         },
         {
-          "id": "04023f99-4978-4342-b671-1509f82c6007",
+          "id": "dce8f9e2-44c8-4000-920e-eb220b3040d8",
           "name": "List Folders",
           "request": {
             "name": "List Folders",
@@ -874,7 +874,7 @@
       "event": []
     },
     {
-      "id": "28eca861-b9da-43cb-92e9-5192f029bdd8",
+      "id": "e9780d85-88a9-4943-8978-6719ad665ca2",
       "name": "Group",
       "description": {
         "content": "",
@@ -882,7 +882,7 @@
       },
       "item": [
         {
-          "id": "abe97868-9a7a-4505-ae47-cd1072dccc21",
+          "id": "f1cc7927-2a4c-4263-8ca6-679810bbb78c",
           "name": "Get Group",
           "request": {
             "name": "Get Group",
@@ -937,7 +937,7 @@
           }
         },
         {
-          "id": "f7a9c2e7-c37f-49f7-a180-d8b4cd1531ec",
+          "id": "c503ecdc-dccd-489c-9800-66325d135ef2",
           "name": "List Groups",
           "request": {
             "name": "List Groups",
@@ -1016,7 +1016,7 @@
       "event": []
     },
     {
-      "id": "de447605-f799-45ee-aa86-29e36259b02a",
+      "id": "2969c747-02a8-4718-888e-1076927de0f7",
       "name": "Language",
       "description": {
         "content": "",
@@ -1024,7 +1024,7 @@
       },
       "item": [
         {
-          "id": "2712206f-e298-4969-810d-16cf157558bd",
+          "id": "8fd55a13-27d5-4140-9043-9d7e76252741",
           "name": "List Languages",
           "request": {
             "name": "List Languages",
@@ -1085,7 +1085,149 @@
       "event": []
     },
     {
-      "id": "8d99295f-5311-40f0-bc2b-bd0ba984aaf7",
+      "id": "4c245a59-0811-438d-b280-c70f9d454245",
+      "name": "Language Processing",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "9e10052b-c88c-4cbb-a4c5-91b06f6b5eba",
+          "name": "List Language Processing Rules",
+          "request": {
+            "name": "List Language Processing Rules",
+            "description": {
+              "content": "Returns a list of Language Processing Rules.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "language-processing-rules"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "top",
+                  "value": "100",
+                  "description": "The number of items to include inside the page."
+                },
+                {
+                  "disabled": true,
+                  "key": "skip",
+                  "value": "0",
+                  "description": "The number of items that are skipped to reach the desired page."
+                },
+                {
+                  "disabled": true,
+                  "key": "sort",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields used to sort the resources in the response. Each field can have a unary negative to imply descending sort order."
+                },
+                {
+                  "disabled": true,
+                  "key": "location",
+                  "value": "<string>,<string>",
+                  "description": "The identifiers of the resource folders. You can control the behavior by using the 'locationStrategy'. "
+                },
+                {
+                  "disabled": true,
+                  "key": "locationStrategy",
+                  "value": "<string>",
+                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                },
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "01fc51bd-b435-41b6-aace-e77fb8f5051e",
+          "name": "Get Language Processing Rule",
+          "request": {
+            "name": "Get Language Processing Rule",
+            "description": {
+              "content": "Returns a Language Processing Rule by identifier.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "language-processing-rules",
+                ":languageProcessingRuleId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "languageProcessingRuleId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "28729d77-3bf7-4b4c-a435-379c5e066640",
       "name": "Pricing Model",
       "description": {
         "content": "",
@@ -1093,7 +1235,7 @@
       },
       "item": [
         {
-          "id": "6c799c04-416e-4156-846a-d81d5f342505",
+          "id": "6da113b4-43ea-4e53-b4b4-f49c3da4931d",
           "name": "List Pricing Models",
           "request": {
             "name": "List Pricing Models",
@@ -1169,7 +1311,7 @@
           }
         },
         {
-          "id": "8da5957c-417e-4f1a-a4f3-07e0ec0cd51a",
+          "id": "baf88c01-90a4-46c4-ba60-6df9544dcfbf",
           "name": "Get Pricing Model",
           "request": {
             "name": "Get Pricing Model",
@@ -1227,7 +1369,7 @@
       "event": []
     },
     {
-      "id": "007defc4-2599-4e9f-95cb-2fa7c365ca7e",
+      "id": "79c90489-3d3a-4824-ae13-89a2d978b5e1",
       "name": "Project",
       "description": {
         "content": "",
@@ -1235,7 +1377,7 @@
       },
       "item": [
         {
-          "id": "df57b62c-7a53-42ca-a39b-bb1aa020b59c",
+          "id": "76dc73cb-aaa1-426e-b0c0-80aef6dce715",
           "name": "List Projects",
           "request": {
             "name": "List Projects",
@@ -1317,7 +1459,7 @@
           }
         },
         {
-          "id": "f8100c85-9f87-4ffa-9926-4ad183747832",
+          "id": "65b42a75-9a4a-4710-902d-fd9dfdcd6578",
           "name": "Create Project",
           "request": {
             "name": "Create Project",
@@ -1376,7 +1518,7 @@
           }
         },
         {
-          "id": "3ded355a-5bbb-40b1-b87e-630b36d8da8e",
+          "id": "40aa263d-65e6-4b59-8f23-053123acca9f",
           "name": "Get Project",
           "request": {
             "name": "Get Project",
@@ -1431,7 +1573,7 @@
           }
         },
         {
-          "id": "91504926-abf0-47e3-90e7-1d9172cb02c0",
+          "id": "040603eb-b637-4c67-a70b-d347536c0ac9",
           "name": "Update Project",
           "request": {
             "name": "Update Project",
@@ -1492,7 +1634,7 @@
           }
         },
         {
-          "id": "e1b7afc7-2454-47be-ad4f-7457a792cc74",
+          "id": "e74ab620-5eb3-4d75-b198-128619a6bc46",
           "name": "Delete Project",
           "request": {
             "name": "Delete Project",
@@ -1540,7 +1682,7 @@
           }
         },
         {
-          "id": "24cb4cc7-eaea-48a5-aeb6-552b1aa3077b",
+          "id": "2c808e71-d6c6-4f1b-9c6e-baf9fbc9d880",
           "name": "Get Project Configuration",
           "request": {
             "name": "Get Project Configuration",
@@ -1596,7 +1738,7 @@
           }
         },
         {
-          "id": "6c75bb3d-e7fe-461c-af3b-ab5afa4cc13c",
+          "id": "1bf7a6b8-63a3-4fb8-b3a3-b408ad448038",
           "name": "Update Project Configuration",
           "request": {
             "name": "Update Project Configuration",
@@ -1658,7 +1800,7 @@
           }
         },
         {
-          "id": "b557dd57-1dff-4c35-97a9-02d784f8345b",
+          "id": "6f823167-e13a-4c42-bd35-55661919c57c",
           "name": "Start Project",
           "request": {
             "name": "Start Project",
@@ -1707,7 +1849,7 @@
           }
         },
         {
-          "id": "0bbaf611-6266-4f84-91ed-20569668e483",
+          "id": "d6f1a564-bc22-45eb-8c71-452c7efc5637",
           "name": "Complete Project",
           "request": {
             "name": "Complete Project",
@@ -1756,7 +1898,7 @@
           }
         },
         {
-          "id": "9fde3178-f680-47ae-9814-59959cb4500e",
+          "id": "4bef60b1-eafd-47d6-873b-aaeaf9cb6d0d",
           "name": "Cancel Project File",
           "request": {
             "name": "Cancel Project File",
@@ -1814,7 +1956,7 @@
           }
         },
         {
-          "id": "6037b81c-b080-46c8-bbc3-46099ad66dd9",
+          "id": "ac6463ef-ddaf-4812-a28f-c8a6dcf454fa",
           "name": "List Project's Tasks",
           "request": {
             "name": "List Project's Tasks",
@@ -1903,7 +2045,7 @@
       "event": []
     },
     {
-      "id": "359b33f0-0a8b-49ac-818f-0735d79f8820",
+      "id": "f0dc0a05-8503-49d4-8ba3-fd312cc0862a",
       "name": "Project Template",
       "description": {
         "content": "",
@@ -1911,7 +2053,7 @@
       },
       "item": [
         {
-          "id": "50ad387e-11de-4df7-878f-a549595a4533",
+          "id": "f05be6f6-37b6-49d1-b38f-8bb594e7a3fe",
           "name": "Get Project Template",
           "request": {
             "name": "Get Project Template",
@@ -1966,7 +2108,7 @@
           }
         },
         {
-          "id": "49529cc0-2fd1-468f-abea-00e0989e5ea0",
+          "id": "b1e9b002-b5ed-46f9-a3c7-f6010d49a12f",
           "name": "List Project Templates",
           "request": {
             "name": "List Project Templates",
@@ -2051,7 +2193,7 @@
       "event": []
     },
     {
-      "id": "4ff84f61-df70-450a-9580-b5c4aa595a2a",
+      "id": "82b75c00-12fc-42bd-b7f4-47031b4d11d3",
       "name": "Public Keys",
       "description": {
         "content": "",
@@ -2059,7 +2201,7 @@
       },
       "item": [
         {
-          "id": "1aa98ce1-ee47-413e-a508-e4e57607a60d",
+          "id": "676702e6-a043-436f-ae32-7fbf8345f6e0",
           "name": "List Public Keys",
           "request": {
             "name": "List Public Keys",
@@ -2093,7 +2235,7 @@
           }
         },
         {
-          "id": "96dae71b-ca8e-423b-bcaf-6834c20be753",
+          "id": "97f927a0-17af-4541-b082-638dfb9b70f0",
           "name": "Get Public Key",
           "request": {
             "name": "Get Public Key",
@@ -2139,7 +2281,7 @@
       "event": []
     },
     {
-      "id": "02cab3e0-0636-45c3-8650-e8afae9e800c",
+      "id": "9b6f0054-c513-4837-ab58-80e196e231eb",
       "name": "Quote",
       "description": {
         "content": "",
@@ -2147,7 +2289,7 @@
       },
       "item": [
         {
-          "id": "ca035fae-e5ac-4721-887f-3b5773a024f6",
+          "id": "0106aa54-0533-4710-9fc0-1b0a79982ca9",
           "name": "Export Quote",
           "request": {
             "name": "Export Quote",
@@ -2215,7 +2357,7 @@
           }
         },
         {
-          "id": "5a70d9b6-a464-4fbe-b80b-7dc367470f29",
+          "id": "646dc560-2adc-44b2-afb3-b6c3522c91c9",
           "name": "Export Quote Report",
           "request": {
             "name": "Export Quote Report",
@@ -2278,7 +2420,7 @@
           }
         },
         {
-          "id": "17830903-a19b-472f-9199-9223a125aa98",
+          "id": "a32a2b25-cc92-4855-b536-b9339f55cd4b",
           "name": "Poll Quote Report Export",
           "request": {
             "name": "Poll Quote Report Export",
@@ -2335,7 +2477,7 @@
           }
         },
         {
-          "id": "c9cab6c7-14c3-46ec-a373-72851c7fbf17",
+          "id": "c2322123-1313-4ec1-8d37-ef1c126e6f03",
           "name": "Download Exported Quote Report",
           "request": {
             "name": "Download Exported Quote Report",
@@ -2395,7 +2537,7 @@
       "event": []
     },
     {
-      "id": "36a031b3-7d9f-4c4e-a91a-d7546155c984",
+      "id": "fb36926e-f94a-41f5-9b2c-b28032be9a86",
       "name": "Source File",
       "description": {
         "content": "",
@@ -2403,7 +2545,7 @@
       },
       "item": [
         {
-          "id": "18143da3-626e-4200-bf40-d472a65ed16a",
+          "id": "97e013c4-0e7f-4e35-916c-b3454fca60a0",
           "name": "List Source Files",
           "request": {
             "name": "List Source Files",
@@ -2477,7 +2619,7 @@
           }
         },
         {
-          "id": "7c139248-33b4-4bd7-8948-df502d541ead",
+          "id": "a31d3c2d-c81b-442a-8aa5-daca1996e36d",
           "name": "Add Source File",
           "request": {
             "name": "Add Source File",
@@ -2546,7 +2688,7 @@
           }
         },
         {
-          "id": "0133a355-b692-43bc-8c0e-94979f6a12fc",
+          "id": "556544dc-77b4-4b11-b97d-8adecf86d3e8",
           "name": "Update Source Files",
           "request": {
             "name": "Update Source Files",
@@ -2602,7 +2744,7 @@
           }
         },
         {
-          "id": "f6d0b759-9413-4d21-b415-27516028b165",
+          "id": "1138b046-9cdb-49f8-932a-c71bd8d5c17f",
           "name": "Attach Source Files",
           "request": {
             "name": "Attach Source Files",
@@ -2672,7 +2814,7 @@
           }
         },
         {
-          "id": "0f884f07-2ab1-4f28-a929-50f6f90a1270",
+          "id": "45455495-0194-47a2-8bde-0708fbe8e4d8",
           "name": "Get Source File",
           "request": {
             "name": "Get Source File",
@@ -2736,7 +2878,7 @@
           }
         },
         {
-          "id": "1ff4167b-70de-49ff-95f6-ae94e250b4e6",
+          "id": "1fe02d5f-e059-47d7-b606-398cb31b9ac7",
           "name": "Update Source File",
           "request": {
             "name": "Update Source File",
@@ -2800,7 +2942,7 @@
           }
         },
         {
-          "id": "4aa64443-58f8-4b8a-87bc-7b7d6f5c04ee",
+          "id": "32a51a72-2a38-4ef6-80af-bc72573238ff",
           "name": "List Source File Versions",
           "request": {
             "name": "List Source File Versions",
@@ -2865,7 +3007,7 @@
           }
         },
         {
-          "id": "a6e40684-7704-42f0-b0ed-d63d69ece4cc",
+          "id": "b3d669ca-efd8-4895-8ac4-67c0d975daaa",
           "name": "Add Source File Version",
           "request": {
             "name": "Add Source File Version",
@@ -2950,7 +3092,7 @@
           }
         },
         {
-          "id": "1ec17c79-758d-4898-932d-b78d55bcf788",
+          "id": "ae92cc70-2dba-4c2c-becd-a3a4abcc3dce",
           "name": "Download Source File Version",
           "request": {
             "name": "Download Source File Version",
@@ -3017,7 +3159,7 @@
           }
         },
         {
-          "id": "a6f993e2-15ed-4d8b-8812-a414e43bc0f0",
+          "id": "746b45e9-8558-4ca4-9ca7-601a162834ac",
           "name": "Get Source File Properties",
           "request": {
             "name": "Get Source File Properties",
@@ -3074,7 +3216,7 @@
           }
         },
         {
-          "id": "2e4496c2-dffe-49ff-9e24-23cb311cd24e",
+          "id": "b0e27e00-54f2-4412-93c7-a9b94ef77f89",
           "name": "Update Source File Properties",
           "request": {
             "name": "Update Source File Properties",
@@ -3147,7 +3289,7 @@
       "event": []
     },
     {
-      "id": "022a31d6-e495-43d8-8e26-56fb04b4a24e",
+      "id": "dbb22f8e-a5cd-474d-bf38-738a226902b1",
       "name": "Target File",
       "description": {
         "content": "",
@@ -3155,7 +3297,7 @@
       },
       "item": [
         {
-          "id": "eeef5b5c-0801-4147-b030-49876edd028f",
+          "id": "fabad8b9-2280-4578-a95d-b03a4367ad0f",
           "name": "Get Target File",
           "request": {
             "name": "Get Target File",
@@ -3219,7 +3361,7 @@
           }
         },
         {
-          "id": "293c63b6-703a-4276-8296-a9dc811b142a",
+          "id": "01706885-30ae-455a-b603-ec26a15b6fd9",
           "name": "Update Target File",
           "request": {
             "name": "Update Target File",
@@ -3283,7 +3425,7 @@
           }
         },
         {
-          "id": "75f05c98-e470-4f1d-844a-fff4b362ca32",
+          "id": "de7897b4-8592-4505-bfb7-10b02b4ce664",
           "name": "List Target Files",
           "request": {
             "name": "List Target Files",
@@ -3363,7 +3505,7 @@
           }
         },
         {
-          "id": "3fd1c370-e84b-4806-860d-6917aac5c02a",
+          "id": "281b4774-9942-4c39-87ae-e45805524651",
           "name": "Update Target Files",
           "request": {
             "name": "Update Target Files",
@@ -3419,7 +3561,7 @@
           }
         },
         {
-          "id": "409e566d-da61-4543-8539-960ad2b47574",
+          "id": "f5bc9a41-8e91-42f1-b021-db95e08df5d4",
           "name": "Get Target File Version",
           "request": {
             "name": "Get Target File Version",
@@ -3492,7 +3634,7 @@
           }
         },
         {
-          "id": "66361010-dcad-4fdc-a54e-bc91e4684ca1",
+          "id": "3381e6b4-aa5a-4ae2-aee6-2c3c09ecae9e",
           "name": "List Target File Versions",
           "request": {
             "name": "List Target File Versions",
@@ -3557,7 +3699,7 @@
           }
         },
         {
-          "id": "69fabd7d-6d1c-465f-8414-36bb11ed4b0f",
+          "id": "db82bb6e-da86-4eed-b799-b7a470a0b14d",
           "name": "Export Target File Version",
           "request": {
             "name": "Export Target File Version",
@@ -3631,7 +3773,7 @@
           }
         },
         {
-          "id": "d98939e5-1fd3-46b2-97ea-f479ad168b9b",
+          "id": "9074360b-7d8d-4401-a500-58dc13d8ddab",
           "name": "Poll Target File Version Export",
           "request": {
             "name": "Poll Target File Version Export",
@@ -3706,7 +3848,7 @@
           }
         },
         {
-          "id": "6c0274cd-17e8-4123-a2e3-05a3e570c80f",
+          "id": "16676f8c-9a9e-4ec1-bb6d-2beb30b1df0c",
           "name": "Download Exported Target File Version",
           "request": {
             "name": "Download Exported Target File Version",
@@ -3782,7 +3924,7 @@
           }
         },
         {
-          "id": "a7c0a1a1-2b4c-4a22-bdc6-b9960cd81c99",
+          "id": "ab3082dd-b08f-4100-a938-e97547c3ac73",
           "name": "Download Target File Version",
           "request": {
             "name": "Download Target File Version",
@@ -3849,7 +3991,7 @@
           }
         },
         {
-          "id": "0fc1290e-43b1-4605-afcd-2b0ae6db2f90",
+          "id": "f85e2794-9b3f-4971-8f02-9b936e605ac8",
           "name": "Import Target File Version",
           "request": {
             "name": "Import Target File Version",
@@ -3922,7 +4064,7 @@
           }
         },
         {
-          "id": "3b2c8be1-ab48-4121-a5dc-2126d3037f20",
+          "id": "71ca3e66-24d9-4827-90a1-00d874f8e552",
           "name": "Poll Target File Version Import",
           "request": {
             "name": "Poll Target File Version Import",
@@ -3989,7 +4131,7 @@
           }
         },
         {
-          "id": "86cab6ad-adb1-4f73-a6ce-ba53fe7a017a",
+          "id": "3d6b3884-65b6-496c-ac44-6f763cb988a2",
           "name": "Add Target File Version",
           "request": {
             "name": "Add Target File Version",
@@ -4077,7 +4219,7 @@
       "event": []
     },
     {
-      "id": "4d1017dc-c102-4be0-b79b-b2055fb56c3a",
+      "id": "0b962643-ad47-438f-bf46-337179733640",
       "name": "Task",
       "description": {
         "content": "",
@@ -4085,7 +4227,7 @@
       },
       "item": [
         {
-          "id": "0cbb03ba-c73b-4b13-a587-0c7b17b44d61",
+          "id": "85f786c4-e7c2-4d8e-9ed3-063190a26787",
           "name": "Get Task",
           "request": {
             "name": "Get Task",
@@ -4140,7 +4282,7 @@
           }
         },
         {
-          "id": "7879ff1d-bb14-456d-9507-592f69f151de",
+          "id": "575fa0f5-c0ab-4773-8d20-0bd43e24987a",
           "name": "List Tasks assigned to me",
           "request": {
             "name": "List Tasks assigned to me",
@@ -4223,7 +4365,7 @@
           }
         },
         {
-          "id": "35849dc7-fd57-4703-82c3-682d8d70957a",
+          "id": "b6325919-467b-426d-9649-7cfd467ec05f",
           "name": "Accept Task",
           "request": {
             "name": "Accept Task",
@@ -4272,7 +4414,7 @@
           }
         },
         {
-          "id": "6f09612f-a210-4e27-b4e9-91fb46f09a68",
+          "id": "02015da5-8be0-4017-aed4-e1fafef903f3",
           "name": "Reject Task",
           "request": {
             "name": "Reject Task",
@@ -4321,7 +4463,7 @@
           }
         },
         {
-          "id": "18f68ae5-21bd-41c3-9a67-ce845198de3e",
+          "id": "2885b593-fe49-4650-80d7-24048415438d",
           "name": "Complete Task",
           "request": {
             "name": "Complete Task",
@@ -4383,7 +4525,7 @@
           }
         },
         {
-          "id": "4b4362a3-36f7-4a00-b365-eeb5c9a151f2",
+          "id": "18e31e2e-8700-4dc0-a7d1-a95e8b0c6a7f",
           "name": "Release Task",
           "request": {
             "name": "Release Task",
@@ -4432,7 +4574,7 @@
           }
         },
         {
-          "id": "c938da4a-9137-4210-8004-65dc424a10e6",
+          "id": "b606a263-99b0-4cdf-a2c2-fb0b27818ee3",
           "name": "Reclaim Task",
           "request": {
             "name": "Reclaim Task",
@@ -4481,7 +4623,7 @@
           }
         },
         {
-          "id": "bd37f6af-0374-40c5-a658-750201241c70",
+          "id": "4d139eae-1b47-43d6-a2c0-618d1cbca624",
           "name": "Assign Task",
           "request": {
             "name": "Assign Task",
@@ -4546,7 +4688,7 @@
       "event": []
     },
     {
-      "id": "f19b9d2e-1c24-4175-bd3d-d60470ea789d",
+      "id": "00fdbd02-bd3d-4c16-9f1a-99e5d0b5382a",
       "name": "Task Type",
       "description": {
         "content": "",
@@ -4554,7 +4696,7 @@
       },
       "item": [
         {
-          "id": "c90ea06e-753d-42cf-bd55-8b8ee6c29b07",
+          "id": "e432f40b-22e6-425c-aa7e-e3954943e841",
           "name": "Get Task Type",
           "request": {
             "name": "Get Task Type",
@@ -4609,7 +4751,7 @@
           }
         },
         {
-          "id": "52a41446-ee1b-49fa-85fa-422f037e6c6f",
+          "id": "ac9179d4-7a40-45df-a5d7-3a4bddf72e69",
           "name": "List Task Types",
           "request": {
             "name": "List Task Types",
@@ -4700,7 +4842,7 @@
       "event": []
     },
     {
-      "id": "49d34c28-8c66-4cbe-9c83-4e5735ced1f0",
+      "id": "2e91d892-be01-4979-bd3c-fe577be234b5",
       "name": "Termbase",
       "description": {
         "content": "",
@@ -4708,7 +4850,7 @@
       },
       "item": [
         {
-          "id": "7ce1d5d9-d085-4234-b007-46216a19cac8",
+          "id": "714e5407-aee9-4f83-b1ce-3c2fe856ef2b",
           "name": "List Termbases",
           "request": {
             "name": "List Termbases",
@@ -4778,7 +4920,7 @@
           }
         },
         {
-          "id": "92151c70-11d4-449a-aa58-740a55c320f8",
+          "id": "1004a7e9-b40f-4f28-8d58-54ac91eef6d6",
           "name": "Create Termbase",
           "request": {
             "name": "Create Termbase",
@@ -4837,7 +4979,7 @@
           }
         },
         {
-          "id": "5d622322-df2a-4eed-bb63-40a9375e4002",
+          "id": "91d7578b-9a0a-4834-806c-a8ee68697a4e",
           "name": "Get Termbase",
           "request": {
             "name": "Get Termbase",
@@ -4892,7 +5034,7 @@
           }
         },
         {
-          "id": "cb690202-c189-4c58-8e58-7e62e76cd9ea",
+          "id": "244ac827-142f-46bc-8c95-b21eeb91cadb",
           "name": "Delete Termbase",
           "request": {
             "name": "Delete Termbase",
@@ -4940,7 +5082,7 @@
           }
         },
         {
-          "id": "b148beb5-bebe-47f5-a380-455711137aff",
+          "id": "8f4403d9-e25f-42ae-a8c7-842ea114cd2c",
           "name": "Update Termbase",
           "request": {
             "name": "Update Termbase",
@@ -5001,7 +5143,7 @@
           }
         },
         {
-          "id": "be67ce93-22a3-4142-b5ab-b46776873148",
+          "id": "45f76f07-a3cd-45f1-bb42-b5acc2cac191",
           "name": "Create Termbase Entry",
           "request": {
             "name": "Create Termbase Entry",
@@ -5070,7 +5212,7 @@
           }
         },
         {
-          "id": "93dbf9d4-985c-4500-ba95-6485d0549b54",
+          "id": "6383b78f-4f3c-49fa-9542-8297e83dad09",
           "name": "List Termbase Entries",
           "request": {
             "name": "List Termbase Entries",
@@ -5150,7 +5292,7 @@
           }
         },
         {
-          "id": "7bc67adb-0dff-4f5a-975c-c27bcdbeccd6",
+          "id": "18f35cd1-8707-43a3-9ffa-e8a9a770fa6b",
           "name": "Delete Termbase Entries",
           "request": {
             "name": "Delete Termbase Entries",
@@ -5199,7 +5341,7 @@
           }
         },
         {
-          "id": "f7c9593a-9765-42fb-92f7-02f00ee4b8d5",
+          "id": "ab72251e-3e62-4371-bdb5-31e344376f67",
           "name": "Get Termbase Entry",
           "request": {
             "name": "Get Termbase Entry",
@@ -5263,7 +5405,7 @@
           }
         },
         {
-          "id": "edab4cfd-e428-4ca6-a7fc-c335ae9a68fd",
+          "id": "f393d8c3-50a9-4c60-9bd2-88746af35d4b",
           "name": "Update Termbase Entry",
           "request": {
             "name": "Update Termbase Entry",
@@ -5333,7 +5475,7 @@
           }
         },
         {
-          "id": "31ca197c-2a2a-44a6-abee-0bd8365b0833",
+          "id": "3b610767-aba3-4fd5-a3de-3769a7e7d608",
           "name": "Delete Termbase Entry",
           "request": {
             "name": "Delete Termbase Entry",
@@ -5390,7 +5532,7 @@
           }
         },
         {
-          "id": "84af23df-499f-4dd0-81e6-e1c83034bb90",
+          "id": "5f07139f-b8d8-4e87-9b0b-891896d7576a",
           "name": "List Termbase Terms",
           "request": {
             "name": "List Termbase Terms",
@@ -5481,7 +5623,7 @@
       "event": []
     },
     {
-      "id": "3983d9ed-972c-4e9d-bf79-655e3dd302d0",
+      "id": "9f025d04-4a55-4088-a0f8-df08e5d9a8cc",
       "name": "Termbase Template",
       "description": {
         "content": "",
@@ -5489,7 +5631,7 @@
       },
       "item": [
         {
-          "id": "b5b53a94-683e-4e91-b6d1-5ce9d1261fb3",
+          "id": "12aa2822-06c3-46dc-9425-e11d0f50d2d5",
           "name": "List Termbase Templates",
           "request": {
             "name": "List Termbase Templates",
@@ -5565,7 +5707,7 @@
           }
         },
         {
-          "id": "552c600b-50b2-458d-9cda-8eadbad03c27",
+          "id": "770a302b-59a4-472a-bbdb-3a7e30e80aca",
           "name": "Create Termbase Template",
           "request": {
             "name": "Create Termbase Template",
@@ -5624,7 +5766,7 @@
           }
         },
         {
-          "id": "400194ae-f464-4b58-a1f7-bc6a8129e5e4",
+          "id": "afc2e19e-9e9b-457b-8fcd-4fbb565b8000",
           "name": "Get Termbase Template",
           "request": {
             "name": "Get Termbase Template",
@@ -5679,7 +5821,7 @@
           }
         },
         {
-          "id": "9cad7d6e-db60-46e7-be01-1fd95b6682d0",
+          "id": "e4ae67c4-1619-413a-8e10-73246c9f1cf6",
           "name": "Delete Termbase Template",
           "request": {
             "name": "Delete Termbase Template",
@@ -5727,7 +5869,7 @@
           }
         },
         {
-          "id": "0b4c328e-e35d-41be-902b-00e27256562f",
+          "id": "a21e0646-442b-49e5-980f-40dc0e6df9fd",
           "name": "Update Termbase Template",
           "request": {
             "name": "Update Termbase Template",
@@ -5788,7 +5930,7 @@
           }
         },
         {
-          "id": "c34e8017-88ee-4277-8daf-26af105c337d",
+          "id": "5be741ea-56c1-4237-b3a3-7c374f365878",
           "name": "Convert XDT to Termbase Structure",
           "request": {
             "name": "Convert XDT to Termbase Structure",
@@ -5852,7 +5994,7 @@
       "event": []
     },
     {
-      "id": "c4800a76-b1fb-4fba-be5d-3f7089f12aa2",
+      "id": "83e9d3ef-f90e-455c-a60b-714134dd6c22",
       "name": "Termbase Import",
       "description": {
         "content": "",
@@ -5860,7 +6002,7 @@
       },
       "item": [
         {
-          "id": "985e5bc0-8a40-496b-ac59-b9d5dab162f5",
+          "id": "6992a8ae-cb8d-4d7a-8668-43810aae3d3c",
           "name": "Get Termbase Import History",
           "request": {
             "name": "Get Termbase Import History",
@@ -5928,7 +6070,7 @@
           }
         },
         {
-          "id": "7be964be-2757-4d60-9935-6b020777549a",
+          "id": "55390e35-373a-4e81-b96c-b580d13465cb",
           "name": "Import Termbase",
           "request": {
             "name": "Import Termbase",
@@ -6004,7 +6146,7 @@
           }
         },
         {
-          "id": "dd10ad25-910d-4813-b1c5-c046c4ab6c1f",
+          "id": "14ea5a2f-0a3f-41f2-90fc-a68d63db679c",
           "name": "Poll Termbase Import",
           "request": {
             "name": "Poll Termbase Import",
@@ -6061,7 +6203,7 @@
           }
         },
         {
-          "id": "e4d12aa7-b318-4c76-b361-05250abdc895",
+          "id": "4f33c43b-dec2-4666-848e-8f6bd8696321",
           "name": "Download Termbase Import Logs",
           "request": {
             "name": "Download Termbase Import Logs",
@@ -6122,7 +6264,7 @@
       "event": []
     },
     {
-      "id": "a71b640e-b886-465d-a0d6-4259b995163e",
+      "id": "3f602ee3-61fc-464f-a90b-5d10cc6c4e4b",
       "name": "Termbase Export",
       "description": {
         "content": "",
@@ -6130,7 +6272,7 @@
       },
       "item": [
         {
-          "id": "1b0d0c4e-9a0f-44e2-9715-6c769dcd810f",
+          "id": "19863f8f-a8dc-4d00-b682-0a78d0111d00",
           "name": "Export Termbase",
           "request": {
             "name": "Export Termbase",
@@ -6192,7 +6334,7 @@
           }
         },
         {
-          "id": "2089cdab-0db9-4c28-b92c-da66d8d8acf7",
+          "id": "17051fa8-72b2-4d18-a4a7-5cb37f35ee0a",
           "name": "Poll Termbase Export",
           "request": {
             "name": "Poll Termbase Export",
@@ -6249,7 +6391,7 @@
           }
         },
         {
-          "id": "716d3a27-54df-468d-afec-f057a36fbd9d",
+          "id": "1bd239ea-2acf-46df-a2fa-5e057dcf798d",
           "name": "Download Exported Termbase",
           "request": {
             "name": "Download Exported Termbase",
@@ -6307,7 +6449,7 @@
           }
         },
         {
-          "id": "d0b9405c-31bf-4355-9d7d-6a1af602b46d",
+          "id": "8ebb025f-1f05-4ccd-b60a-4a715513641f",
           "name": "Export Termbase Template",
           "request": {
             "name": "Export Termbase Template",
@@ -6359,7 +6501,7 @@
       "event": []
     },
     {
-      "id": "441066b7-ff67-4eff-a718-3c38b0a58555",
+      "id": "467af65e-89c2-4176-a9c5-5a3d7d5733b1",
       "name": "TQA Profile",
       "description": {
         "content": "",
@@ -6367,7 +6509,7 @@
       },
       "item": [
         {
-          "id": "472424fa-d64b-4ff2-a88d-2357aea99ef8",
+          "id": "99c32c1c-1d85-4209-b69c-c59dbbbccdf6",
           "name": "List TQA Profiles",
           "request": {
             "name": "List TQA Profiles",
@@ -6443,7 +6585,7 @@
           }
         },
         {
-          "id": "56456afd-0990-4886-a430-0a4b27307702",
+          "id": "76d62eda-da05-4c5b-80b0-98b83e6960a9",
           "name": "Get TQA Profile",
           "request": {
             "name": "Get TQA Profile",
@@ -6501,7 +6643,7 @@
       "event": []
     },
     {
-      "id": "76067c6b-6fc4-4b9c-8b88-58803a487e34",
+      "id": "b23be38c-52f0-477c-8b1c-abadf925a675",
       "name": "Translation Engine",
       "description": {
         "content": "",
@@ -6509,7 +6651,7 @@
       },
       "item": [
         {
-          "id": "ccf72646-817e-41ae-be55-1f605db737f9",
+          "id": "430b2d61-2ce5-4447-b605-5ffbdbbf4ddf",
           "name": "Get Translation Engine",
           "request": {
             "name": "Get Translation Engine",
@@ -6564,7 +6706,7 @@
           }
         },
         {
-          "id": "97ee5c5f-d1ee-4fc0-8bcf-dbc4698291c6",
+          "id": "d8ff9678-25c1-4c3d-af02-a68b38429999",
           "name": "List Translation Engines",
           "request": {
             "name": "List Translation Engines",
@@ -6643,7 +6785,506 @@
       "event": []
     },
     {
-      "id": "c775e24d-7923-4878-b026-9a7b338fd613",
+      "id": "c5e88590-747c-4907-b936-78693d1ff26a",
+      "name": "Translation Memory",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "03ae9348-b531-4246-ac97-98955b131b17",
+          "name": "Get Translation Memory",
+          "request": {
+            "name": "Get Translation Memory",
+            "description": {
+              "content": "Get a single Translation Memory by identifier.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "translation-memory",
+                ":translationMemoryId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "translationMemoryId",
+                  "description": "(Required) The identifier of the translation memory"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "53daab93-00f2-4091-afd9-1bf2ebfbbf76",
+          "name": "Update Translation Memory",
+          "request": {
+            "name": "Update Translation Memory",
+            "description": {
+              "content": "Updates a Translation Memory. We recommend reading this page too [Updating data with PUT](../docs/Updating-data-with-PUT.md).",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "translation-memory",
+                ":translationMemoryId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "translationMemoryId",
+                  "description": "(Required) The identifier of the translation memory"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"copyright\": \"<string>\",\n  \"languageDirections\": [\n    {\n      \"sourceLanguage\": {\n        \"languageCode\": \"<string>\"\n      },\n      \"targetLanguage\": {\n        \"languageCode\": \"<string>\"\n      }\n    },\n    {\n      \"sourceLanguage\": {\n        \"languageCode\": \"<string>\"\n      },\n      \"targetLanguage\": {\n        \"languageCode\": \"<string>\"\n      }\n    }\n  ],\n  \"languageProcessingRuleId\": \"<string>\",\n  \"fieldTemplateId\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "c670a57c-8d9e-4809-8cd1-19ace09c7a9b",
+          "name": "Delete Translation Memory",
+          "request": {
+            "name": "Delete Translation Memory",
+            "description": {
+              "content": "Deletes a Translation Memory.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "translation-memory",
+                ":translationMemoryId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "translationMemoryId",
+                  "description": "(Required) The identifier of the translation memory"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "DELETE",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "41278395-f2c1-4ad5-898b-ed62295241c2",
+          "name": "Copy Translation Memory",
+          "request": {
+            "name": "Copy Translation Memory",
+            "description": {
+              "content": "Creates a copy of a Translation Memory. The name will be suffixed with ' (Copy) '",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "translation-memory",
+                ":translationMemoryId",
+                "copy"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "translationMemoryId",
+                  "description": "(Required) The identifier of the translation memory"
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1216ed05-79e3-4575-b5d7-dc99f4340279",
+          "name": "List Translation Memories",
+          "request": {
+            "name": "List Translation Memories",
+            "description": {
+              "content": "Retrieves all the Translation Memories.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "translation-memory"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "top",
+                  "value": "100",
+                  "description": "The number of items to include inside the page."
+                },
+                {
+                  "disabled": true,
+                  "key": "skip",
+                  "value": "0",
+                  "description": "The number of items that are skipped to reach the desired page."
+                },
+                {
+                  "disabled": true,
+                  "key": "location",
+                  "value": "<string>,<string>",
+                  "description": "The identifiers of the resource folders. You can control the behavior by using the 'locationStrategy'. "
+                },
+                {
+                  "disabled": true,
+                  "key": "locationStrategy",
+                  "value": "<string>",
+                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                },
+                {
+                  "disabled": true,
+                  "key": "sort",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields used to sort the resources in the response. Each field can have a unary negative to imply descending sort order."
+                },
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "fdec84a1-1266-4f24-b11c-eeb7f1f85890",
+          "name": "Create Translation Memory",
+          "request": {
+            "name": "Create Translation Memory",
+            "description": {
+              "content": "Create a new Translation Memory.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "translation-memory"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"<string>\",\n  \"languageDirections\": [\n    {\n      \"sourceLanguage\": {\n        \"languageCode\": \"<string>\"\n      },\n      \"targetLanguage\": {\n        \"languageCode\": \"<string>\"\n      }\n    },\n    {\n      \"sourceLanguage\": {\n        \"languageCode\": \"<string>\"\n      },\n      \"targetLanguage\": {\n        \"languageCode\": \"<string>\"\n      }\n    }\n  ],\n  \"languageProcessingRuleId\": \"<string>\",\n  \"fieldTemplateId\": \"<string>\",\n  \"description\": \"<string>\",\n  \"copyright\": \"<string>\",\n  \"location\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "28cc65fb-781d-41c5-8b5b-508e47aa7064",
+          "name": "List Field Templates",
+          "request": {
+            "name": "List Field Templates",
+            "description": {
+              "content": "Retrieves all the Field Templates.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "translation-memory",
+                "field-templates"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "top",
+                  "value": "100",
+                  "description": "The number of items to include inside the page."
+                },
+                {
+                  "disabled": true,
+                  "key": "skip",
+                  "value": "0",
+                  "description": "The number of items that are skipped to reach the desired page."
+                },
+                {
+                  "disabled": true,
+                  "key": "sort",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields used to sort the resources in the response. Each field can have a unary negative to imply descending sort order."
+                },
+                {
+                  "disabled": true,
+                  "key": "location",
+                  "value": "<string>,<string>",
+                  "description": "The identifiers of the resource folders. You can control the behavior by using the 'locationStrategy'. "
+                },
+                {
+                  "disabled": true,
+                  "key": "locationStrategy",
+                  "value": "<string>",
+                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                },
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "725b30b7-f2da-4855-921c-4b7d9b7553e4",
+          "name": "Get Field Template",
+          "request": {
+            "name": "Get Field Template",
+            "description": {
+              "content": "Get a single Field Template by identifier.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "translation-memory",
+                "field-templates",
+                ":fieldTemplateId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "fieldTemplateId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "b6b1c13c-a357-447c-a175-f0ae5180885b",
       "name": "User",
       "description": {
         "content": "",
@@ -6651,7 +7292,7 @@
       },
       "item": [
         {
-          "id": "7a7fed10-f4d9-4325-862b-30d9d8cd3e2d",
+          "id": "2b66bbfe-42e0-448f-9d72-27d30a81256e",
           "name": "Get my User",
           "request": {
             "name": "Get my User",
@@ -6698,7 +7339,7 @@
           }
         },
         {
-          "id": "fa1572b6-45fd-46b8-aea9-90f5dd3174ec",
+          "id": "fa06cd85-3bc9-4f43-aa2d-965affbd6b10",
           "name": "List Users",
           "request": {
             "name": "List Users",
@@ -6774,7 +7415,7 @@
           }
         },
         {
-          "id": "2aac3420-7f41-43b6-8481-187ba4b566a4",
+          "id": "6ea8faca-edd7-44cb-aae6-41d2f8322931",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -6832,7 +7473,7 @@
       "event": []
     },
     {
-      "id": "d9be3ef4-fb82-478e-b0d5-0470d48b3ef3",
+      "id": "a1163aa2-6f1e-4b65-9ded-9d297f9f4044",
       "name": "Workflow",
       "description": {
         "content": "",
@@ -6840,7 +7481,7 @@
       },
       "item": [
         {
-          "id": "3193ca97-a391-46b0-9f72-6242987312fa",
+          "id": "c7eb2e56-9c96-47af-9665-558c7b1687cd",
           "name": "Get Workflow",
           "request": {
             "name": "Get Workflow",
@@ -6895,7 +7536,7 @@
           }
         },
         {
-          "id": "9ac9ad27-ea1d-4845-8ab0-a4173207a378",
+          "id": "8ed803c8-1bb8-48dd-8b84-59ffca1649b1",
           "name": "Update Workflow",
           "request": {
             "name": "Update Workflow",
@@ -6956,7 +7597,7 @@
           }
         },
         {
-          "id": "e143b189-2447-48d3-b12c-dbd50b93b94c",
+          "id": "003fa812-d698-41b0-8b9c-42847e4e0d52",
           "name": "List Workflows",
           "request": {
             "name": "List Workflows",
@@ -7118,7 +7759,7 @@
     }
   ],
   "info": {
-    "_postman_id": "37e9cea1-0780-430f-b9a8-37fe69b02351",
+    "_postman_id": "42cd826c-9eb7-4e4e-8444-70756b3065ce",
     "name": "RWS Language Cloud API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
