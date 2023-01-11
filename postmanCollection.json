@@ -1,7 +1,7 @@
 {
   "item": [
     {
-      "id": "eb60488e-975c-4a38-a1a9-2541e9543a76",
+      "id": "d636698d-7c65-4ac6-8914-2a5745d1adab",
       "name": "Account",
       "description": {
         "content": "Account",
@@ -9,7 +9,7 @@
       },
       "item": [
         {
-          "id": "4a4a628f-f6c1-47d8-af23-ec46dd30effa",
+          "id": "6415c70c-8614-4625-b42c-d0018f4fa037",
           "name": "List my Accounts",
           "request": {
             "name": "List my Accounts",
@@ -51,7 +51,7 @@
       "event": []
     },
     {
-      "id": "de3416c2-616f-4ef3-96d2-f059921cb2f1",
+      "id": "a585a30d-187c-4c5f-8c43-bf68ccfaff59",
       "name": "Custom Field",
       "description": {
         "content": "Custom Field",
@@ -59,7 +59,7 @@
       },
       "item": [
         {
-          "id": "52868a2e-dcf4-4d96-ae83-f4d3cf2a8b6a",
+          "id": "99fe27c7-1c50-4b14-9dac-a312c049c432",
           "name": "List Custom Field Definitions",
           "request": {
             "name": "List Custom Field Definitions",
@@ -97,7 +97,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -135,7 +135,7 @@
           }
         },
         {
-          "id": "9c506734-73a7-4d35-9525-32ac21c31a36",
+          "id": "0b3e9b6d-fb30-410a-9d24-15d548ae56e4",
           "name": "Get Custom Field Definition",
           "request": {
             "name": "Get Custom Field Definition",
@@ -193,7 +193,7 @@
       "event": []
     },
     {
-      "id": "2a865fdb-b8a2-4df1-99ce-912dbdf6d10b",
+      "id": "86d2d479-0f8f-4274-8a8b-495f8cd5c662",
       "name": "Customer",
       "description": {
         "content": "Customer",
@@ -201,7 +201,7 @@
       },
       "item": [
         {
-          "id": "20e6aa69-5828-4893-91d6-3b402cc3a351",
+          "id": "7c8252b1-be06-4b60-b9c6-0321d0ef959a",
           "name": "Get Customer",
           "request": {
             "name": "Get Customer",
@@ -256,7 +256,7 @@
           }
         },
         {
-          "id": "c7c9e493-0014-4245-8415-0bf8049fcf62",
+          "id": "1816cb86-0b17-40f3-b598-88d5e44e87bb",
           "name": "List Customers",
           "request": {
             "name": "List Customers",
@@ -294,7 +294,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -335,7 +335,7 @@
       "event": []
     },
     {
-      "id": "019ed3d7-e11e-4eff-aba8-b7ad661ff241",
+      "id": "a85dea20-9f73-4102-9ec4-174cf5c3cf7b",
       "name": "File Processing Configuration",
       "description": {
         "content": "File Processing Configuration",
@@ -343,7 +343,7 @@
       },
       "item": [
         {
-          "id": "391b6046-fa4d-4633-8e68-38e179b0ffcf",
+          "id": "0d3478c1-d2d4-4f7e-ae1f-2abd680f39d7",
           "name": "Get File Processing Configuration",
           "request": {
             "name": "Get File Processing Configuration",
@@ -398,7 +398,7 @@
           }
         },
         {
-          "id": "37ed35d4-906f-4daf-95a8-70c40f9a2675",
+          "id": "05a7706e-c92e-408a-9f84-d3ee81f42de2",
           "name": "List File Processing Configurations",
           "request": {
             "name": "List File Processing Configurations",
@@ -436,7 +436,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -474,7 +474,7 @@
           }
         },
         {
-          "id": "fa59ba5f-1077-4a82-b9c6-b4f756543840",
+          "id": "46369f05-6b59-4558-ac79-6c18b3040091",
           "name": "Get File Type Setting",
           "request": {
             "name": "Get File Type Setting",
@@ -538,7 +538,7 @@
           }
         },
         {
-          "id": "d26f58c9-32a3-4cf9-9a92-f00a601afe10",
+          "id": "2164afd2-a312-4fda-9131-e573b4d75372",
           "name": "List File Type Settings",
           "request": {
             "name": "List File Type Settings",
@@ -597,7 +597,7 @@
       "event": []
     },
     {
-      "id": "6c9e3572-a19f-4fc3-9ba8-fcb9bbd19315",
+      "id": "e2de93be-55ef-4776-bf57-6cf83418736f",
       "name": "File",
       "description": {
         "content": "File",
@@ -605,7 +605,7 @@
       },
       "item": [
         {
-          "id": "df85366c-0c8b-4777-bbdf-bd8a7530db62",
+          "id": "2ef3c410-2829-460a-9ca8-f4ef9c8fa8b7",
           "name": "Upload Zip File",
           "request": {
             "name": "Upload Zip File",
@@ -658,7 +658,7 @@
           }
         },
         {
-          "id": "993ecee2-a56c-4590-abdb-c54b423574ef",
+          "id": "0eefcf19-6b8b-43a7-b509-6344dff2f3b3",
           "name": "Poll Upload Zip File",
           "request": {
             "name": "Poll Upload Zip File",
@@ -709,7 +709,7 @@
       "event": []
     },
     {
-      "id": "35c74ca3-eda3-4f80-b6cc-3d89d391d317",
+      "id": "076e77f0-3e1e-4b9a-aa29-99fbfda658cb",
       "name": "Folder",
       "description": {
         "content": "Folder",
@@ -717,7 +717,7 @@
       },
       "item": [
         {
-          "id": "09f38fd2-4932-421c-9a66-228219d1bb8a",
+          "id": "1689b6e4-918c-4943-8530-106ca7ac549a",
           "name": "Get Folder",
           "request": {
             "name": "Get Folder",
@@ -772,7 +772,7 @@
           }
         },
         {
-          "id": "9e95b4f7-c877-4c51-8c2c-10f9b68ec56e",
+          "id": "44ef2ed5-af29-4795-ac59-c89b38589821",
           "name": "Get Root Folder",
           "request": {
             "name": "Get Root Folder",
@@ -819,7 +819,7 @@
           }
         },
         {
-          "id": "9b121ca9-3afc-4493-a36a-21273b833c69",
+          "id": "a530f95f-21f3-4d1f-b45d-3daab5742f93",
           "name": "List Folders",
           "request": {
             "name": "List Folders",
@@ -874,7 +874,7 @@
       "event": []
     },
     {
-      "id": "3423e8b8-063f-420f-a43d-2289314370dd",
+      "id": "3dfa62dd-8a28-41e0-83aa-230761080ef4",
       "name": "Group",
       "description": {
         "content": "Group",
@@ -882,7 +882,7 @@
       },
       "item": [
         {
-          "id": "20455193-0ed4-4c37-9f13-ea0c45b0f29c",
+          "id": "6a309400-cb72-4ccd-9a28-f8cfb96f2e2a",
           "name": "Get Group",
           "request": {
             "name": "Get Group",
@@ -937,7 +937,7 @@
           }
         },
         {
-          "id": "891c812e-7536-490a-8869-6c3aa3d1cee3",
+          "id": "c335b8f8-b432-491f-b9cf-fc5fea995636",
           "name": "List Groups",
           "request": {
             "name": "List Groups",
@@ -975,7 +975,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -1016,7 +1016,7 @@
       "event": []
     },
     {
-      "id": "4ad2e901-c7ba-4044-a7ac-374cdaca5e8c",
+      "id": "428f8776-9da0-4c0f-bfe7-aa46761940d3",
       "name": "Language",
       "description": {
         "content": "Language",
@@ -1024,7 +1024,7 @@
       },
       "item": [
         {
-          "id": "46634a7c-962b-4d0b-832e-dcfcba426e58",
+          "id": "b1a0a25a-03f0-461a-a3d3-68892dbc7129",
           "name": "List Languages",
           "request": {
             "name": "List Languages",
@@ -1085,7 +1085,7 @@
       "event": []
     },
     {
-      "id": "16648043-bd0d-4b2f-b3d2-ef26bffd0bfe",
+      "id": "4dcb0593-b6fc-4a56-a4f2-42c9436b2459",
       "name": "Language Processing",
       "description": {
         "content": "Language Processing",
@@ -1093,7 +1093,7 @@
       },
       "item": [
         {
-          "id": "c0779add-a87d-4617-87cb-5d9b503d730a",
+          "id": "f8158b06-4923-4eeb-ad18-5f05fc68a582",
           "name": "List Language Processing Rules",
           "request": {
             "name": "List Language Processing Rules",
@@ -1123,12 +1123,6 @@
                 },
                 {
                   "disabled": true,
-                  "key": "sort",
-                  "value": "<string>",
-                  "description": "A comma separated list of fields used to sort the resources in the response. Each field can have a unary negative to imply descending sort order."
-                },
-                {
-                  "disabled": true,
                   "key": "location",
                   "value": "<string>,<string>",
                   "description": "The identifiers of the resource folders. You can control the behavior by using the 'locationStrategy'. "
@@ -1137,7 +1131,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -1169,7 +1163,7 @@
           }
         },
         {
-          "id": "f886560d-958e-4238-87c8-72ef3bcf27ed",
+          "id": "cff3af50-d2a5-428c-b842-7650b266569a",
           "name": "Get Language Processing Rule",
           "request": {
             "name": "Get Language Processing Rule",
@@ -1199,7 +1193,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "languageProcessingRuleId",
-                  "description": "(Required) "
+                  "description": "(Required) The language processing rule identifier"
                 }
               ]
             },
@@ -1227,7 +1221,7 @@
       "event": []
     },
     {
-      "id": "4b37d14d-e1c6-4cc5-beef-e2d318e62bf8",
+      "id": "ba133f4b-a806-402e-b7a4-66c623adeefd",
       "name": "Pricing Model",
       "description": {
         "content": "Pricing Model",
@@ -1235,7 +1229,7 @@
       },
       "item": [
         {
-          "id": "73f01482-f274-443d-985c-2cf63299b4a7",
+          "id": "23965d52-3846-4af9-8c0f-68c5db0ba4e8",
           "name": "List Pricing Models",
           "request": {
             "name": "List Pricing Models",
@@ -1273,7 +1267,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -1311,7 +1305,7 @@
           }
         },
         {
-          "id": "ce072126-2022-45b8-be23-e795a9c9370c",
+          "id": "96d2c2e5-b025-40c8-95c3-39140ee68a08",
           "name": "Get Pricing Model",
           "request": {
             "name": "Get Pricing Model",
@@ -1369,7 +1363,7 @@
       "event": []
     },
     {
-      "id": "fa03041c-376f-47fd-b8d7-24595cbcfeac",
+      "id": "2e9fc2bb-9c56-40c4-b0a0-ddb1772a8b04",
       "name": "Project",
       "description": {
         "content": "Project",
@@ -1377,7 +1371,7 @@
       },
       "item": [
         {
-          "id": "cee3069b-15f5-4362-bc84-954e472a207f",
+          "id": "dd9d7dec-c6f3-48d9-b0d6-1df97488eb0b",
           "name": "List Projects",
           "request": {
             "name": "List Projects",
@@ -1415,7 +1409,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -1434,6 +1428,24 @@
                   "key": "excludeOnline",
                   "value": "<boolean>",
                   "description": "Excludes projects that are being worked on exclusively in the Online Editor"
+                },
+                {
+                  "disabled": true,
+                  "key": "status",
+                  "value": "<string>",
+                  "description": "Filter the list of projects to projects that have this status."
+                },
+                {
+                  "disabled": true,
+                  "key": "createdFrom",
+                  "value": "<dateTime>",
+                  "description": "Filter the list of of projects to projects that were created after this date and time.  <br> Accepted format: ISO-8601 `YYYY-MM-DDThh:mm:ss.sssZ`"
+                },
+                {
+                  "disabled": true,
+                  "key": "createdTo",
+                  "value": "<dateTime>",
+                  "description": "Filter the list of of projects to projects that were created before this date and time.  <br> Accepted format: ISO-8601 `YYYY-MM-DDThh:mm:ss.sssZ`"
                 }
               ],
               "variable": []
@@ -1459,12 +1471,12 @@
           }
         },
         {
-          "id": "d08ecb10-f2e2-468b-8cb3-bae0d7043d3b",
+          "id": "4b01bcb5-197a-4d9c-ba10-8568650272fb",
           "name": "Create Project",
           "request": {
             "name": "Create Project",
             "description": {
-              "content": "Creates a new project.\n\nConsider the [file and project size limit](https://docs.rws.com/791595/815967/trados-enterprise---accelerate/file-and-project-size-limit) when creating projects.",
+              "content": "Creates a new project.\n\nWhen creating a project using a project template that supports multiple source languages, you must supply the `languageDirections`.\n\nConsider the [file and project size limit](https://docs.rws.com/791595/815967/trados-enterprise---accelerate/file-and-project-size-limit) when creating projects.",
               "type": "text/plain"
             },
             "url": {
@@ -1518,7 +1530,7 @@
           }
         },
         {
-          "id": "a99320db-04b7-4a5c-acc8-fd11286173be",
+          "id": "6d0bd797-b2df-4389-a746-415769bd3c06",
           "name": "Get Project",
           "request": {
             "name": "Get Project",
@@ -1573,7 +1585,7 @@
           }
         },
         {
-          "id": "77ed8754-23c2-4397-aa12-435c508e7532",
+          "id": "674ede7a-18e2-4f2f-9ca2-858447c11b4a",
           "name": "Update Project",
           "request": {
             "name": "Update Project",
@@ -1634,7 +1646,7 @@
           }
         },
         {
-          "id": "4c55ce0e-dff8-4329-9939-55d47b38c2d3",
+          "id": "a0092048-55b8-4323-9db9-7ad701d77e05",
           "name": "Delete Project",
           "request": {
             "name": "Delete Project",
@@ -1682,7 +1694,7 @@
           }
         },
         {
-          "id": "208bc854-ed74-4e89-a517-67a30f077eec",
+          "id": "b3d111e5-3c92-482c-97bc-9a1b0ab4cd16",
           "name": "Get Project Configuration",
           "request": {
             "name": "Get Project Configuration",
@@ -1738,7 +1750,7 @@
           }
         },
         {
-          "id": "6c2670fc-f6dd-4619-a114-10572eab2755",
+          "id": "dd1bf3c7-1161-439e-b6e1-fca6d4a04f8c",
           "name": "Update Project Configuration",
           "request": {
             "name": "Update Project Configuration",
@@ -1800,7 +1812,7 @@
           }
         },
         {
-          "id": "9baabebe-95ab-4623-a075-f7cf5bba9110",
+          "id": "8ed3e194-360f-4993-ba46-285f85843854",
           "name": "Start Project",
           "request": {
             "name": "Start Project",
@@ -1849,7 +1861,7 @@
           }
         },
         {
-          "id": "d0a5e975-5971-4e5c-b2b2-ad9fc964a69a",
+          "id": "803b1b5f-883c-4e1c-9a0f-37ed011ed2d3",
           "name": "Complete Project",
           "request": {
             "name": "Complete Project",
@@ -1898,7 +1910,7 @@
           }
         },
         {
-          "id": "f843de47-d8cd-4252-91f0-8a85ec35a9a5",
+          "id": "b84a585a-917d-47e5-bad3-5393aff8fd16",
           "name": "Cancel Project File",
           "request": {
             "name": "Cancel Project File",
@@ -1956,7 +1968,7 @@
           }
         },
         {
-          "id": "822362da-5c43-4a89-8c65-1687f79ac7d3",
+          "id": "18d9731d-235e-4054-a6fd-25a7ef4b8589",
           "name": "List Project's Tasks",
           "request": {
             "name": "List Project's Tasks",
@@ -1996,7 +2008,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -2045,7 +2057,442 @@
       "event": []
     },
     {
-      "id": "1046c573-d684-4e10-859a-f3e3aa5137d5",
+      "id": "ca0e225d-6d18-4d92-8b0f-c9a599dc043d",
+      "name": "Project Group",
+      "description": {
+        "content": "Project Group",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "d2ceb6dd-3e25-4d1c-beb4-0b2d25b19e7d",
+          "name": "List Project Groups",
+          "request": {
+            "name": "List Project Groups",
+            "description": {
+              "content": "Retrieves a list of all the project groups in an account.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "project-groups"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "top",
+                  "value": "100",
+                  "description": "The number of items to include inside the page."
+                },
+                {
+                  "disabled": true,
+                  "key": "skip",
+                  "value": "0",
+                  "description": "The number of items that are skipped to reach the desired page."
+                },
+                {
+                  "disabled": true,
+                  "key": "location",
+                  "value": "<string>,<string>",
+                  "description": "The identifiers of the resource folders. You can control the behavior by using the 'locationStrategy'. "
+                },
+                {
+                  "disabled": true,
+                  "key": "locationStrategy",
+                  "value": "<string>",
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
+                },
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "8d89d2ff-dca2-431b-a3ad-278ef0e6de21",
+          "name": "Create Project Group",
+          "request": {
+            "name": "Create Project Group",
+            "description": {
+              "content": "Creates a new project group.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "project-groups"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": []
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"<string>\",\n  \"description\": \"<string>\",\n  \"location\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "0d0e6a2d-bab8-4a61-836c-a2835193a100",
+          "name": "Get Project Group",
+          "request": {
+            "name": "Get Project Group",
+            "description": {
+              "content": "Retrieves a project group by identifier.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "project-groups",
+                ":projectGroupId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectGroupId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "1e58034d-2202-4f20-9d6f-0666ae9934a5",
+          "name": "Update Project Group",
+          "request": {
+            "name": "Update Project Group",
+            "description": {
+              "content": "Updates the project group.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "project-groups",
+                ":projectGroupId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectGroupId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "PUT",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"<string>\",\n  \"description\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "cf60b18e-7646-43f2-8078-c81df968bbaa",
+          "name": "Delete Project Group",
+          "request": {
+            "name": "Delete Project Group",
+            "description": {
+              "content": "Deletes a project group.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "project-groups",
+                ":projectGroupId"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectGroupId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "DELETE",
+            "auth": null
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "8e06b6de-cb45-47fc-abaa-38d917e732df",
+          "name": "Add Projects To Group",
+          "request": {
+            "name": "Add Projects To Group",
+            "description": {
+              "content": "Adds projects to the project group.\n\nThe projects are not added instantly. To check the status use the [Get Project Group](../reference/Public-API.v1.json/paths/~1project-groups~1{projectGroupId}/get) endpoint.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "project-groups",
+                ":projectGroupId",
+                "projects"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "disabled": true,
+                  "key": "fields",
+                  "value": "<string>",
+                  "description": "A comma separated list of fields to include in the response.\n        Every value in the list should either consist of a top-level property name (excluding the items envelope for endpoints returning lists) or refer to a property of a top-level property of type object, in the following form: \"toplevelpropertyname.subpropertyname\".\n        When this query parameter is omitted, default resource representations are returned (excluding fields marked as optional). The same applies to nested objects when just specifying the top-level property name, without explicitly listing sub-property names. When specifying the fields query parameter, only the specified fields are returned.\n        The id property is always returned."
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectGroupId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"projects\": [\n    {\n      \"id\": \"<string>\"\n    },\n    {\n      \"id\": \"<string>\"\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "b24e4dc0-7281-445f-a2d4-555a1b789d92",
+          "name": "Remove Projects From Group",
+          "request": {
+            "name": "Remove Projects From Group",
+            "description": {
+              "content": "Removes projects from the project group.\n\nThe projects are not removed instantly. To check the status use the [Get Project Group](../reference/Public-API.v1.json/paths/~1project-groups~1{projectGroupId}/get) endpoint.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "project-groups",
+                ":projectGroupId",
+                "projects"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "projectGroupId",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "disabled": false,
+                "description": "(Required) The identifier of the account where the request is executed.",
+                "key": "X-LC-Tenant",
+                "value": "{{lc_tenant}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "DELETE",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"projects\": [\n    {\n      \"id\": \"<string>\"\n    },\n    {\n      \"id\": \"<string>\"\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    },
+    {
+      "id": "b0d30ea7-dbdd-4c49-a79e-ddd4f42c4249",
       "name": "Project Template",
       "description": {
         "content": "Project Template",
@@ -2053,7 +2500,7 @@
       },
       "item": [
         {
-          "id": "cca49b69-bcea-4c11-b754-21b43d6992b7",
+          "id": "64d14a0b-2031-4a08-9389-451058fc03f5",
           "name": "Get Project Template",
           "request": {
             "name": "Get Project Template",
@@ -2108,7 +2555,7 @@
           }
         },
         {
-          "id": "6bf973f8-49d6-48eb-9019-17b4615549e8",
+          "id": "64eafbba-d6a0-43df-b832-cd2e08de2f3e",
           "name": "List Project Templates",
           "request": {
             "name": "List Project Templates",
@@ -2152,7 +2599,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -2193,7 +2640,7 @@
       "event": []
     },
     {
-      "id": "6fd591fd-1d0a-4e3b-a96c-923537fb44e0",
+      "id": "4db1ca27-97ce-4b7e-8295-e1470f8afea1",
       "name": "Public Keys",
       "description": {
         "content": "Public Keys",
@@ -2201,7 +2648,7 @@
       },
       "item": [
         {
-          "id": "4a66a2be-7037-4d28-a96a-72d7d0f06310",
+          "id": "ad795251-093b-4ce6-8075-2fdf51c2407b",
           "name": "List Public Keys",
           "request": {
             "name": "List Public Keys",
@@ -2235,7 +2682,7 @@
           }
         },
         {
-          "id": "e0648d59-d05f-42eb-b986-9388889cb910",
+          "id": "cce20977-e7dc-4e96-a3af-efbd17c2934f",
           "name": "Get Public Key",
           "request": {
             "name": "Get Public Key",
@@ -2281,7 +2728,7 @@
       "event": []
     },
     {
-      "id": "7c78a07f-aed6-4e7c-91df-7c4b24449f08",
+      "id": "0d575d90-4ed8-404f-bc29-2687393b08ce",
       "name": "Quote",
       "description": {
         "content": "Quote",
@@ -2289,7 +2736,7 @@
       },
       "item": [
         {
-          "id": "7d4101c5-53ff-4c66-b86c-4c099d523521",
+          "id": "0173475f-5e0b-41a6-a6fc-d51cde670b2a",
           "name": "Export Quote",
           "request": {
             "name": "Export Quote",
@@ -2357,7 +2804,7 @@
           }
         },
         {
-          "id": "134b14bf-53e1-4f8d-be48-fcb9b6b5196a",
+          "id": "c19e3ff3-f222-45ac-8b94-0437913e4989",
           "name": "Export Quote Report",
           "request": {
             "name": "Export Quote Report",
@@ -2420,7 +2867,7 @@
           }
         },
         {
-          "id": "e6b98195-9208-47dd-ae7e-29e927093733",
+          "id": "5a9d685c-0d11-408b-91dc-62c54756579d",
           "name": "Poll Quote Report Export",
           "request": {
             "name": "Poll Quote Report Export",
@@ -2477,7 +2924,7 @@
           }
         },
         {
-          "id": "6ff5f093-d411-402f-ba52-e314457a2ee6",
+          "id": "cc8f32a1-c5b4-4312-9e9e-1ce8175e7759",
           "name": "Download Exported Quote Report",
           "request": {
             "name": "Download Exported Quote Report",
@@ -2537,7 +2984,7 @@
       "event": []
     },
     {
-      "id": "f0119fc3-9015-4154-8a4c-5f6847c43237",
+      "id": "d933f8c3-9ba1-4bd3-84ea-f4db1b43cdd0",
       "name": "Source File",
       "description": {
         "content": "Source File",
@@ -2545,7 +2992,7 @@
       },
       "item": [
         {
-          "id": "02689cbe-81c3-49c9-8374-8eeb7f4edb95",
+          "id": "5d11e895-4d7b-442a-8ffc-706dac832dd0",
           "name": "List Source Files",
           "request": {
             "name": "List Source Files",
@@ -2619,7 +3066,7 @@
           }
         },
         {
-          "id": "3155c3ee-db91-4c8d-8585-e602963a4488",
+          "id": "8439054d-fdb9-4e6f-9386-dfd2b24d5ad2",
           "name": "Add Source File",
           "request": {
             "name": "Add Source File",
@@ -2688,7 +3135,7 @@
           }
         },
         {
-          "id": "7a14f365-b4f6-4fec-a692-6a546955e815",
+          "id": "6d648ea3-651c-4a78-8f6e-efdc60520961",
           "name": "Update Source Files",
           "request": {
             "name": "Update Source Files",
@@ -2744,7 +3191,7 @@
           }
         },
         {
-          "id": "0b995ad3-bfd8-4b7b-91ad-c98c9e328716",
+          "id": "1ea9d37d-6073-4c4f-a7df-1ee4af6209b3",
           "name": "Attach Source Files",
           "request": {
             "name": "Attach Source Files",
@@ -2814,7 +3261,7 @@
           }
         },
         {
-          "id": "77bc9fbd-1439-457c-b856-65a7a2d809e1",
+          "id": "d45c734b-0550-448d-b49b-0513fcbe5af6",
           "name": "Get Source File",
           "request": {
             "name": "Get Source File",
@@ -2878,7 +3325,7 @@
           }
         },
         {
-          "id": "1d6c6d68-c556-401e-8533-6512727eb8c2",
+          "id": "439ca9df-e9ef-484a-a595-803b9406fa31",
           "name": "Update Source File",
           "request": {
             "name": "Update Source File",
@@ -2942,7 +3389,7 @@
           }
         },
         {
-          "id": "368dede1-c448-4c8a-b208-0406bebbb83c",
+          "id": "7d820a94-c29e-48d5-a78f-d47e94175781",
           "name": "List Source File Versions",
           "request": {
             "name": "List Source File Versions",
@@ -3007,7 +3454,7 @@
           }
         },
         {
-          "id": "123b5afc-cb7d-49ae-b30a-e106a3595c76",
+          "id": "e6b6f297-f49d-453e-a077-cdfa8032cfeb",
           "name": "Add Source File Version",
           "request": {
             "name": "Add Source File Version",
@@ -3092,7 +3539,7 @@
           }
         },
         {
-          "id": "e2de45e2-3c05-4b2f-aaf2-12fa35eff5d8",
+          "id": "850bb1bd-ef9d-48c8-8694-02a29ae0e6d0",
           "name": "Download Source File Version",
           "request": {
             "name": "Download Source File Version",
@@ -3159,7 +3606,7 @@
           }
         },
         {
-          "id": "6be14b1b-87b6-47ba-90c2-bac2b8757ec2",
+          "id": "6b9fa4b7-8746-4e64-aefe-0a26b714178f",
           "name": "Get Source File Properties",
           "request": {
             "name": "Get Source File Properties",
@@ -3216,12 +3663,12 @@
           }
         },
         {
-          "id": "6db7e5e4-e227-485b-b4cd-1e4fb4f2f64b",
+          "id": "27e04fc9-5de5-445e-87ba-a66e7922b294",
           "name": "Update Source File Properties",
           "request": {
             "name": "Update Source File Properties",
             "description": {
-              "content": "Updates the properties of the source file.\n\n\nThe value of `fileTypeSettingsId` should be one of the identifiers listed by the [List File Type Settings](../reference/Public-API.v1.json/paths/~1file-processing-configurations~1{fileProcessingConfigurationId}~1file-type-settings/get) endpoint called with an identifier of a File Processing Configuration that exists on the project. The list of File Processing Configurations from a project can be retrieved by using the [List File Processing Configurations](../reference/Public-API.v1.json/paths/~1file-processing-configurations/get) endpoint.",
+              "content": "Updates the properties of the source file.\n\n\nThe value of `fileTypeSettingsId` should be one of the identifiers listed by the [List File Type Settings](../reference/Public-API.v1.json/paths/~1file-processing-configurations~1{fileProcessingConfigurationId}~1file-type-settings/get)  endpoint called with an identifier of a File Processing Configuration that exists on the project. The list of File Processing Configurations from a project can be retrieved by using the [List File Processing Configurations](../reference/Public-API.v1.json/paths/~1file-processing-configurations/get) endpoint.",
               "type": "text/plain"
             },
             "url": {
@@ -3289,7 +3736,7 @@
       "event": []
     },
     {
-      "id": "c6d3a230-94ff-45c3-aadb-842b49171cae",
+      "id": "2d27ce3c-3ca0-4974-a045-59145a5976f5",
       "name": "Target File",
       "description": {
         "content": "Target File",
@@ -3297,7 +3744,7 @@
       },
       "item": [
         {
-          "id": "33f3e489-fcd0-4e1a-9d56-970c31ca383f",
+          "id": "2adfb66d-28f2-4d2d-8439-27ce36dd2874",
           "name": "Get Target File",
           "request": {
             "name": "Get Target File",
@@ -3361,7 +3808,7 @@
           }
         },
         {
-          "id": "1679523c-b358-4489-98ca-019968b979a3",
+          "id": "5a3d0959-e21a-4617-9ea6-3f6f6527afee",
           "name": "Update Target File",
           "request": {
             "name": "Update Target File",
@@ -3425,7 +3872,7 @@
           }
         },
         {
-          "id": "13a84182-870d-4db7-8795-e0de3af50db3",
+          "id": "3f1c663f-a67e-4cd7-8881-ede82e5dabb3",
           "name": "List Target Files",
           "request": {
             "name": "List Target Files",
@@ -3505,7 +3952,7 @@
           }
         },
         {
-          "id": "b6f5e37a-a438-45d9-ad66-201bf3ca71b2",
+          "id": "edb054a0-4d46-4e26-bda0-1a5527bb1121",
           "name": "Update Target Files",
           "request": {
             "name": "Update Target Files",
@@ -3561,7 +4008,7 @@
           }
         },
         {
-          "id": "d9d84a2a-23b3-4013-965f-01f057f24d02",
+          "id": "3e471b05-cfe4-45b2-b97f-268f25af73ed",
           "name": "Get Target File Version",
           "request": {
             "name": "Get Target File Version",
@@ -3634,7 +4081,7 @@
           }
         },
         {
-          "id": "b0a3f9f2-b541-44fd-823d-d1cf420fe94c",
+          "id": "cd723a87-2453-4e9e-a418-c9ad12eda637",
           "name": "List Target File Versions",
           "request": {
             "name": "List Target File Versions",
@@ -3699,7 +4146,7 @@
           }
         },
         {
-          "id": "69f2f462-0727-4452-8ef4-ab3eaa7772b6",
+          "id": "3b2bd91b-55f6-4cc9-92d3-4043e16475c0",
           "name": "Export Target File Version",
           "request": {
             "name": "Export Target File Version",
@@ -3773,7 +4220,7 @@
           }
         },
         {
-          "id": "7aa76a7c-5217-4be0-8951-0c87ef4631be",
+          "id": "d6b52c3d-3a2b-48bd-892b-5c8330909b6b",
           "name": "Poll Target File Version Export",
           "request": {
             "name": "Poll Target File Version Export",
@@ -3848,7 +4295,7 @@
           }
         },
         {
-          "id": "21308d4e-7693-4ece-ae4f-d194e4b81b34",
+          "id": "a3d92d36-8b64-4060-b414-db8d75a66638",
           "name": "Download Exported Target File Version",
           "request": {
             "name": "Download Exported Target File Version",
@@ -3924,7 +4371,7 @@
           }
         },
         {
-          "id": "2a9b37e8-af45-4764-ba44-acc1dc59d3f5",
+          "id": "f880a593-81bf-499a-8d73-d68342c72be5",
           "name": "Download Target File Version",
           "request": {
             "name": "Download Target File Version",
@@ -3991,7 +4438,7 @@
           }
         },
         {
-          "id": "891f5c1a-dc51-404c-ac71-e3af32bca694",
+          "id": "52a764aa-ae02-4f28-82cb-01b0d0bbfb35",
           "name": "Import Target File Version",
           "request": {
             "name": "Import Target File Version",
@@ -4064,7 +4511,7 @@
           }
         },
         {
-          "id": "3c04ef96-06dc-426b-83c6-198e5cdf4481",
+          "id": "2acf6360-80a3-487e-82ae-177935d916d8",
           "name": "Poll Target File Version Import",
           "request": {
             "name": "Poll Target File Version Import",
@@ -4131,7 +4578,7 @@
           }
         },
         {
-          "id": "a8cef612-51d9-46a2-83b9-067353eefdf5",
+          "id": "d3e0c43f-3ee0-4b68-945b-5669a920d513",
           "name": "Add Target File Version",
           "request": {
             "name": "Add Target File Version",
@@ -4219,7 +4666,7 @@
       "event": []
     },
     {
-      "id": "dce79c54-bb0d-4ebe-a25c-1177122a72a4",
+      "id": "b0eae47a-eeeb-4069-84b6-8abf9dfc86d8",
       "name": "Task",
       "description": {
         "content": "Task",
@@ -4227,7 +4674,7 @@
       },
       "item": [
         {
-          "id": "b4b029b7-85de-401a-b833-5b82beb8eaa1",
+          "id": "666d0b41-5b96-4d63-af34-525868d2889e",
           "name": "Get Task",
           "request": {
             "name": "Get Task",
@@ -4282,12 +4729,12 @@
           }
         },
         {
-          "id": "ac360f42-1eaf-4e9b-bb2b-60f1bee2ff54",
+          "id": "b3189282-c889-410b-8862-76b605fa55a7",
           "name": "List Tasks assigned to me",
           "request": {
             "name": "List Tasks assigned to me",
             "description": {
-              "content": "Retrieves tasks assigned to the authenticated user.",
+              "content": "Retrieves the tasks assigned to the authenticated user.",
               "type": "text/plain"
             },
             "url": {
@@ -4327,7 +4774,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -4365,7 +4812,7 @@
           }
         },
         {
-          "id": "ba29092f-4b8d-4168-ad85-0998a9075f7c",
+          "id": "de3c01b8-f999-4fb7-b97c-924e398611e3",
           "name": "Accept Task",
           "request": {
             "name": "Accept Task",
@@ -4414,7 +4861,7 @@
           }
         },
         {
-          "id": "b39dcb6b-28a0-4522-97a3-52ff4d8f0476",
+          "id": "2f4adbc0-686c-474d-939c-5ed3059d0483",
           "name": "Reject Task",
           "request": {
             "name": "Reject Task",
@@ -4463,7 +4910,7 @@
           }
         },
         {
-          "id": "ba515ad2-e201-43f3-82f5-e4f38472481d",
+          "id": "5b56519c-70ec-422b-808b-858fb543342d",
           "name": "Complete Task",
           "request": {
             "name": "Complete Task",
@@ -4525,7 +4972,7 @@
           }
         },
         {
-          "id": "b89fffa6-4212-4bbc-9828-6b2227324c76",
+          "id": "46c1259f-b1ab-4cc0-beb6-679f4e5fa7cd",
           "name": "Release Task",
           "request": {
             "name": "Release Task",
@@ -4574,7 +5021,7 @@
           }
         },
         {
-          "id": "e6b7f12a-a963-48d6-98f2-3eaf77ca2f4c",
+          "id": "8f0aef92-6649-45c4-b173-710bf39f039f",
           "name": "Reclaim Task",
           "request": {
             "name": "Reclaim Task",
@@ -4623,7 +5070,7 @@
           }
         },
         {
-          "id": "4d3dba2e-97e4-4551-a09a-f69f0bcd4ed2",
+          "id": "6588038c-156b-4317-9387-1d2ae920aeb3",
           "name": "Assign Task",
           "request": {
             "name": "Assign Task",
@@ -4688,7 +5135,7 @@
       "event": []
     },
     {
-      "id": "9004ecee-9001-4f1c-a46e-a3a08b2f5cf2",
+      "id": "d3793530-6c21-47df-bf9d-62fd161f38d8",
       "name": "Task Type",
       "description": {
         "content": "Task Type",
@@ -4696,7 +5143,7 @@
       },
       "item": [
         {
-          "id": "8f056ec6-1599-47c6-a25f-7ea018f2d7c9",
+          "id": "45d59608-2d40-475d-aa36-a326bb1cfd2f",
           "name": "Get Task Type",
           "request": {
             "name": "Get Task Type",
@@ -4751,7 +5198,7 @@
           }
         },
         {
-          "id": "6dbbb341-dcfd-4477-ac65-578f872c2776",
+          "id": "c4292ee8-edf5-463c-a321-c78895a34093",
           "name": "List Task Types",
           "request": {
             "name": "List Task Types",
@@ -4801,7 +5248,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -4842,7 +5289,7 @@
       "event": []
     },
     {
-      "id": "56fb6dd9-feb9-41f8-89c4-69114a622fdf",
+      "id": "09e64a9d-ddc4-4dbf-892e-f82fe2c8e2b3",
       "name": "Termbase",
       "description": {
         "content": "Termbase",
@@ -4850,7 +5297,7 @@
       },
       "item": [
         {
-          "id": "3edead3a-60b3-47c5-a6d1-ed83d37a35bf",
+          "id": "ac4ce5f7-1153-4ade-83a3-d252014d67b7",
           "name": "List Termbases",
           "request": {
             "name": "List Termbases",
@@ -4876,7 +5323,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -4920,7 +5367,7 @@
           }
         },
         {
-          "id": "0c29cd3c-1934-4161-984d-dbd06f7af409",
+          "id": "061473bf-d32d-408d-a006-f54834ea1316",
           "name": "Create Termbase",
           "request": {
             "name": "Create Termbase",
@@ -4979,7 +5426,7 @@
           }
         },
         {
-          "id": "e25b1a83-e5c6-4e6b-96f6-579ddc4ebeb4",
+          "id": "683d9448-c233-47d6-a5b5-844804144f62",
           "name": "Get Termbase",
           "request": {
             "name": "Get Termbase",
@@ -5034,7 +5481,7 @@
           }
         },
         {
-          "id": "9cd650ab-6c91-4a5a-baed-30885859ec84",
+          "id": "909f3bc7-df15-4efe-8e66-ede4fcd79836",
           "name": "Delete Termbase",
           "request": {
             "name": "Delete Termbase",
@@ -5082,7 +5529,7 @@
           }
         },
         {
-          "id": "1fd2e95c-94b6-453e-b96b-671c28c01248",
+          "id": "8f863411-d71f-4ba6-a83a-5cf7302e386e",
           "name": "Update Termbase",
           "request": {
             "name": "Update Termbase",
@@ -5143,7 +5590,7 @@
           }
         },
         {
-          "id": "4d4809a9-9ff5-4c0f-b776-7c9b108b8c90",
+          "id": "49536d42-0a6c-47f1-bc43-5b09c6618096",
           "name": "Create Termbase Entry",
           "request": {
             "name": "Create Termbase Entry",
@@ -5212,7 +5659,7 @@
           }
         },
         {
-          "id": "21f201e8-c5eb-4486-bd5a-f6df9945dae8",
+          "id": "3f4af524-2c25-4df1-ae48-6df9a36ea8d7",
           "name": "List Termbase Entries",
           "request": {
             "name": "List Termbase Entries",
@@ -5292,7 +5739,7 @@
           }
         },
         {
-          "id": "55605a83-d752-4571-a91a-1b3fbcd22598",
+          "id": "420a184f-6e8b-4b7d-833d-c688c4f46e10",
           "name": "Delete Termbase Entries",
           "request": {
             "name": "Delete Termbase Entries",
@@ -5341,7 +5788,7 @@
           }
         },
         {
-          "id": "a5650e30-e391-4d0e-92c2-d0e37b5cadb2",
+          "id": "9e00fdff-4296-4fe7-bdff-424b7bb3b608",
           "name": "Get Termbase Entry",
           "request": {
             "name": "Get Termbase Entry",
@@ -5405,7 +5852,7 @@
           }
         },
         {
-          "id": "2641803d-36ea-4c60-8ea7-0197769f5d0e",
+          "id": "0e79558d-ae8c-45a3-b5fd-90528fd4510f",
           "name": "Update Termbase Entry",
           "request": {
             "name": "Update Termbase Entry",
@@ -5475,7 +5922,7 @@
           }
         },
         {
-          "id": "44685027-927d-4dbf-93d9-746e323538b3",
+          "id": "8d7d75c0-679d-4b53-81cd-b9fd542e42ec",
           "name": "Delete Termbase Entry",
           "request": {
             "name": "Delete Termbase Entry",
@@ -5532,7 +5979,7 @@
           }
         },
         {
-          "id": "643f89b6-5015-41f7-9718-05137d3477a1",
+          "id": "334e942f-edf1-41d2-991a-31de7381a8ef",
           "name": "List Termbase Terms",
           "request": {
             "name": "List Termbase Terms",
@@ -5623,7 +6070,7 @@
       "event": []
     },
     {
-      "id": "2a78f9a8-d856-4662-8a72-d06080a9e552",
+      "id": "686c1c94-000f-458f-863b-78e05ca873d2",
       "name": "Termbase Template",
       "description": {
         "content": "Termbase Template",
@@ -5631,7 +6078,7 @@
       },
       "item": [
         {
-          "id": "80dd0593-c536-4b5b-aee4-12fece74fa7a",
+          "id": "14f031d6-2a05-4b98-825a-071240c60f8e",
           "name": "List Termbase Templates",
           "request": {
             "name": "List Termbase Templates",
@@ -5707,7 +6154,7 @@
           }
         },
         {
-          "id": "7445b345-cdc7-459d-8fe3-677a90a87681",
+          "id": "8521fcd7-a5cd-44cd-8fcd-9ef59f6e2cbe",
           "name": "Create Termbase Template",
           "request": {
             "name": "Create Termbase Template",
@@ -5766,7 +6213,7 @@
           }
         },
         {
-          "id": "4f49116b-0436-4785-bf6a-58cec178cbb6",
+          "id": "df046b9f-8175-4639-b3f5-22e3e8096ce4",
           "name": "Get Termbase Template",
           "request": {
             "name": "Get Termbase Template",
@@ -5821,7 +6268,7 @@
           }
         },
         {
-          "id": "33fe61d6-49e4-4a92-a684-11cb03f004d8",
+          "id": "7aa798d6-5df0-415e-814c-751874d7d663",
           "name": "Delete Termbase Template",
           "request": {
             "name": "Delete Termbase Template",
@@ -5869,7 +6316,7 @@
           }
         },
         {
-          "id": "4882705e-736e-47f9-97d6-0591bbfe4d83",
+          "id": "48980d6d-9386-4a76-9a42-ebf3959a5560",
           "name": "Update Termbase Template",
           "request": {
             "name": "Update Termbase Template",
@@ -5930,7 +6377,7 @@
           }
         },
         {
-          "id": "3ebf2038-614b-4871-838f-90048d7e8c81",
+          "id": "90648fdf-43ce-4ba2-a8eb-2770b33b227b",
           "name": "Convert XDT to Termbase Structure",
           "request": {
             "name": "Convert XDT to Termbase Structure",
@@ -5994,7 +6441,7 @@
       "event": []
     },
     {
-      "id": "9229fd18-ad3a-4fe8-a0fe-18b42e9678cd",
+      "id": "44758319-01c6-49b7-b26f-a6b30b1cdeae",
       "name": "Termbase Import",
       "description": {
         "content": "Termbase Import",
@@ -6002,7 +6449,7 @@
       },
       "item": [
         {
-          "id": "6909fc25-1bbb-404f-a37c-41c80d829b4f",
+          "id": "82dabba2-311b-4cae-82ee-c3e2fda97ac7",
           "name": "Get Termbase Import History",
           "request": {
             "name": "Get Termbase Import History",
@@ -6070,7 +6517,7 @@
           }
         },
         {
-          "id": "6e550522-0dd2-4e32-9374-e3e5d9f6f5b8",
+          "id": "25c5777b-57ca-41f5-b213-ee5545f8d896",
           "name": "Import Termbase",
           "request": {
             "name": "Import Termbase",
@@ -6146,7 +6593,7 @@
           }
         },
         {
-          "id": "6f9168a9-2a9b-4906-9783-4ffd33cc637a",
+          "id": "15cd594a-fc5f-49fb-8fcb-3a0b5775999a",
           "name": "Poll Termbase Import",
           "request": {
             "name": "Poll Termbase Import",
@@ -6203,7 +6650,7 @@
           }
         },
         {
-          "id": "167a8143-3b92-4533-9733-f8e27ae6c47a",
+          "id": "7bab59dc-83ba-480a-ab8c-f62a010901b3",
           "name": "Download Termbase Import Logs",
           "request": {
             "name": "Download Termbase Import Logs",
@@ -6264,7 +6711,7 @@
       "event": []
     },
     {
-      "id": "f350064e-120b-4128-85fd-91a2c81a8cdd",
+      "id": "93dbd420-213f-45d5-946d-48ce975d36b8",
       "name": "Termbase Export",
       "description": {
         "content": "Termbase Export",
@@ -6272,7 +6719,7 @@
       },
       "item": [
         {
-          "id": "59f5f2e5-c05f-4cd9-8456-5dc5ab17296f",
+          "id": "4f30fee0-8a22-4535-b8f6-f69a96ffc5ca",
           "name": "Export Termbase",
           "request": {
             "name": "Export Termbase",
@@ -6334,7 +6781,7 @@
           }
         },
         {
-          "id": "6e337fae-829b-46a7-91a2-af1b51c57d12",
+          "id": "920bcfbd-6f15-4802-95cb-87f82fad2bc7",
           "name": "Poll Termbase Export",
           "request": {
             "name": "Poll Termbase Export",
@@ -6391,7 +6838,7 @@
           }
         },
         {
-          "id": "a748574e-eabd-492e-9e67-948471d61cf3",
+          "id": "f86b5595-a343-4049-93ca-7dc223584c46",
           "name": "Download Exported Termbase",
           "request": {
             "name": "Download Exported Termbase",
@@ -6449,7 +6896,7 @@
           }
         },
         {
-          "id": "949117c7-c0b7-4a98-98e7-26fede303519",
+          "id": "382e1d63-3af2-4c51-9026-17248f46efcb",
           "name": "Export Termbase Template",
           "request": {
             "name": "Export Termbase Template",
@@ -6501,7 +6948,7 @@
       "event": []
     },
     {
-      "id": "5f55e2c4-b5f2-4355-b8a3-c6af9cab6967",
+      "id": "177345bd-ec01-4c76-ab71-bdc257ab3548",
       "name": "TQA Profile",
       "description": {
         "content": "TQA Profile",
@@ -6509,7 +6956,7 @@
       },
       "item": [
         {
-          "id": "fe69e34d-1575-4b11-9d66-9c3b8f1743f9",
+          "id": "4bab84a5-741c-4514-9944-f1e0d3500184",
           "name": "List TQA Profiles",
           "request": {
             "name": "List TQA Profiles",
@@ -6535,7 +6982,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -6585,7 +7032,7 @@
           }
         },
         {
-          "id": "727aba26-8d8c-468d-ab96-69c8e15e2b53",
+          "id": "88602a12-5b9c-457e-9ba5-3c2be94dda0e",
           "name": "Get TQA Profile",
           "request": {
             "name": "Get TQA Profile",
@@ -6643,7 +7090,7 @@
       "event": []
     },
     {
-      "id": "536cd45d-48a0-401a-812d-29729d26a430",
+      "id": "35e406ee-552d-4699-b853-192d86a97568",
       "name": "Translation Engine",
       "description": {
         "content": "Translation Engine",
@@ -6651,7 +7098,7 @@
       },
       "item": [
         {
-          "id": "d29191d5-9380-4983-8d38-b2b6b69c0a77",
+          "id": "a5a370f4-a3b0-4d57-a69a-e512ba9d91af",
           "name": "Get Translation Engine",
           "request": {
             "name": "Get Translation Engine",
@@ -6706,7 +7153,7 @@
           }
         },
         {
-          "id": "9ae7dc8b-b037-4d67-b35a-12fd008b034b",
+          "id": "13361766-7199-4594-a28c-91cd15a949e7",
           "name": "List Translation Engines",
           "request": {
             "name": "List Translation Engines",
@@ -6744,7 +7191,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -6785,7 +7232,7 @@
       "event": []
     },
     {
-      "id": "ec0ea238-becb-44b5-a6ee-f375159a8cbb",
+      "id": "b413a5c0-29ad-4d3c-bc46-135ba04c6cba",
       "name": "Translation Memory",
       "description": {
         "content": "Translation Memory",
@@ -6793,7 +7240,7 @@
       },
       "item": [
         {
-          "id": "c058e1bf-f102-44a9-8517-141be203406f",
+          "id": "38d3080b-47f3-4c19-b8d6-536e22456754",
           "name": "Get Translation Memory",
           "request": {
             "name": "Get Translation Memory",
@@ -6848,7 +7295,7 @@
           }
         },
         {
-          "id": "e9b5399c-26ee-486c-b54c-b585898f4420",
+          "id": "4f12f7f2-275c-4654-94c4-d181287e1996",
           "name": "Update Translation Memory",
           "request": {
             "name": "Update Translation Memory",
@@ -6909,7 +7356,7 @@
           }
         },
         {
-          "id": "aeba891e-6fd2-4e97-a986-8dfa5ae1d394",
+          "id": "3fe11f68-7096-449a-8d45-cde96eb5dc90",
           "name": "Delete Translation Memory",
           "request": {
             "name": "Delete Translation Memory",
@@ -6957,7 +7404,7 @@
           }
         },
         {
-          "id": "7d3e1f4a-d541-4f8d-9153-1667c0c21c97",
+          "id": "15e9eb2b-60be-4207-bfe4-2b8f47c02b6f",
           "name": "Copy Translation Memory",
           "request": {
             "name": "Copy Translation Memory",
@@ -7013,7 +7460,7 @@
           }
         },
         {
-          "id": "71211823-207b-411a-831b-3265c1cafcbd",
+          "id": "852784ce-dabd-4d28-8f4a-a93a6a7f03dc",
           "name": "List Translation Memories",
           "request": {
             "name": "List Translation Memories",
@@ -7051,7 +7498,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -7089,7 +7536,7 @@
           }
         },
         {
-          "id": "e260ebf7-ef41-45b5-aa26-2274204d8a2e",
+          "id": "1a5a55dd-4501-4eaa-ad45-480a969d5307",
           "name": "Create Translation Memory",
           "request": {
             "name": "Create Translation Memory",
@@ -7148,7 +7595,7 @@
           }
         },
         {
-          "id": "dcfa3961-0f01-49d6-bd79-b4b0c08c6bd0",
+          "id": "25937d4c-9a25-4ee0-b674-c181a87bae17",
           "name": "List Field Templates",
           "request": {
             "name": "List Field Templates",
@@ -7193,7 +7640,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -7225,7 +7672,7 @@
           }
         },
         {
-          "id": "46c1f47a-91ce-48ac-b2c9-d2008561c20c",
+          "id": "3e887dd9-4a28-4044-801e-a950d1013adc",
           "name": "Get Field Template",
           "request": {
             "name": "Get Field Template",
@@ -7256,7 +7703,7 @@
                   "type": "any",
                   "value": "<string>",
                   "key": "fieldTemplateId",
-                  "description": "(Required) "
+                  "description": "(Required) The field template identifier"
                 }
               ]
             },
@@ -7284,7 +7731,7 @@
       "event": []
     },
     {
-      "id": "8851e7de-19b3-4025-996e-3deb9e43c88f",
+      "id": "2cfb8141-2d54-45e1-bda4-79ed3b8606d9",
       "name": "Translation Memory Import",
       "description": {
         "content": "Translation Memory Import",
@@ -7292,7 +7739,7 @@
       },
       "item": [
         {
-          "id": "9ced9ac9-7ec7-4502-bd65-51aed3a7487f",
+          "id": "d9dc6640-f1ef-4728-88c9-6bce4bef55e5",
           "name": "Get Translation Memory Import History",
           "request": {
             "name": "Get Translation Memory Import History",
@@ -7360,12 +7807,12 @@
           }
         },
         {
-          "id": "fc4ce8dd-afb5-487c-81ee-5eab5de9dc66",
+          "id": "32b0dcb8-9172-410f-9aa8-3eb88e58c701",
           "name": "Import Translation Memory",
           "request": {
             "name": "Import Translation Memory",
             "description": {
-              "content": "Generates an asynchronous import operation. \n<br>\n<br> Read more about prerequisites and limitations on the official documentation center https://docs.rws.com/791595/741139/trados-enterprise/importing-tm-content.\n<br>\nNote: The order of the multipart form parameter must be implemented as such: properties first, file second.\n<br>\nUse the Poll Translation Memory Import endpoint to poll until the import status is `done`.<br>\nTo track the progress of the import please refer to [Poll Translation Memory Import](../reference/Public-API.v1.json/paths/~1translation-memory~1imports~1{importId}/get).\n",
+              "content": "Generates an asynchronous import operation. \n<br>\n<br> Read more about prerequisites and limitations on the [official documentation center](https://docs.rws.com/791595/741139/trados-enterprise/importing-tm-content).\n<br>\nNote: The order of the multipart form parameter must be implemented as such: properties first, file second.\n<br>\nUse the Poll Translation Memory Import endpoint to poll until the import status is `done`.<br>\nTo track the progress of the import please refer to [Poll Translation Memory Import](../reference/Public-API.v1.json/paths/~1translation-memory~1imports~1{importId}/get).\n",
               "type": "text/plain"
             },
             "url": {
@@ -7429,7 +7876,7 @@
           }
         },
         {
-          "id": "a59cf7d0-ed97-4ad5-97a1-729913c1cedb",
+          "id": "42d80c33-1b12-46d6-8468-661097c2b264",
           "name": "Poll Translation Memory Import",
           "request": {
             "name": "Poll Translation Memory Import",
@@ -7481,7 +7928,7 @@
       "event": []
     },
     {
-      "id": "1d1abfa6-a043-4555-bc36-eb24338b8c24",
+      "id": "75c18d8a-f633-4f15-a0a2-fb08aa687d99",
       "name": "Translation Memory Export",
       "description": {
         "content": "Translation Memory Export",
@@ -7489,7 +7936,7 @@
       },
       "item": [
         {
-          "id": "3b21a964-4a62-4a29-87d5-a5d5e956e74c",
+          "id": "bc84a00c-498d-4e15-9eea-ea05d8ea3fb9",
           "name": "Export Translation Memory",
           "request": {
             "name": "Export Translation Memory",
@@ -7551,7 +7998,7 @@
           }
         },
         {
-          "id": "5778e794-2980-43bb-9ce8-3bf1352db214",
+          "id": "805e8c4a-784b-433a-ab0a-a7c4cd3d1903",
           "name": "Poll Translation Memory Export",
           "request": {
             "name": "Poll Translation Memory Export",
@@ -7600,7 +8047,7 @@
           }
         },
         {
-          "id": "4c918873-7c70-4c1e-81e2-99439cf856b6",
+          "id": "cc9dfef0-def1-4f8c-87af-ceb5297996f4",
           "name": "Download Exported Translation Memory",
           "request": {
             "name": "Download Exported Translation Memory",
@@ -7653,7 +8100,7 @@
       "event": []
     },
     {
-      "id": "43181f2a-b9d3-45e5-98f3-a2b785086aa0",
+      "id": "3ec75cd9-a1d4-47e6-8e44-21ab587c04f3",
       "name": "User",
       "description": {
         "content": "User",
@@ -7661,7 +8108,7 @@
       },
       "item": [
         {
-          "id": "1f011b38-297c-4e9f-813a-eacd4f315d79",
+          "id": "1729d282-bb19-491d-a077-a9d4ec1805e3",
           "name": "Get my User",
           "request": {
             "name": "Get my User",
@@ -7708,7 +8155,7 @@
           }
         },
         {
-          "id": "624fc8fc-b0b1-436a-aea8-5d17a4c88a5c",
+          "id": "b777c0f4-2dea-4624-9ac6-f2d46ffe7220",
           "name": "List Users",
           "request": {
             "name": "List Users",
@@ -7746,7 +8193,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -7784,7 +8231,7 @@
           }
         },
         {
-          "id": "b3b8d753-82d9-48cf-b1eb-1e55d528c43f",
+          "id": "b7a220e5-387c-4cf1-b0b5-e92fba6da1e6",
           "name": "Get User",
           "request": {
             "name": "Get User",
@@ -7842,7 +8289,7 @@
       "event": []
     },
     {
-      "id": "c570e0cb-6f3b-4803-9a21-92d21e0e60e1",
+      "id": "7c17028c-b8e5-4d6b-bff4-978b91dc8bdd",
       "name": "Workflow",
       "description": {
         "content": "Workflow",
@@ -7850,7 +8297,7 @@
       },
       "item": [
         {
-          "id": "9bcbda77-d68b-4fd8-a3c5-eb4a695665b3",
+          "id": "a7763b50-b380-4862-bd23-2fb6287cb923",
           "name": "Get Workflow",
           "request": {
             "name": "Get Workflow",
@@ -7905,7 +8352,7 @@
           }
         },
         {
-          "id": "7f15ae8e-4537-4362-ad91-e28c6deac893",
+          "id": "e8379038-5502-45f8-9f71-7343d22797f3",
           "name": "Update Workflow",
           "request": {
             "name": "Update Workflow",
@@ -7966,7 +8413,7 @@
           }
         },
         {
-          "id": "2bdccfac-4ad0-4b73-8b07-3a45f11e7165",
+          "id": "b32b9d05-9f22-4e4f-805a-48a833fbf8b1",
           "name": "List Workflows",
           "request": {
             "name": "List Workflows",
@@ -8004,7 +8451,7 @@
                   "disabled": true,
                   "key": "locationStrategy",
                   "value": "<string>",
-                  "description": "Options: <br>\n - `location`: all resources located strictly in the folders from 'location' param (default); <br>\n - `lineage`: all resources located in the folders specified in 'location' param, as well as the subfolders; <br>\n - `bloodline`: all resources located in the folders specified in 'location' param, as well as the ancestor folders; <br>\n - `genealogy`: resources located in the folders specified in the 'location' param together with subfolders and ancestors."
+                  "description": "Options: <br> - `location`: all the resources located strictly in the folders from the 'location' parameter (default); <br> - `lineage`: all the resources located in the folders specified in the 'location' parameter, as well as the subfolders; <br> - `bloodline`: all the resources located in the folders specified in the 'location' parameter, as well as the ancestor folders; <br> - `genealogy`: the resources located in the folders specified in the 'location' parameter together with subfolders and ancestors."
                 },
                 {
                   "disabled": true,
@@ -8128,7 +8575,7 @@
     }
   ],
   "info": {
-    "_postman_id": "c7d3c884-8fe0-44e5-b0ec-8f8d830a0930",
+    "_postman_id": "33568403-ea2f-4194-8119-84db823d6784",
     "name": "RWS Language Cloud API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "description": {
