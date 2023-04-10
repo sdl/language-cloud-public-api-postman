@@ -1,0 +1,3334 @@
+{
+	"info": {
+		"_postman_id": "f837df34-ac55-4b58-b875-bcdb73c2b995",
+		"name": "Automation Public API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6640205"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Obtain access token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);\r",
+									"pm.collectionVariables.set(\"lc_access_token\", jsonData.access_token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "text"
+								},
+								{
+									"key": "audience",
+									"value": "https://api.sdl.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://sdl-prod.eu.auth0.com/oauth/token",
+							"protocol": "https",
+							"host": [
+								"sdl-prod",
+								"eu",
+								"auth0",
+								"com"
+							],
+							"path": [
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Connector",
+			"item": [
+				{
+					"name": "List Connectors",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/connectors?connectorTypeId=connectorTypeId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"connectors"
+							],
+							"query": [
+								{
+									"key": "connectorTypeId",
+									"value": "connectorTypeId"
+								},
+								{
+									"key": "fields",
+									"value": "configurationDetails,description,name",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Create Connector",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"connectorTypeId\": \"connectorTypeId\",\r\n    \"name\": \"FTP Connector\",\r\n    \"description\": \"description\",\r\n    \"configurationDetails\": [\r\n        {\r\n            \"key\": \"Connect.password\",\r\n            \"value\": \"password\"\r\n        },\r\n        {\r\n            \"key\": \"Connect.username\",\r\n            \"value\": \"username\"\r\n        },\r\n        {\r\n            \"key\": \"successSourceFolderPath\",\r\n            \"value\": \"\"\r\n        },\r\n        {\r\n            \"key\": \"exceptionSourceFolderPath\",\r\n            \"value\": \"\"\r\n        },\r\n        {\r\n            \"key\": \"Connect.hostUrl\",\r\n            \"value\": \"ftps://ftp-url.com\"\r\n        },\r\n        {\r\n            \"key\": \"sourceFolderPath\",\r\n            \"value\": \"\"\r\n        },\r\n        {\r\n            \"key\": \"processingFolderPath\",\r\n            \"value\": \"\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/connectors",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"connectors"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "configurationDetails,description,name",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Connector",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"FTP Connector\",\r\n    \"description\": \"FTP Connector Updated\",\r\n    \"configurationDetails\": [\r\n        {\r\n            \"key\": \"Connect.password\",\r\n            \"value\": \"password1\"\r\n        },\r\n        {\r\n            \"key\": \"Connect.username\",\r\n            \"value\": \"username1\"\r\n        },\r\n        {\r\n            \"key\": \"successSourceFolderPath\",\r\n            \"value\": \"\"\r\n        },\r\n        {\r\n            \"key\": \"exceptionSourceFolderPath\",\r\n            \"value\": \"\"\r\n        },\r\n        {\r\n            \"key\": \"Connect.hostUrl\",\r\n            \"value\": \"ftps://ftp-url.com1\"\r\n        },\r\n        {\r\n            \"key\": \"sourceFolderPath\",\r\n            \"value\": \"\"\r\n        },\r\n        {\r\n            \"key\": \"processingFolderPath\",\r\n            \"value\": \"\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/connectors/:connectorId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"connectors",
+								":connectorId"
+							],
+							"variable": [
+								{
+									"key": "connectorId",
+									"value": "connectorId"
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Connector",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/connectors/:connectorId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"connectors",
+								":connectorId"
+							],
+							"variable": [
+								{
+									"key": "connectorId",
+									"value": "connectorId"
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Connector",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/connectors/:connectorId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"connectors",
+								":connectorId"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "name,description,configurationDetails",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "connectorId",
+									"value": "connectorId"
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Automation Strategy",
+			"item": [
+				{
+					"name": "List Available Automation Strategies",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/automation-configurations/:automationConfigId/automation-strategies/available",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-configurations",
+								":automationConfigId",
+								"automation-strategies",
+								"available"
+							],
+							"variable": [
+								{
+									"key": "automationConfigId",
+									"value": null
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Set Automation Strategy",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"automationStrategy\": \"automationStrategy\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/automation-configurations/:automationConfigId/automation-strategies",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-configurations",
+								":automationConfigId",
+								"automation-strategies"
+							],
+							"variable": [
+								{
+									"key": "automationConfigId",
+									"value": null
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Automation Strategy",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/automation-configurations/:automationConfigId/automation-strategies",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-configurations",
+								":automationConfigId",
+								"automation-strategies"
+							],
+							"variable": [
+								{
+									"key": "automationConfigId",
+									"value": null
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Automation Project",
+			"item": [
+				{
+					"name": "List Automation Projects",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/automation-projects?fields=status,projectId,autoIntegrateTranslations,localizationType,createdAt,errorEncountered&top=100&skip=0",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-projects"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "status,projectId,autoIntegrateTranslations,localizationType,createdAt,errorEncountered"
+								},
+								{
+									"key": "top",
+									"value": "100"
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Complete Automation Projects",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"projectIds\": [\r\n        \"projectId1\",\r\n        \"projectId2\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/automation-projects/complete",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-projects",
+								"complete"
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Automation Project",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/automation-projects/automationProjectId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-projects",
+								"automationProjectId"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "location,localizationName,status,projectId,statusHistory,autoIntegrateTranslations,localizationType,createdAt,errorEncountered",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Create Automation Project",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"automationConfigurationId\": \"automationConfigurationId\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/automation-projects",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-projects"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "localizationName,status,projectId,statusHistory,autoIntegrateTranslations,localizationType,createdAt,errorEncountered",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Automation Configuration",
+			"item": [
+				{
+					"name": "List Automation Schedulers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/automation-configurations/schedulers",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-configurations",
+								"schedulers"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "localizationName,startedAt,endAt,previousFiredAt,nextFireAt,schedulerInterval,timesTriggered,triggerState",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "List Automation Configurations",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/automation-configurations?location=location&locationStrategy=location&top=100&skip=0",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-configurations"
+							],
+							"query": [
+								{
+									"key": "location",
+									"value": "location"
+								},
+								{
+									"key": "locationStrategy",
+									"value": "location"
+								},
+								{
+									"key": "top",
+									"value": "100"
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "fields",
+									"value": "localizationName,projectNamingPattern,connectorConfigurationId,translationConfigurationId,autoIntegrateTranslations,dueBy,scanFileNameForTargetLanguage,scheduled,isDisabled,schedulerInterval,startDate,endDate,emailRecipients,location",
+									"disabled": true
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Stop Scheduled Automation Project",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/automation-configurations/schedulers/:automationConfId/stop",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"automation-configurations",
+								"schedulers",
+								":automationConfId",
+								"stop"
+							],
+							"variable": [
+								{
+									"key": "automationConfId",
+									"value": null
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Connector Type",
+			"item": [
+				{
+					"name": "Get Connector Type",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/connector-types/:connectorTypeId",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"connector-types",
+								":connectorTypeId"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "connectors,connectors.description,connectors.name,connectors.configurationDetails,properties.key,properties.value,properties.required,properties",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "connectorTypeId",
+									"value": "connectorTypeId"
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				},
+				{
+					"name": "List Connector Types",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"description": "(Required) The id of the account where the request is executed.",
+								"key": "X-LC-Tenant",
+								"value": "{{lc_tenant}}"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{lc_access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}connector-types?location=location&locationStrategy=location&top=100&skip=0",
+							"host": [
+								"{{baseUrl}}connector-types"
+							],
+							"query": [
+								{
+									"key": "fields",
+									"value": "location,connectors,connectors.description,connectors.name,connectors.configurationDetails,name",
+									"disabled": true
+								},
+								{
+									"key": "location",
+									"value": "location"
+								},
+								{
+									"key": "locationStrategy",
+									"value": "location"
+								},
+								{
+									"key": "top",
+									"value": "100"
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								}
+							]
+						},
+						"description": "Retrieves a list of all the folders in an account. Max 500."
+					},
+					"response": [
+						{
+							"name": "Untitled Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"itemCount\": \"<integer>\",\n \"items\": [\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  },\n  {\n   \"id\": \"<string>\",\n   \"name\": \"<string>\",\n   \"hasParent\": \"<string>\",\n   \"location\": {\n    \"id\": \"<string>\",\n    \"name\": \"<string>\"\n   }\n  }\n ]\n}"
+						},
+						{
+							"name": "error codes:\n* “invalid”: Invalid input in the query parameter mentioned in the “name” field on the error response.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						},
+						{
+							"name": "The user could not be identified.",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "(Required) The bearer access token provided by Auth0.",
+										"key": "Authorization",
+										"value": "<string>"
+									},
+									{
+										"description": "(Required) The id of the account where the request is executed.",
+										"key": "X-LC-Tenant",
+										"value": "{{lc_tenant}}"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/folders?name=<string>&fields=<string>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"folders"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "<string>"
+										},
+										{
+											"key": "fields",
+											"value": "<string>"
+										}
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n \"message\": \"<string>\",\n \"errorCode\": \"<string>\",\n \"name\": \"<string>\",\n \"value\": \"<string>\",\n \"details\": [\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  },\n  {\n   \"name\": \"<string>\",\n   \"code\": \"<string>\",\n   \"value\": \"<string>\"\n  }\n ]\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://lc-api.sdl.com/public-api/v1/",
+			"type": "string"
+		},
+		{
+			"key": "lc_access_token",
+			"value": ""
+		},
+		{
+			"key": "lc_tenant",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
